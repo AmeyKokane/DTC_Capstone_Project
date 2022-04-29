@@ -1,0 +1,93 @@
+[2022-04-24 23:43:44,457] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.crash_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 23:43:44,695] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.crash_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 23:43:44,697] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 23:43:44,702] {taskinstance.py:1239} INFO - Starting attempt 7 of 8
+[2022-04-24 23:43:44,707] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 23:43:44,937] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): crash_local_to_gcs_task> on 2022-04-24 22:27:24.245486+00:00
+[2022-04-24 23:43:45,003] {standard_task_runner.py:52} INFO - Started process 3728 to run task
+[2022-04-24 23:43:45,146] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'crash_local_to_gcs_task', 'manual__2022-04-24T22:27:24.245486+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V3.py', '--cfg-path', '/tmp/tmpw2tuhne3', '--error-file', '/tmp/tmpz6bfv3pt']
+[2022-04-24 23:43:45,152] {standard_task_runner.py:77} INFO - Job 144: Subtask crash_local_to_gcs_task
+[2022-04-24 23:43:45,400] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.crash_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [running]> on host 2bdc5459fc64
+[2022-04-24 23:43:45,765] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=crash_local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T22:27:24.245486+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T22:27:24.245486+00:00
+[2022-04-24 23:43:58,547] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/download_2_gcs_dag_V3.py", line 49, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2242, in _do_resumable_upload
+    response = upload.transmit_next_chunk(transport, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 503, in transmit_next_chunk
+    method, url, payload, headers = self._prepare_request()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 605, in _prepare_request
+    self._stream, self._chunk_size, self._total_bytes
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 982, in get_next_chunk
+    "Stream is already exhausted. There is no content remaining."
+ValueError: Stream is already exhausted. There is no content remaining.
+[2022-04-24 23:43:58,620] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=local_2_gcs_2_bq_dag, task_id=crash_local_to_gcs_task, execution_date=20220424T222724, start_date=20220424T234344, end_date=20220424T234358
+[2022-04-24 23:43:58,680] {standard_task_runner.py:92} ERROR - Failed to execute job 144 for task crash_local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/download_2_gcs_dag_V3.py", line 49, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2242, in _do_resumable_upload
+    response = upload.transmit_next_chunk(transport, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 503, in transmit_next_chunk
+    method, url, payload, headers = self._prepare_request()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 605, in _prepare_request
+    self._stream, self._chunk_size, self._total_bytes
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 982, in get_next_chunk
+    "Stream is already exhausted. There is no content remaining."
+ValueError: Stream is already exhausted. There is no content remaining.
+[2022-04-24 23:43:58,816] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-24 23:43:59,163] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

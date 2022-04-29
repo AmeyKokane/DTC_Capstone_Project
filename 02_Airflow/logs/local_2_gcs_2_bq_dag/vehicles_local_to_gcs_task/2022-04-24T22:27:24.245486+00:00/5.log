@@ -1,0 +1,22 @@
+[2022-04-24 23:31:38,842] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.vehicles_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 23:31:39,008] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.vehicles_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 23:31:39,015] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 23:31:39,020] {taskinstance.py:1239} INFO - Starting attempt 5 of 6
+[2022-04-24 23:31:39,022] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 23:31:39,221] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): vehicles_local_to_gcs_task> on 2022-04-24 22:27:24.245486+00:00
+[2022-04-24 23:31:39,280] {standard_task_runner.py:52} INFO - Started process 3228 to run task
+[2022-04-24 23:31:39,339] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'vehicles_local_to_gcs_task', 'manual__2022-04-24T22:27:24.245486+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V3.py', '--cfg-path', '/tmp/tmpi4e3atn5', '--error-file', '/tmp/tmpz28r1vll']
+[2022-04-24 23:31:39,353] {standard_task_runner.py:77} INFO - Job 132: Subtask vehicles_local_to_gcs_task
+[2022-04-24 23:31:39,900] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.vehicles_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [running]> on host 2bdc5459fc64
+[2022-04-24 23:31:40,589] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=vehicles_local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T22:27:24.245486+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T22:27:24.245486+00:00
+[2022-04-24 23:33:23,817] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-24 23:33:23,873] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=vehicles_local_to_gcs_task, execution_date=20220424T222724, start_date=20220424T233138, end_date=20220424T233323
+[2022-04-24 23:33:24,026] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-24 23:33:24,178] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

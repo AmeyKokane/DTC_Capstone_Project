@@ -1,0 +1,26 @@
+[2022-04-28 02:01:00,611] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.delete_vehicles_dataset_task scheduled__2022-04-28T00:00:00+00:00 [queued]>
+[2022-04-28 02:01:00,628] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.delete_vehicles_dataset_task scheduled__2022-04-28T00:00:00+00:00 [queued]>
+[2022-04-28 02:01:00,629] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 02:01:00,631] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-28 02:01:00,632] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 02:01:00,652] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): delete_vehicles_dataset_task> on 2022-04-28 00:00:00+00:00
+[2022-04-28 02:01:00,660] {standard_task_runner.py:52} INFO - Started process 782 to run task
+[2022-04-28 02:01:00,672] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'delete_vehicles_dataset_task', 'scheduled__2022-04-28T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V2.py', '--cfg-path', '/tmp/tmpbm9j8ej9', '--error-file', '/tmp/tmp42dgpo8v']
+[2022-04-28 02:01:00,675] {standard_task_runner.py:77} INFO - Job 14: Subtask delete_vehicles_dataset_task
+[2022-04-28 02:01:00,809] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.delete_vehicles_dataset_task scheduled__2022-04-28T00:00:00+00:00 [running]> on host 1d2c8c1aba91
+[2022-04-28 02:01:01,036] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=delete_vehicles_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-28T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-28T00:00:00+00:00
+[2022-04-28 02:01:01,041] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-04-28 02:01:01,044] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/68nd-jvt3.csv /opt/***/68nd-jvt3.parquet']
+[2022-04-28 02:01:01,126] {subprocess.py:85} INFO - Output:
+[2022-04-28 02:01:01,515] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-04-28 02:01:01,674] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=delete_vehicles_dataset_task, execution_date=20220428T000000, start_date=20220428T020100, end_date=20220428T020101
+[2022-04-28 02:01:01,779] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-28 02:01:01,880] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2022-04-23 20:58:35,372] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.delete_dataset_task scheduled__2022-04-22T00:00:00+00:00 [queued]>
+[2022-04-23 20:58:35,400] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.delete_dataset_task scheduled__2022-04-22T00:00:00+00:00 [queued]>
+[2022-04-23 20:58:35,402] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-23 20:58:35,404] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-23 20:58:35,406] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-23 20:58:35,431] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): delete_dataset_task> on 2022-04-22 00:00:00+00:00
+[2022-04-23 20:58:35,440] {standard_task_runner.py:52} INFO - Started process 181 to run task
+[2022-04-23 20:58:35,451] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'delete_dataset_task', 'scheduled__2022-04-22T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag.py', '--cfg-path', '/tmp/tmp1wdw3n43', '--error-file', '/tmp/tmpdmztcc57']
+[2022-04-23 20:58:35,454] {standard_task_runner.py:77} INFO - Job 7: Subtask delete_dataset_task
+[2022-04-23 20:58:35,580] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.delete_dataset_task scheduled__2022-04-22T00:00:00+00:00 [running]> on host dfdc12da349c
+[2022-04-23 20:58:35,688] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=delete_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-22T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-22T00:00:00+00:00
+[2022-04-23 20:58:35,691] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-04-23 20:58:35,693] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/85ca-t3if.csv /opt/***/85ca-t3if.parquet']
+[2022-04-23 20:58:35,715] {subprocess.py:85} INFO - Output:
+[2022-04-23 20:58:35,722] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-04-23 20:58:35,771] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=delete_dataset_task, execution_date=20220422T000000, start_date=20220423T205835, end_date=20220423T205835
+[2022-04-23 20:58:35,834] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-23 20:58:35,886] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,119 @@
+[2022-04-27 16:19:50,931] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.create_dataproc_cluster manual__2022-04-27T05:06:42.499248+00:00 [queued]>
+[2022-04-27 16:19:51,071] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.create_dataproc_cluster manual__2022-04-27T05:06:42.499248+00:00 [queued]>
+[2022-04-27 16:19:51,075] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 16:19:51,077] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-04-27 16:19:51,086] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 16:19:51,185] {taskinstance.py:1259} INFO - Executing <Task(DataprocCreateClusterOperator): create_dataproc_cluster> on 2022-04-27 05:06:42.499248+00:00
+[2022-04-27 16:19:51,258] {standard_task_runner.py:52} INFO - Started process 107 to run task
+[2022-04-27 16:19:51,355] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_example_dag', 'create_dataproc_cluster', 'manual__2022-04-27T05:06:42.499248+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv2.py', '--cfg-path', '/tmp/tmpbzp9irrc', '--error-file', '/tmp/tmpfcbzhxzv']
+[2022-04-27 16:19:51,382] {standard_task_runner.py:77} INFO - Job 212: Subtask create_dataproc_cluster
+[2022-04-27 16:19:52,457] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_example_dag.create_dataproc_cluster manual__2022-04-27T05:06:42.499248+00:00 [running]> on host 2c2e7134f604
+[2022-04-27 16:19:52,972] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_example_dag
+AIRFLOW_CTX_TASK_ID=create_dataproc_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-27T05:06:42.499248+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-27T05:06:42.499248+00:00
+[2022-04-27 16:19:52,980] {dataproc.py:662} INFO - Creating cluster: dtc-capstone-cluster
+[2022-04-27 16:19:52,984] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-27 16:19:53,829] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 67, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.PERMISSION_DENIED
+	details = "Not authorized to requested resource."
+	debug_error_string = "{"created":"@1651076393.822320800","description":"Error received from peer ipv4:172.217.0.170:443","file":"src/core/lib/surface/call.cc","file_line":1063,"grpc_message":"Not authorized to requested resource.","grpc_status":7}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 676, in execute
+    cluster = self._create_cluster(hook)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 603, in _create_cluster
+    metadata=self.metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 365, in create_cluster
+    metadata=metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/services/cluster_controller/client.py", line 460, in create_cluster
+    response = rpc(request, retry=retry, timeout=timeout, metadata=metadata,)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 145, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/timeout.py", line 102, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 69, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.PermissionDenied: 403 Not authorized to requested resource.
+[2022-04-27 16:19:53,945] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=dataproc_example_dag, task_id=create_dataproc_cluster, execution_date=20220427T050642, start_date=20220427T161950, end_date=20220427T161953
+[2022-04-27 16:19:54,095] {standard_task_runner.py:92} ERROR - Failed to execute job 212 for task create_dataproc_cluster
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 67, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.PERMISSION_DENIED
+	details = "Not authorized to requested resource."
+	debug_error_string = "{"created":"@1651076393.822320800","description":"Error received from peer ipv4:172.217.0.170:443","file":"src/core/lib/surface/call.cc","file_line":1063,"grpc_message":"Not authorized to requested resource.","grpc_status":7}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 676, in execute
+    cluster = self._create_cluster(hook)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 603, in _create_cluster
+    metadata=self.metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 365, in create_cluster
+    metadata=metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/services/cluster_controller/client.py", line 460, in create_cluster
+    response = rpc(request, retry=retry, timeout=timeout, metadata=metadata,)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 145, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/timeout.py", line 102, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 69, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.PermissionDenied: 403 Not authorized to requested resource.
+[2022-04-27 16:19:54,220] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-27 16:19:54,532] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

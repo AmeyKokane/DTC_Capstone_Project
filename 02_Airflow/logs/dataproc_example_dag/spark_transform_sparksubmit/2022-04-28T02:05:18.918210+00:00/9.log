@@ -1,0 +1,26 @@
+[2022-04-28 02:40:10,237] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-28T02:05:18.918210+00:00 [queued]>
+[2022-04-28 02:40:10,254] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-28T02:05:18.918210+00:00 [queued]>
+[2022-04-28 02:40:10,256] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 02:40:10,257] {taskinstance.py:1239} INFO - Starting attempt 9 of 10
+[2022-04-28 02:40:10,258] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 02:40:10,277] {taskinstance.py:1259} INFO - Executing <Task(DataprocSubmitJobOperator): spark_transform_sparksubmit> on 2022-04-28 02:05:18.918210+00:00
+[2022-04-28 02:40:10,284] {standard_task_runner.py:52} INFO - Started process 2432 to run task
+[2022-04-28 02:40:10,296] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_example_dag', 'spark_transform_sparksubmit', 'manual__2022-04-28T02:05:18.918210+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv2.py', '--cfg-path', '/tmp/tmpmtvlvhkr', '--error-file', '/tmp/tmpucn7vy3k']
+[2022-04-28 02:40:10,298] {standard_task_runner.py:77} INFO - Job 24: Subtask spark_transform_sparksubmit
+[2022-04-28 02:40:10,385] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-28T02:05:18.918210+00:00 [running]> on host 1d2c8c1aba91
+[2022-04-28 02:40:10,485] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_example_dag
+AIRFLOW_CTX_TASK_ID=spark_transform_sparksubmit
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-28T02:05:18.918210+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-28T02:05:18.918210+00:00
+[2022-04-28 02:40:10,487] {dataproc.py:1997} INFO - Submitting job
+[2022-04-28 02:40:10,490] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-28 02:40:10,793] {dataproc.py:2009} INFO - Job 44dd25a7-f1fe-4a58-b09a-66b7ad26dee4 submitted successfully.
+[2022-04-28 02:40:10,832] {dataproc.py:2022} INFO - Waiting for job 44dd25a7-f1fe-4a58-b09a-66b7ad26dee4 to complete
+[2022-04-28 02:41:52,910] {dataproc.py:2026} INFO - Job 44dd25a7-f1fe-4a58-b09a-66b7ad26dee4 completed successfully.
+[2022-04-28 02:41:52,949] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dataproc_example_dag, task_id=spark_transform_sparksubmit, execution_date=20220428T020518, start_date=20220428T024010, end_date=20220428T024152
+[2022-04-28 02:41:53,003] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-28 02:41:53,099] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

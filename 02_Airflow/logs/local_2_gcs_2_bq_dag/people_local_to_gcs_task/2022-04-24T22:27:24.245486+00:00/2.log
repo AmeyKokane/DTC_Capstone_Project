@@ -1,0 +1,22 @@
+[2022-04-24 22:54:30,168] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.people_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 22:54:30,219] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.people_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 22:54:30,220] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 22:54:30,221] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-04-24 22:54:30,223] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 22:54:30,298] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): people_local_to_gcs_task> on 2022-04-24 22:27:24.245486+00:00
+[2022-04-24 22:54:30,323] {standard_task_runner.py:52} INFO - Started process 1583 to run task
+[2022-04-24 22:54:30,347] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'people_local_to_gcs_task', 'manual__2022-04-24T22:27:24.245486+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V3.py', '--cfg-path', '/tmp/tmp_q4xkt5j', '--error-file', '/tmp/tmpf8azs4s0']
+[2022-04-24 22:54:30,360] {standard_task_runner.py:77} INFO - Job 103: Subtask people_local_to_gcs_task
+[2022-04-24 22:54:30,521] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.people_local_to_gcs_task manual__2022-04-24T22:27:24.245486+00:00 [running]> on host 2bdc5459fc64
+[2022-04-24 22:54:30,723] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=people_local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T22:27:24.245486+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T22:27:24.245486+00:00
+[2022-04-24 22:56:43,459] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-24 22:56:43,490] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=people_local_to_gcs_task, execution_date=20220424T222724, start_date=20220424T225430, end_date=20220424T225643
+[2022-04-24 22:56:43,568] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-24 22:56:43,664] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

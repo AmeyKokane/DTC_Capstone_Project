@@ -1,0 +1,360 @@
+[2022-04-24 23:40:51,234] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.bq_ext_to_native_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 23:40:51,249] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.bq_ext_to_native_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 23:40:51,250] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 23:40:51,251] {taskinstance.py:1239} INFO - Starting attempt 7 of 7
+[2022-04-24 23:40:51,252] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 23:40:51,269] {taskinstance.py:1259} INFO - Executing <Task(BigQueryInsertJobOperator): bq_ext_to_native_task> on 2022-04-24 22:27:24.245486+00:00
+[2022-04-24 23:40:51,282] {standard_task_runner.py:52} INFO - Started process 3601 to run task
+[2022-04-24 23:40:51,288] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'bq_ext_to_native_task', 'manual__2022-04-24T22:27:24.245486+00:00', '--job-id', '143', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V3.py', '--cfg-path', '/tmp/tmpbhz9se22', '--error-file', '/tmp/tmpztmtytb3']
+[2022-04-24 23:40:51,290] {standard_task_runner.py:77} INFO - Job 143: Subtask bq_ext_to_native_task
+[2022-04-24 23:40:51,379] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.bq_ext_to_native_task manual__2022-04-24T22:27:24.245486+00:00 [running]> on host 2bdc5459fc64
+[2022-04-24 23:40:51,462] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_ext_to_native_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T22:27:24.245486+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T22:27:24.245486+00:00
+[2022-04-24 23:40:51,467] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-24 23:40:51,471] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-04-24 23:40:51,488] {bigquery.py:1637} INFO - Inserting job ***_local_2_gcs_2_bq_dag_bq_ext_to_native_task_2022_04_24T22_27_24_245486_00_00_5fb5b6e470ce388eec83ca9f6817f0cc
+[2022-04-24 23:40:51,871] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 727, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 135, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Table quiet-rigging-347402:traffic_crash_data.Vehicles_table was not found in location US
+
+(job ID: airflow_local_2_gcs_2_bq_dag_bq_ext_to_native_task_2022_04_24T22_27_24_245486_00_00_5fb5b6e470ce388eec83ca9f6817f0cc)
+
+                                                                                                                  -----Query Job SQL Follows-----                                                                                                                  
+
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+   1:CREATE OR REPLACE TABLE traffic_crash_data.crash_clean_native
+   2:                            AS  SELECT 
+   3:                                A.CRASH_RECORD_ID,
+   4:                                A.RD_NO,
+   5:                                A.CRASH_DATE,
+   6:                                date_trunc('month', A.CRASH_DATE) AS CRASH_MONTH,
+   7:                                date_trunc('year', A.CRASH_DATE) AS CRASH_YEAR,
+   8:                                date_trunc('year', A.CRASH_DATE)||'_'||date_trunc('month', A.CRASH_DATE) AS YEAR_MONTH,
+   9:                                CASE WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 0 THEN 'SUNDAY'
+  10:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 1 THEN 'MONDAY'
+  11:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 2 THEN 'TUESDAY'
+  12:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 3 THEN 'WEDNESDAY'
+  13:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 4 THEN 'THURSDAY'
+  14:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 5 THEN 'FRIDAY'
+  15:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 6 THEN 'SATURDAY' 
+  16:                                     END AS DAY_OF_WEEK,
+  17:                                EXTRACT(HOUR FROM A.CRASH_DATE) AS HOUR_OF_DAY,
+  18:                                A.POSTED_SPEED_LIMIT,
+  19:                                A.WEATHER_CONDITION,
+  20:                                A.LIGHTING_CONDITION,
+  21:                                A.FIRST_CRASH_TYPE,
+  22:                                A.STREET_NO,
+  23:                                A.STREET_DIRECTION,
+  24:                                A.STREET_NAME,
+  25:                                A.INJURIES_TOTAL,
+  26:                                A.INJURIES_FATAL,
+  27:                                D.CNT_ENTITIES_ACCID,
+  28:                                D.Cnt_MOTORVEHICLES_ACCID,
+  29:                                D.VEHICLE1_ID,
+  30:                                D.VEHICLE1_MAKE,
+  31:                                D.VEHICLE1_MODEL,
+  32:                                D.VEHICLE2_ID,
+  33:                                D.VEHICLE2_MAKE,
+  34:                                D.VEHICLE2_MODEL,
+  35:                                D.VEHICLE3_ID ,
+  36:                                D.VEHICLE3_MAKE,
+  37:                                D.VEHICLE3_MODEL ,
+  38:                                D.VEHICLE4_ID ,
+  39:                                D.VEHICLE4_MAKE,
+  40:                                D.VEHICLE4_MODEL
+  41:                            
+  42:                            FROM (SELECT CRASH_RECORD_ID,RD_NO,CRASH_DATE,POSTED_SPEED_LIMIT,WEATHER_CONDITION,LIGHTING_CONDITION,FIRST_CRASH_TYPE,STREET_NO,STREET_DIRECTION,STREET_NAME,INJURIES_TOTAL,INJURIES_FATAL FROM traffic_crash_data.crash_table) A
+  43:                            
+  44:                            LEFT JOIN (SELECT B.CRASH_RECORD_ID,
+  45:                                        B.RD_NO,
+  46:                                        B.CRASH_DATE, 
+  47:                                        B.Cnt_Entities_Accid,
+  48:                                        B.Cnt_MotorVehicles_Accid,
+  49:                            
+  50:                                        max(VEHICLE1_ID) as VEHICLE1_ID,
+  51:                                        max(VEHICLE1_MAKE) as VEHICLE1_MAKE,
+  52:                                        max(VEHICLE1_MODEL) as VEHICLE1_MODEL,
+  53:                            
+  54:                                        max(VEHICLE2_ID) as VEHICLE2_ID,
+  55:                                        max(VEHICLE2_MAKE) as VEHICLE2_MAKE,
+  56:                                        max(VEHICLE2_MODEL) as VEHICLE2_MODEL,
+  57:                            
+  58:                                        max(VEHICLE3_ID) as VEHICLE3_ID ,
+  59:                                        max(VEHICLE3_MAKE) as VEHICLE3_MAKE,
+  60:                                        max(VEHICLE3_MODEL) as VEHICLE3_MODEL ,
+  61:                            
+  62:                                        max(VEHICLE4_ID) as VEHICLE4_ID ,
+  63:                                        max(VEHICLE4_MAKE) as VEHICLE4_MAKE,
+  64:                                        max(VEHICLE4_MODEL) as VEHICLE4_MODEL
+  65:                                        FROM 
+  66:                                            (SELECT 
+  67:                                                a1.CRASH_RECORD_ID,
+  68:                                                a1.RD_NO,
+  69:                                                a1.CRASH_DATE, 
+  70:                            
+  71:                                                b1.CRASH_UNIT_ID as VEHICLE1_ID,
+  72:                                                case when b1.MAKE is null then b1.UNIT_TYPE else b1.MAKE end as VEHICLE1_MAKE,
+  73:                                                case when b1.MODEL is null then b1.UNIT_TYPE else b1.MODEL end as VEHICLE1_MODEL,
+  74:                            
+  75:                                                b2.CRASH_UNIT_ID as VEHICLE2_ID,
+  76:                                                case when b2.MAKE is null then b2.UNIT_TYPE else b2.MAKE end as VEHICLE2_MAKE,
+  77:                                                case when b2.MODEL is null then b2.UNIT_TYPE else b2.MODEL end as VEHICLE2_MODEL,
+  78:                            
+  79:                                                b3.CRASH_UNIT_ID as VEHICLE3_ID,
+  80:                                                case when b3.MAKE is null then b3.UNIT_TYPE else b3.MAKE end as VEHICLE3_MAKE,
+  81:                                                case when b3.MODEL is null then b3.UNIT_TYPE else b3.MODEL end as VEHICLE3_MODEL,
+  82:                            
+  83:                                                b4.CRASH_UNIT_ID as VEHICLE4_ID,
+  84:                                                case when b4.MAKE is null then b4.UNIT_TYPE else b4.MAKE end as VEHICLE4_MAKE,
+  85:                                                case when b4.MODEL is null then b4.UNIT_TYPE else b4.MODEL end as VEHICLE4_MODEL,
+  86:                            
+  87:                                                COUNT(a1.CRASH_UNIT_ID) as Cnt_Entities_Accid,
+  88:                                                COUNT(a1.VEHICLE_ID) as Cnt_MotorVehicles_Accid
+  89:                            
+  90:                                            FROM
+  91:                                                (SELECT CRASH_UNIT_ID,CRASH_RECORD_ID,RD_NO,CRASH_DATE,UNIT_NO,UNIT_TYPE,NUM_PASSENGERS,VEHICLE_ID,CMRC_VEH_I,MAKE,MODE FROM traffic_crash_data.Vehicles_table) a1
+  92:                            
+  93:                                                left join (select z1.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+  94:                                                            from traffic_crash_data.Vehicles_table) z1 where veh_seq_nbr = 1 ) b1
+  95:                                                on a.CRASH_RECORD_ID = b1.CRASH_RECORD_ID
+  96:                                                and a.CRASH_DATE = b1.CRASH_DATE
+  97:                                                and a.CRASH_UNIT_ID = b1.CRASH_UNIT_ID
+  98:                                                and a.VEHICLE_ID = b1.VEHICLE_ID
+  99:                            
+ 100:                            
+ 101:                                                left join (select z2.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+ 102:                                                            from traffic_crash_data.Vehicles_table) z2 where veh_seq_nbr = 2 ) b2
+ 103:                                                on a.CRASH_RECORD_ID = b2.CRASH_RECORD_ID
+ 104:                                                and a.CRASH_DATE = b2.CRASH_DATE
+ 105:                                                and a.CRASH_UNIT_ID = b2.CRASH_UNIT_ID
+ 106:                                                and a.VEHICLE_ID = b2.VEHICLE_ID
+ 107:                            
+ 108:                                                left join (select z3.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+ 109:                                                            from traffic_crash_data.Vehicles_table) z3 where veh_seq_nbr = 3 ) b3
+ 110:                                                on a.CRASH_RECORD_ID = b3.CRASH_RECORD_ID
+ 111:                                                and a.CRASH_DATE = b3.CRASH_DATE
+ 112:                                                and a.CRASH_UNIT_ID = b3.CRASH_UNIT_ID
+ 113:                                                and a.VEHICLE_ID = b3.VEHICLE_ID
+ 114:                            
+ 115:                                                left join (select z4.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+ 116:                                                            from traffic_crash_data.Vehicles_table) z4 where veh_seq_nbr = 4 ) b4
+ 117:                                                on a.CRASH_RECORD_ID = b4.CRASH_RECORD_ID
+ 118:                                                and a.CRASH_DATE = b4.CRASH_DATE
+ 119:                                                and a.CRASH_UNIT_ID = b4.CRASH_UNIT_ID
+ 120:                                                and a.VEHICLE_ID = b4.VEHICLE_ID
+ 121:                            
+ 122:                                            group by 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) B
+ 123:                                    group by 1,2,3,4,5) D
+ 124:                                ON A.CRASH_RECORD_ID = D.CRASH_RECORD_ID
+ 125:                                and A.CRASH_DATE = D.CRASH_DATE
+ 126:                                and A.RD_NO = D.RD_NO
+ 127:                            group by 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+ 128:                            ;
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+[2022-04-24 23:40:51,903] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=local_2_gcs_2_bq_dag, task_id=bq_ext_to_native_task, execution_date=20220424T222724, start_date=20220424T234051, end_date=20220424T234051
+[2022-04-24 23:40:51,930] {standard_task_runner.py:92} ERROR - Failed to execute job 143 for task bq_ext_to_native_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 727, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 135, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Table quiet-rigging-347402:traffic_crash_data.Vehicles_table was not found in location US
+
+(job ID: airflow_local_2_gcs_2_bq_dag_bq_ext_to_native_task_2022_04_24T22_27_24_245486_00_00_5fb5b6e470ce388eec83ca9f6817f0cc)
+
+                                                                                                                  -----Query Job SQL Follows-----                                                                                                                  
+
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+   1:CREATE OR REPLACE TABLE traffic_crash_data.crash_clean_native
+   2:                            AS  SELECT 
+   3:                                A.CRASH_RECORD_ID,
+   4:                                A.RD_NO,
+   5:                                A.CRASH_DATE,
+   6:                                date_trunc('month', A.CRASH_DATE) AS CRASH_MONTH,
+   7:                                date_trunc('year', A.CRASH_DATE) AS CRASH_YEAR,
+   8:                                date_trunc('year', A.CRASH_DATE)||'_'||date_trunc('month', A.CRASH_DATE) AS YEAR_MONTH,
+   9:                                CASE WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 0 THEN 'SUNDAY'
+  10:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 1 THEN 'MONDAY'
+  11:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 2 THEN 'TUESDAY'
+  12:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 3 THEN 'WEDNESDAY'
+  13:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 4 THEN 'THURSDAY'
+  14:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 5 THEN 'FRIDAY'
+  15:                                     WHEN EXTRACT(DOW FROM A.CRASH_DATE) = 6 THEN 'SATURDAY' 
+  16:                                     END AS DAY_OF_WEEK,
+  17:                                EXTRACT(HOUR FROM A.CRASH_DATE) AS HOUR_OF_DAY,
+  18:                                A.POSTED_SPEED_LIMIT,
+  19:                                A.WEATHER_CONDITION,
+  20:                                A.LIGHTING_CONDITION,
+  21:                                A.FIRST_CRASH_TYPE,
+  22:                                A.STREET_NO,
+  23:                                A.STREET_DIRECTION,
+  24:                                A.STREET_NAME,
+  25:                                A.INJURIES_TOTAL,
+  26:                                A.INJURIES_FATAL,
+  27:                                D.CNT_ENTITIES_ACCID,
+  28:                                D.Cnt_MOTORVEHICLES_ACCID,
+  29:                                D.VEHICLE1_ID,
+  30:                                D.VEHICLE1_MAKE,
+  31:                                D.VEHICLE1_MODEL,
+  32:                                D.VEHICLE2_ID,
+  33:                                D.VEHICLE2_MAKE,
+  34:                                D.VEHICLE2_MODEL,
+  35:                                D.VEHICLE3_ID ,
+  36:                                D.VEHICLE3_MAKE,
+  37:                                D.VEHICLE3_MODEL ,
+  38:                                D.VEHICLE4_ID ,
+  39:                                D.VEHICLE4_MAKE,
+  40:                                D.VEHICLE4_MODEL
+  41:                            
+  42:                            FROM (SELECT CRASH_RECORD_ID,RD_NO,CRASH_DATE,POSTED_SPEED_LIMIT,WEATHER_CONDITION,LIGHTING_CONDITION,FIRST_CRASH_TYPE,STREET_NO,STREET_DIRECTION,STREET_NAME,INJURIES_TOTAL,INJURIES_FATAL FROM traffic_crash_data.crash_table) A
+  43:                            
+  44:                            LEFT JOIN (SELECT B.CRASH_RECORD_ID,
+  45:                                        B.RD_NO,
+  46:                                        B.CRASH_DATE, 
+  47:                                        B.Cnt_Entities_Accid,
+  48:                                        B.Cnt_MotorVehicles_Accid,
+  49:                            
+  50:                                        max(VEHICLE1_ID) as VEHICLE1_ID,
+  51:                                        max(VEHICLE1_MAKE) as VEHICLE1_MAKE,
+  52:                                        max(VEHICLE1_MODEL) as VEHICLE1_MODEL,
+  53:                            
+  54:                                        max(VEHICLE2_ID) as VEHICLE2_ID,
+  55:                                        max(VEHICLE2_MAKE) as VEHICLE2_MAKE,
+  56:                                        max(VEHICLE2_MODEL) as VEHICLE2_MODEL,
+  57:                            
+  58:                                        max(VEHICLE3_ID) as VEHICLE3_ID ,
+  59:                                        max(VEHICLE3_MAKE) as VEHICLE3_MAKE,
+  60:                                        max(VEHICLE3_MODEL) as VEHICLE3_MODEL ,
+  61:                            
+  62:                                        max(VEHICLE4_ID) as VEHICLE4_ID ,
+  63:                                        max(VEHICLE4_MAKE) as VEHICLE4_MAKE,
+  64:                                        max(VEHICLE4_MODEL) as VEHICLE4_MODEL
+  65:                                        FROM 
+  66:                                            (SELECT 
+  67:                                                a1.CRASH_RECORD_ID,
+  68:                                                a1.RD_NO,
+  69:                                                a1.CRASH_DATE, 
+  70:                            
+  71:                                                b1.CRASH_UNIT_ID as VEHICLE1_ID,
+  72:                                                case when b1.MAKE is null then b1.UNIT_TYPE else b1.MAKE end as VEHICLE1_MAKE,
+  73:                                                case when b1.MODEL is null then b1.UNIT_TYPE else b1.MODEL end as VEHICLE1_MODEL,
+  74:                            
+  75:                                                b2.CRASH_UNIT_ID as VEHICLE2_ID,
+  76:                                                case when b2.MAKE is null then b2.UNIT_TYPE else b2.MAKE end as VEHICLE2_MAKE,
+  77:                                                case when b2.MODEL is null then b2.UNIT_TYPE else b2.MODEL end as VEHICLE2_MODEL,
+  78:                            
+  79:                                                b3.CRASH_UNIT_ID as VEHICLE3_ID,
+  80:                                                case when b3.MAKE is null then b3.UNIT_TYPE else b3.MAKE end as VEHICLE3_MAKE,
+  81:                                                case when b3.MODEL is null then b3.UNIT_TYPE else b3.MODEL end as VEHICLE3_MODEL,
+  82:                            
+  83:                                                b4.CRASH_UNIT_ID as VEHICLE4_ID,
+  84:                                                case when b4.MAKE is null then b4.UNIT_TYPE else b4.MAKE end as VEHICLE4_MAKE,
+  85:                                                case when b4.MODEL is null then b4.UNIT_TYPE else b4.MODEL end as VEHICLE4_MODEL,
+  86:                            
+  87:                                                COUNT(a1.CRASH_UNIT_ID) as Cnt_Entities_Accid,
+  88:                                                COUNT(a1.VEHICLE_ID) as Cnt_MotorVehicles_Accid
+  89:                            
+  90:                                            FROM
+  91:                                                (SELECT CRASH_UNIT_ID,CRASH_RECORD_ID,RD_NO,CRASH_DATE,UNIT_NO,UNIT_TYPE,NUM_PASSENGERS,VEHICLE_ID,CMRC_VEH_I,MAKE,MODE FROM traffic_crash_data.Vehicles_table) a1
+  92:                            
+  93:                                                left join (select z1.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+  94:                                                            from traffic_crash_data.Vehicles_table) z1 where veh_seq_nbr = 1 ) b1
+  95:                                                on a.CRASH_RECORD_ID = b1.CRASH_RECORD_ID
+  96:                                                and a.CRASH_DATE = b1.CRASH_DATE
+  97:                                                and a.CRASH_UNIT_ID = b1.CRASH_UNIT_ID
+  98:                                                and a.VEHICLE_ID = b1.VEHICLE_ID
+  99:                            
+ 100:                            
+ 101:                                                left join (select z2.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+ 102:                                                            from traffic_crash_data.Vehicles_table) z2 where veh_seq_nbr = 2 ) b2
+ 103:                                                on a.CRASH_RECORD_ID = b2.CRASH_RECORD_ID
+ 104:                                                and a.CRASH_DATE = b2.CRASH_DATE
+ 105:                                                and a.CRASH_UNIT_ID = b2.CRASH_UNIT_ID
+ 106:                                                and a.VEHICLE_ID = b2.VEHICLE_ID
+ 107:                            
+ 108:                                                left join (select z3.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+ 109:                                                            from traffic_crash_data.Vehicles_table) z3 where veh_seq_nbr = 3 ) b3
+ 110:                                                on a.CRASH_RECORD_ID = b3.CRASH_RECORD_ID
+ 111:                                                and a.CRASH_DATE = b3.CRASH_DATE
+ 112:                                                and a.CRASH_UNIT_ID = b3.CRASH_UNIT_ID
+ 113:                                                and a.VEHICLE_ID = b3.VEHICLE_ID
+ 114:                            
+ 115:                                                left join (select z4.* from (select CRASH_RECORD_ID, CRASH_DATE, CRASH_UNIT_ID,VEHICLE_ID,MAKE,MODEL,UNIT_TYPE, row_number() over (partition by CRASH_RECORD_ID order by CRASH_UNIT_ID) as veh_seq_nbr
+ 116:                                                            from traffic_crash_data.Vehicles_table) z4 where veh_seq_nbr = 4 ) b4
+ 117:                                                on a.CRASH_RECORD_ID = b4.CRASH_RECORD_ID
+ 118:                                                and a.CRASH_DATE = b4.CRASH_DATE
+ 119:                                                and a.CRASH_UNIT_ID = b4.CRASH_UNIT_ID
+ 120:                                                and a.VEHICLE_ID = b4.VEHICLE_ID
+ 121:                            
+ 122:                                            group by 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) B
+ 123:                                    group by 1,2,3,4,5) D
+ 124:                                ON A.CRASH_RECORD_ID = D.CRASH_RECORD_ID
+ 125:                                and A.CRASH_DATE = D.CRASH_DATE
+ 126:                                and A.RD_NO = D.RD_NO
+ 127:                            group by 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+ 128:                            ;
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+[2022-04-24 23:40:51,990] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-24 23:40:52,047] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

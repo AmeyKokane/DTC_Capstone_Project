@@ -1,0 +1,26 @@
+[2022-04-24 22:27:49,178] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.download_vehicles_dataset_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 22:27:49,260] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.download_vehicles_dataset_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 22:27:49,262] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 22:27:49,263] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-24 22:27:49,265] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 22:27:49,349] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_vehicles_dataset_task> on 2022-04-24 22:27:24.245486+00:00
+[2022-04-24 22:27:49,405] {standard_task_runner.py:52} INFO - Started process 444 to run task
+[2022-04-24 22:27:49,427] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'download_vehicles_dataset_task', 'manual__2022-04-24T22:27:24.245486+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V3.py', '--cfg-path', '/tmp/tmp1k5ts59o', '--error-file', '/tmp/tmp8dskmepm']
+[2022-04-24 22:27:49,442] {standard_task_runner.py:77} INFO - Job 82: Subtask download_vehicles_dataset_task
+[2022-04-24 22:27:50,022] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.download_vehicles_dataset_task manual__2022-04-24T22:27:24.245486+00:00 [running]> on host 2bdc5459fc64
+[2022-04-24 22:27:50,640] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=download_vehicles_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T22:27:24.245486+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T22:27:24.245486+00:00
+[2022-04-24 22:27:50,663] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-04-24 22:27:50,682] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://data.cityofchicago.org/api/views/68nd-jvt3/rows.csv?accessType=DOWNLOAD > /opt/***/68nd-jvt3.csv']
+[2022-04-24 22:27:50,868] {subprocess.py:85} INFO - Output:
+[2022-04-24 22:29:06,346] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-04-24 22:29:06,594] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=download_vehicles_dataset_task, execution_date=20220424T222724, start_date=20220424T222749, end_date=20220424T222906
+[2022-04-24 22:29:06,842] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-24 22:29:06,925] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

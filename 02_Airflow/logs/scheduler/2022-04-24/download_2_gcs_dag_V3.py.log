@@ -1,0 +1,1264 @@
+[2022-04-24 22:18:57,022] {processor.py:163} INFO - Started process (PID=55) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:18:57,043] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:18:57,047] {logging_mixin.py:109} INFO - [2022-04-24 22:18:57,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:19:06,013] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:19:09,502] {logging_mixin.py:109} INFO - [2022-04-24 22:19:09,502] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:19:09,556] {logging_mixin.py:109} INFO - [2022-04-24 22:19:09,556] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:19:09,634] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 12.634 seconds
+[2022-04-24 22:19:39,812] {processor.py:163} INFO - Started process (PID=87) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:19:39,817] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:19:39,819] {logging_mixin.py:109} INFO - [2022-04-24 22:19:39,818] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:19:41,834] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:19:41,869] {logging_mixin.py:109} INFO - [2022-04-24 22:19:41,869] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:19:41,904] {logging_mixin.py:109} INFO - [2022-04-24 22:19:41,903] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:19:41,923] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.140 seconds
+[2022-04-24 22:20:12,074] {processor.py:163} INFO - Started process (PID=111) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:20:12,083] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:20:12,086] {logging_mixin.py:109} INFO - [2022-04-24 22:20:12,086] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:20:13,306] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:20:13,327] {logging_mixin.py:109} INFO - [2022-04-24 22:20:13,327] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:20:13,350] {logging_mixin.py:109} INFO - [2022-04-24 22:20:13,350] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:20:13,367] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.307 seconds
+[2022-04-24 22:20:43,976] {processor.py:163} INFO - Started process (PID=134) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:20:43,981] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:20:43,984] {logging_mixin.py:109} INFO - [2022-04-24 22:20:43,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:20:45,945] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:20:46,030] {logging_mixin.py:109} INFO - [2022-04-24 22:20:46,029] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:20:46,095] {logging_mixin.py:109} INFO - [2022-04-24 22:20:46,095] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:20:46,105] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.146 seconds
+[2022-04-24 22:21:16,191] {processor.py:163} INFO - Started process (PID=157) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:21:16,195] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:21:16,198] {logging_mixin.py:109} INFO - [2022-04-24 22:21:16,198] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:21:17,043] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:21:17,059] {logging_mixin.py:109} INFO - [2022-04-24 22:21:17,059] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:21:17,078] {logging_mixin.py:109} INFO - [2022-04-24 22:21:17,078] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:21:17,089] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.903 seconds
+[2022-04-24 22:21:47,193] {processor.py:163} INFO - Started process (PID=190) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:21:47,197] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:21:47,198] {logging_mixin.py:109} INFO - [2022-04-24 22:21:47,198] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:21:48,353] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:21:48,392] {logging_mixin.py:109} INFO - [2022-04-24 22:21:48,392] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:21:48,415] {logging_mixin.py:109} INFO - [2022-04-24 22:21:48,415] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:21:48,433] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.244 seconds
+[2022-04-24 22:22:18,542] {processor.py:163} INFO - Started process (PID=213) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:22:18,545] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:22:18,547] {logging_mixin.py:109} INFO - [2022-04-24 22:22:18,547] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:22:19,699] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:22:19,715] {logging_mixin.py:109} INFO - [2022-04-24 22:22:19,715] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:22:19,734] {logging_mixin.py:109} INFO - [2022-04-24 22:22:19,734] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:22:19,747] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.217 seconds
+[2022-04-24 22:22:48,705] {processor.py:163} INFO - Started process (PID=233) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:22:48,709] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:22:48,711] {logging_mixin.py:109} INFO - [2022-04-24 22:22:48,711] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:22:49,787] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:22:49,805] {logging_mixin.py:109} INFO - [2022-04-24 22:22:49,805] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:22:49,832] {logging_mixin.py:109} INFO - [2022-04-24 22:22:49,832] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:22:49,857] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.157 seconds
+[2022-04-24 22:23:19,912] {processor.py:163} INFO - Started process (PID=255) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:23:19,916] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:23:19,918] {logging_mixin.py:109} INFO - [2022-04-24 22:23:19,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:23:20,789] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:23:20,815] {logging_mixin.py:109} INFO - [2022-04-24 22:23:20,815] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:23:20,835] {logging_mixin.py:109} INFO - [2022-04-24 22:23:20,835] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:23:20,848] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.942 seconds
+[2022-04-24 22:23:51,243] {processor.py:163} INFO - Started process (PID=279) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:23:51,250] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:23:51,254] {logging_mixin.py:109} INFO - [2022-04-24 22:23:51,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:23:52,651] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:23:52,678] {logging_mixin.py:109} INFO - [2022-04-24 22:23:52,677] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:23:52,708] {logging_mixin.py:109} INFO - [2022-04-24 22:23:52,708] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:23:52,726] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.488 seconds
+[2022-04-24 22:24:21,062] {processor.py:163} INFO - Started process (PID=299) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:21,066] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:24:21,070] {logging_mixin.py:109} INFO - [2022-04-24 22:24:21,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:22,023] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:22,298] {logging_mixin.py:109} INFO - [2022-04-24 22:24:22,298] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:24:22,314] {logging_mixin.py:109} INFO - [2022-04-24 22:24:22,314] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:24:22,342] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.288 seconds
+[2022-04-24 22:24:23,080] {processor.py:163} INFO - Started process (PID=302) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:23,083] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:24:23,086] {logging_mixin.py:109} INFO - [2022-04-24 22:24:23,086] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:25,366] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:25,382] {logging_mixin.py:109} INFO - [2022-04-24 22:24:25,382] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:24:25,443] {logging_mixin.py:109} INFO - [2022-04-24 22:24:25,442] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:24:25,481] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.411 seconds
+[2022-04-24 22:24:55,582] {processor.py:163} INFO - Started process (PID=323) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:55,585] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:24:55,586] {logging_mixin.py:109} INFO - [2022-04-24 22:24:55,586] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:57,347] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:24:57,370] {logging_mixin.py:109} INFO - [2022-04-24 22:24:57,369] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:24:57,392] {logging_mixin.py:109} INFO - [2022-04-24 22:24:57,392] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:24:57,428] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.849 seconds
+[2022-04-24 22:25:27,614] {processor.py:163} INFO - Started process (PID=355) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:25:27,618] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:25:27,620] {logging_mixin.py:109} INFO - [2022-04-24 22:25:27,620] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:25:28,697] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:25:28,716] {logging_mixin.py:109} INFO - [2022-04-24 22:25:28,715] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:25:28,760] {logging_mixin.py:109} INFO - [2022-04-24 22:25:28,759] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:25:28,777] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.167 seconds
+[2022-04-24 22:25:59,039] {processor.py:163} INFO - Started process (PID=379) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:25:59,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:25:59,044] {logging_mixin.py:109} INFO - [2022-04-24 22:25:59,044] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:25:59,960] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:25:59,976] {logging_mixin.py:109} INFO - [2022-04-24 22:25:59,975] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:25:59,995] {logging_mixin.py:109} INFO - [2022-04-24 22:25:59,995] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:26:00,007] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.974 seconds
+[2022-04-24 22:26:30,177] {processor.py:163} INFO - Started process (PID=411) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:26:30,182] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:26:30,184] {logging_mixin.py:109} INFO - [2022-04-24 22:26:30,184] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:26:31,301] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:26:31,323] {logging_mixin.py:109} INFO - [2022-04-24 22:26:31,322] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:26:31,339] {logging_mixin.py:109} INFO - [2022-04-24 22:26:31,339] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:26:31,353] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.185 seconds
+[2022-04-24 22:27:01,440] {processor.py:163} INFO - Started process (PID=432) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:27:01,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:27:01,445] {logging_mixin.py:109} INFO - [2022-04-24 22:27:01,445] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:27:02,619] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:27:02,640] {logging_mixin.py:109} INFO - [2022-04-24 22:27:02,640] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:27:02,668] {logging_mixin.py:109} INFO - [2022-04-24 22:27:02,667] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:27:02,683] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.247 seconds
+[2022-04-24 22:27:32,773] {processor.py:163} INFO - Started process (PID=453) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:27:32,778] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:27:32,780] {logging_mixin.py:109} INFO - [2022-04-24 22:27:32,780] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:27:34,337] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:27:34,355] {logging_mixin.py:109} INFO - [2022-04-24 22:27:34,355] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:27:34,389] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.622 seconds
+[2022-04-24 22:28:04,581] {processor.py:163} INFO - Started process (PID=473) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:28:04,598] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:28:04,609] {logging_mixin.py:109} INFO - [2022-04-24 22:28:04,608] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:28:11,102] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:28:11,132] {logging_mixin.py:109} INFO - [2022-04-24 22:28:11,129] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:28:11,217] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 6.682 seconds
+[2022-04-24 22:28:41,753] {processor.py:163} INFO - Started process (PID=493) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:28:41,760] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:28:41,774] {logging_mixin.py:109} INFO - [2022-04-24 22:28:41,774] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:28:48,954] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:28:49,054] {logging_mixin.py:109} INFO - [2022-04-24 22:28:49,054] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:28:49,345] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 7.606 seconds
+[2022-04-24 22:29:19,650] {processor.py:163} INFO - Started process (PID=515) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:29:19,656] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:29:19,661] {logging_mixin.py:109} INFO - [2022-04-24 22:29:19,660] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:29:24,709] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:29:24,786] {logging_mixin.py:109} INFO - [2022-04-24 22:29:24,785] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:29:24,907] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 5.275 seconds
+[2022-04-24 22:29:55,126] {processor.py:163} INFO - Started process (PID=537) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:29:55,131] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:29:55,134] {logging_mixin.py:109} INFO - [2022-04-24 22:29:55,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:29:57,750] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:29:57,795] {logging_mixin.py:109} INFO - [2022-04-24 22:29:57,795] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:29:57,883] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.765 seconds
+[2022-04-24 22:30:28,094] {processor.py:163} INFO - Started process (PID=561) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:30:28,102] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:30:28,106] {logging_mixin.py:109} INFO - [2022-04-24 22:30:28,106] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:30:29,027] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:30:29,045] {logging_mixin.py:109} INFO - [2022-04-24 22:30:29,045] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:30:29,077] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.989 seconds
+[2022-04-24 22:30:59,268] {processor.py:163} INFO - Started process (PID=582) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:30:59,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:30:59,274] {logging_mixin.py:109} INFO - [2022-04-24 22:30:59,274] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:31:00,318] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:31:00,337] {logging_mixin.py:109} INFO - [2022-04-24 22:31:00,337] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:31:00,375] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.119 seconds
+[2022-04-24 22:31:30,481] {processor.py:163} INFO - Started process (PID=603) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:31:30,487] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:31:30,489] {logging_mixin.py:109} INFO - [2022-04-24 22:31:30,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:31:31,932] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:31:31,952] {logging_mixin.py:109} INFO - [2022-04-24 22:31:31,952] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:31:31,987] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.510 seconds
+[2022-04-24 22:32:02,135] {processor.py:163} INFO - Started process (PID=638) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:32:02,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:32:02,165] {logging_mixin.py:109} INFO - [2022-04-24 22:32:02,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:32:03,851] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:32:03,872] {logging_mixin.py:109} INFO - [2022-04-24 22:32:03,872] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:32:03,901] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.777 seconds
+[2022-04-24 22:32:34,005] {processor.py:163} INFO - Started process (PID=660) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:32:34,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:32:34,010] {logging_mixin.py:109} INFO - [2022-04-24 22:32:34,010] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:32:34,871] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:32:34,884] {logging_mixin.py:109} INFO - [2022-04-24 22:32:34,883] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:32:34,914] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.913 seconds
+[2022-04-24 22:33:05,078] {processor.py:163} INFO - Started process (PID=684) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:33:05,090] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:33:05,099] {logging_mixin.py:109} INFO - [2022-04-24 22:33:05,095] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:33:07,531] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:33:07,558] {logging_mixin.py:109} INFO - [2022-04-24 22:33:07,557] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:33:07,648] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.604 seconds
+[2022-04-24 22:33:37,878] {processor.py:163} INFO - Started process (PID=710) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:33:37,884] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:33:37,889] {logging_mixin.py:109} INFO - [2022-04-24 22:33:37,888] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:33:38,793] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:33:38,815] {logging_mixin.py:109} INFO - [2022-04-24 22:33:38,815] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:33:38,851] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.986 seconds
+[2022-04-24 22:34:09,053] {processor.py:163} INFO - Started process (PID=742) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:34:09,065] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:34:09,068] {logging_mixin.py:109} INFO - [2022-04-24 22:34:09,068] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:34:10,426] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:34:10,440] {logging_mixin.py:109} INFO - [2022-04-24 22:34:10,440] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:34:10,482] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.464 seconds
+[2022-04-24 22:34:40,649] {processor.py:163} INFO - Started process (PID=763) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:34:40,654] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:34:40,656] {logging_mixin.py:109} INFO - [2022-04-24 22:34:40,656] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:34:41,802] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:34:41,822] {logging_mixin.py:109} INFO - [2022-04-24 22:34:41,821] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:34:41,857] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.218 seconds
+[2022-04-24 22:35:12,575] {processor.py:163} INFO - Started process (PID=786) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:35:12,578] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:35:12,582] {logging_mixin.py:109} INFO - [2022-04-24 22:35:12,582] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:35:13,576] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:35:13,592] {logging_mixin.py:109} INFO - [2022-04-24 22:35:13,592] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:35:13,620] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.050 seconds
+[2022-04-24 22:35:43,951] {processor.py:163} INFO - Started process (PID=817) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:35:43,970] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:35:43,980] {logging_mixin.py:109} INFO - [2022-04-24 22:35:43,980] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:35:46,060] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:35:46,099] {logging_mixin.py:109} INFO - [2022-04-24 22:35:46,098] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:35:46,183] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.337 seconds
+[2022-04-24 22:36:16,419] {processor.py:163} INFO - Started process (PID=839) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:36:16,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:36:16,428] {logging_mixin.py:109} INFO - [2022-04-24 22:36:16,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:36:18,143] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:36:18,166] {logging_mixin.py:109} INFO - [2022-04-24 22:36:18,166] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:36:18,207] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.795 seconds
+[2022-04-24 22:36:48,339] {processor.py:163} INFO - Started process (PID=858) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:36:48,344] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:36:48,346] {logging_mixin.py:109} INFO - [2022-04-24 22:36:48,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:36:50,085] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:36:50,119] {logging_mixin.py:109} INFO - [2022-04-24 22:36:50,118] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:36:50,164] {logging_mixin.py:109} INFO - [2022-04-24 22:36:50,164] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:36:50,195] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.863 seconds
+[2022-04-24 22:37:20,346] {processor.py:163} INFO - Started process (PID=881) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:37:20,354] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:37:20,368] {logging_mixin.py:109} INFO - [2022-04-24 22:37:20,367] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:37:24,388] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:37:24,461] {logging_mixin.py:109} INFO - [2022-04-24 22:37:24,460] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:37:24,531] {logging_mixin.py:109} INFO - [2022-04-24 22:37:24,531] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:37:24,547] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 4.221 seconds
+[2022-04-24 22:37:54,733] {processor.py:163} INFO - Started process (PID=911) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:37:54,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:37:54,751] {logging_mixin.py:109} INFO - [2022-04-24 22:37:54,750] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:37:56,410] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:37:56,449] {logging_mixin.py:109} INFO - [2022-04-24 22:37:56,448] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:37:56,481] {logging_mixin.py:109} INFO - [2022-04-24 22:37:56,480] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:37:56,506] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.799 seconds
+[2022-04-24 22:38:26,774] {processor.py:163} INFO - Started process (PID=933) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:38:26,784] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:38:26,792] {logging_mixin.py:109} INFO - [2022-04-24 22:38:26,791] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:38:27,823] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:38:27,842] {logging_mixin.py:109} INFO - [2022-04-24 22:38:27,842] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:38:27,864] {logging_mixin.py:109} INFO - [2022-04-24 22:38:27,864] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:38:27,897] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.131 seconds
+[2022-04-24 22:38:58,065] {processor.py:163} INFO - Started process (PID=961) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:38:58,068] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:38:58,071] {logging_mixin.py:109} INFO - [2022-04-24 22:38:58,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:39:00,459] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:39:00,523] {logging_mixin.py:109} INFO - [2022-04-24 22:39:00,521] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:39:00,570] {logging_mixin.py:109} INFO - [2022-04-24 22:39:00,570] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:39:00,600] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.543 seconds
+[2022-04-24 22:39:30,805] {processor.py:163} INFO - Started process (PID=985) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:39:30,811] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:39:30,815] {logging_mixin.py:109} INFO - [2022-04-24 22:39:30,814] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:39:32,211] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:39:32,267] {logging_mixin.py:109} INFO - [2022-04-24 22:39:32,267] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:39:32,297] {logging_mixin.py:109} INFO - [2022-04-24 22:39:32,297] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:39:32,311] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.519 seconds
+[2022-04-24 22:40:02,554] {processor.py:163} INFO - Started process (PID=1009) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:40:02,558] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:40:02,560] {logging_mixin.py:109} INFO - [2022-04-24 22:40:02,559] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:40:03,703] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:40:03,742] {logging_mixin.py:109} INFO - [2022-04-24 22:40:03,741] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:40:03,788] {logging_mixin.py:109} INFO - [2022-04-24 22:40:03,787] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:40:03,815] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.266 seconds
+[2022-04-24 22:40:33,986] {processor.py:163} INFO - Started process (PID=1045) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:40:33,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:40:33,992] {logging_mixin.py:109} INFO - [2022-04-24 22:40:33,991] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:40:34,938] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:40:34,957] {logging_mixin.py:109} INFO - [2022-04-24 22:40:34,957] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:40:34,975] {logging_mixin.py:109} INFO - [2022-04-24 22:40:34,975] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:40:34,987] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.005 seconds
+[2022-04-24 22:41:05,169] {processor.py:163} INFO - Started process (PID=1068) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:41:05,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:41:05,174] {logging_mixin.py:109} INFO - [2022-04-24 22:41:05,174] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:41:06,388] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:41:06,417] {logging_mixin.py:109} INFO - [2022-04-24 22:41:06,417] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:41:06,444] {logging_mixin.py:109} INFO - [2022-04-24 22:41:06,444] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:41:06,461] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.300 seconds
+[2022-04-24 22:41:36,591] {processor.py:163} INFO - Started process (PID=1091) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:41:36,594] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:41:36,596] {logging_mixin.py:109} INFO - [2022-04-24 22:41:36,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:41:37,466] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:41:37,484] {logging_mixin.py:109} INFO - [2022-04-24 22:41:37,483] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:41:37,505] {logging_mixin.py:109} INFO - [2022-04-24 22:41:37,505] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:41:37,519] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.936 seconds
+[2022-04-24 22:42:07,783] {processor.py:163} INFO - Started process (PID=1115) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:42:07,824] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:42:07,831] {logging_mixin.py:109} INFO - [2022-04-24 22:42:07,830] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:42:11,362] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:42:11,437] {logging_mixin.py:109} INFO - [2022-04-24 22:42:11,436] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:42:11,569] {logging_mixin.py:109} INFO - [2022-04-24 22:42:11,569] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:42:11,609] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 3.925 seconds
+[2022-04-24 22:42:41,949] {processor.py:163} INFO - Started process (PID=1147) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:42:41,953] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:42:41,965] {logging_mixin.py:109} INFO - [2022-04-24 22:42:41,965] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:42:43,112] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:42:43,143] {logging_mixin.py:109} INFO - [2022-04-24 22:42:43,143] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:42:43,162] {logging_mixin.py:109} INFO - [2022-04-24 22:42:43,162] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:42:43,172] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.237 seconds
+[2022-04-24 22:43:13,319] {processor.py:163} INFO - Started process (PID=1170) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:43:13,324] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:43:13,329] {logging_mixin.py:109} INFO - [2022-04-24 22:43:13,329] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:43:14,565] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:43:14,590] {logging_mixin.py:109} INFO - [2022-04-24 22:43:14,589] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:43:14,614] {logging_mixin.py:109} INFO - [2022-04-24 22:43:14,613] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:43:14,628] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.325 seconds
+[2022-04-24 22:43:44,768] {processor.py:163} INFO - Started process (PID=1192) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:43:44,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:43:44,774] {logging_mixin.py:109} INFO - [2022-04-24 22:43:44,774] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:43:45,625] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:43:45,654] {logging_mixin.py:109} INFO - [2022-04-24 22:43:45,653] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:43:45,680] {logging_mixin.py:109} INFO - [2022-04-24 22:43:45,680] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:43:45,694] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.935 seconds
+[2022-04-24 22:44:15,885] {processor.py:163} INFO - Started process (PID=1214) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:44:15,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:44:15,894] {logging_mixin.py:109} INFO - [2022-04-24 22:44:15,894] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:44:17,124] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:44:17,164] {logging_mixin.py:109} INFO - [2022-04-24 22:44:17,163] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:44:17,196] {logging_mixin.py:109} INFO - [2022-04-24 22:44:17,196] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:44:17,212] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.334 seconds
+[2022-04-24 22:44:47,400] {processor.py:163} INFO - Started process (PID=1237) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:44:47,406] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:44:47,409] {logging_mixin.py:109} INFO - [2022-04-24 22:44:47,409] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:44:48,741] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:44:48,755] {logging_mixin.py:109} INFO - [2022-04-24 22:44:48,755] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:44:48,783] {logging_mixin.py:109} INFO - [2022-04-24 22:44:48,783] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:44:48,795] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.405 seconds
+[2022-04-24 22:45:18,943] {processor.py:163} INFO - Started process (PID=1259) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:45:18,948] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:45:18,951] {logging_mixin.py:109} INFO - [2022-04-24 22:45:18,951] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:45:20,194] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:45:20,218] {logging_mixin.py:109} INFO - [2022-04-24 22:45:20,217] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:45:20,248] {logging_mixin.py:109} INFO - [2022-04-24 22:45:20,248] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:45:20,278] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.345 seconds
+[2022-04-24 22:45:50,462] {processor.py:163} INFO - Started process (PID=1280) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:45:50,466] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:45:50,468] {logging_mixin.py:109} INFO - [2022-04-24 22:45:50,467] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:45:52,822] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:45:52,911] {logging_mixin.py:109} INFO - [2022-04-24 22:45:52,907] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:45:52,997] {logging_mixin.py:109} INFO - [2022-04-24 22:45:52,997] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:45:53,040] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.584 seconds
+[2022-04-24 22:46:24,090] {processor.py:163} INFO - Started process (PID=1302) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:46:24,095] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:46:24,098] {logging_mixin.py:109} INFO - [2022-04-24 22:46:24,098] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:46:25,199] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:46:25,241] {logging_mixin.py:109} INFO - [2022-04-24 22:46:25,240] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:46:25,280] {logging_mixin.py:109} INFO - [2022-04-24 22:46:25,279] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:46:25,345] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.264 seconds
+[2022-04-24 22:46:55,521] {processor.py:163} INFO - Started process (PID=1334) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:46:55,528] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:46:55,533] {logging_mixin.py:109} INFO - [2022-04-24 22:46:55,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:47:00,857] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:47:00,944] {logging_mixin.py:109} INFO - [2022-04-24 22:47:00,943] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:47:00,994] {logging_mixin.py:109} INFO - [2022-04-24 22:47:00,994] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:47:01,014] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 5.505 seconds
+[2022-04-24 22:47:31,163] {processor.py:163} INFO - Started process (PID=1357) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:47:31,168] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:47:31,170] {logging_mixin.py:109} INFO - [2022-04-24 22:47:31,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:47:32,181] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:47:32,198] {logging_mixin.py:109} INFO - [2022-04-24 22:47:32,197] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:47:32,214] {logging_mixin.py:109} INFO - [2022-04-24 22:47:32,214] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:47:32,231] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.078 seconds
+[2022-04-24 22:48:02,318] {processor.py:163} INFO - Started process (PID=1382) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:48:02,322] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:48:02,324] {logging_mixin.py:109} INFO - [2022-04-24 22:48:02,324] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:48:03,160] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:48:03,173] {logging_mixin.py:109} INFO - [2022-04-24 22:48:03,173] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:48:03,190] {logging_mixin.py:109} INFO - [2022-04-24 22:48:03,190] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:48:03,203] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.894 seconds
+[2022-04-24 22:48:33,345] {processor.py:163} INFO - Started process (PID=1413) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:48:33,349] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:48:33,351] {logging_mixin.py:109} INFO - [2022-04-24 22:48:33,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:48:34,364] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:48:34,384] {logging_mixin.py:109} INFO - [2022-04-24 22:48:34,383] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:48:34,407] {logging_mixin.py:109} INFO - [2022-04-24 22:48:34,407] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:48:34,423] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.083 seconds
+[2022-04-24 22:49:04,777] {processor.py:163} INFO - Started process (PID=1435) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:49:04,781] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:49:04,784] {logging_mixin.py:109} INFO - [2022-04-24 22:49:04,783] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:49:05,732] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:49:05,749] {logging_mixin.py:109} INFO - [2022-04-24 22:49:05,749] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:49:05,772] {logging_mixin.py:109} INFO - [2022-04-24 22:49:05,772] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:49:05,786] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.018 seconds
+[2022-04-24 22:49:35,954] {processor.py:163} INFO - Started process (PID=1456) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:49:35,959] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:49:35,964] {logging_mixin.py:109} INFO - [2022-04-24 22:49:35,963] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:49:37,496] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:49:37,541] {logging_mixin.py:109} INFO - [2022-04-24 22:49:37,540] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:49:37,648] {logging_mixin.py:109} INFO - [2022-04-24 22:49:37,648] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:49:37,678] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.733 seconds
+[2022-04-24 22:50:07,891] {processor.py:163} INFO - Started process (PID=1477) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:07,896] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:50:07,898] {logging_mixin.py:109} INFO - [2022-04-24 22:50:07,898] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:09,503] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:09,531] {logging_mixin.py:109} INFO - [2022-04-24 22:50:09,531] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:50:09,552] {logging_mixin.py:109} INFO - [2022-04-24 22:50:09,552] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:50:09,597] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.731 seconds
+[2022-04-24 22:50:39,821] {processor.py:163} INFO - Started process (PID=1507) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:39,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:50:39,832] {logging_mixin.py:109} INFO - [2022-04-24 22:50:39,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:42,131] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:42,167] {logging_mixin.py:109} INFO - [2022-04-24 22:50:42,167] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:50:42,195] {logging_mixin.py:109} INFO - [2022-04-24 22:50:42,195] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:50:42,219] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.420 seconds
+[2022-04-24 22:50:44,372] {processor.py:163} INFO - Started process (PID=1510) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:44,385] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:50:44,392] {logging_mixin.py:109} INFO - [2022-04-24 22:50:44,391] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:47,171] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:50:47,778] {logging_mixin.py:109} INFO - [2022-04-24 22:50:47,778] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:50:47,821] {logging_mixin.py:109} INFO - [2022-04-24 22:50:47,821] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:50:47,851] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 3.499 seconds
+[2022-04-24 22:51:18,027] {processor.py:163} INFO - Started process (PID=1533) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:51:18,031] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:51:18,034] {logging_mixin.py:109} INFO - [2022-04-24 22:51:18,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:51:19,152] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:51:19,169] {logging_mixin.py:109} INFO - [2022-04-24 22:51:19,168] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:51:19,187] {logging_mixin.py:109} INFO - [2022-04-24 22:51:19,187] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:51:19,198] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.177 seconds
+[2022-04-24 22:51:49,352] {processor.py:163} INFO - Started process (PID=1555) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:51:49,356] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:51:49,359] {logging_mixin.py:109} INFO - [2022-04-24 22:51:49,358] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:51:50,581] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:51:50,602] {logging_mixin.py:109} INFO - [2022-04-24 22:51:50,601] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:51:50,622] {logging_mixin.py:109} INFO - [2022-04-24 22:51:50,622] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 22:51:50,636] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.290 seconds
+[2022-04-24 22:52:20,940] {processor.py:163} INFO - Started process (PID=1576) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:52:20,956] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:52:20,959] {logging_mixin.py:109} INFO - [2022-04-24 22:52:20,959] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:52:27,172] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:52:27,221] {logging_mixin.py:109} INFO - [2022-04-24 22:52:27,220] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:52:27,292] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 6.396 seconds
+[2022-04-24 22:52:57,637] {processor.py:163} INFO - Started process (PID=1596) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:52:57,678] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:52:57,701] {logging_mixin.py:109} INFO - [2022-04-24 22:52:57,701] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:53:05,667] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:53:05,834] {logging_mixin.py:109} INFO - [2022-04-24 22:53:05,810] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:53:06,082] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 8.505 seconds
+[2022-04-24 22:53:36,388] {processor.py:163} INFO - Started process (PID=1618) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:53:36,400] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:53:36,402] {logging_mixin.py:109} INFO - [2022-04-24 22:53:36,402] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:53:40,411] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:53:40,557] {logging_mixin.py:109} INFO - [2022-04-24 22:53:40,556] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:53:40,854] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 4.506 seconds
+[2022-04-24 22:54:11,212] {processor.py:163} INFO - Started process (PID=1639) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:54:11,215] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:54:11,217] {logging_mixin.py:109} INFO - [2022-04-24 22:54:11,217] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:54:12,793] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:54:12,812] {logging_mixin.py:109} INFO - [2022-04-24 22:54:12,811] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:54:12,859] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.670 seconds
+[2022-04-24 22:54:42,979] {processor.py:163} INFO - Started process (PID=1661) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:54:42,981] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:54:42,983] {logging_mixin.py:109} INFO - [2022-04-24 22:54:42,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:54:44,373] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:54:44,393] {logging_mixin.py:109} INFO - [2022-04-24 22:54:44,393] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:54:44,428] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.454 seconds
+[2022-04-24 22:55:14,525] {processor.py:163} INFO - Started process (PID=1683) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:55:14,529] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:55:14,531] {logging_mixin.py:109} INFO - [2022-04-24 22:55:14,531] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:55:15,933] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:55:15,954] {logging_mixin.py:109} INFO - [2022-04-24 22:55:15,954] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:55:15,990] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.472 seconds
+[2022-04-24 22:55:46,090] {processor.py:163} INFO - Started process (PID=1716) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:55:46,093] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:55:46,095] {logging_mixin.py:109} INFO - [2022-04-24 22:55:46,095] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:55:47,604] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:55:47,620] {logging_mixin.py:109} INFO - [2022-04-24 22:55:47,620] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:55:47,654] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.572 seconds
+[2022-04-24 22:56:18,025] {processor.py:163} INFO - Started process (PID=1740) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:56:18,030] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:56:18,033] {logging_mixin.py:109} INFO - [2022-04-24 22:56:18,032] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:56:19,015] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:56:19,035] {logging_mixin.py:109} INFO - [2022-04-24 22:56:19,034] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:56:19,073] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.057 seconds
+[2022-04-24 22:56:49,138] {processor.py:163} INFO - Started process (PID=1761) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:56:49,141] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:56:49,144] {logging_mixin.py:109} INFO - [2022-04-24 22:56:49,143] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:56:50,644] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:56:50,677] {logging_mixin.py:109} INFO - [2022-04-24 22:56:50,677] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:56:50,721] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.589 seconds
+[2022-04-24 22:57:20,912] {processor.py:163} INFO - Started process (PID=1782) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:57:20,926] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:57:20,934] {logging_mixin.py:109} INFO - [2022-04-24 22:57:20,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:57:24,928] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:57:24,985] {logging_mixin.py:109} INFO - [2022-04-24 22:57:24,985] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:57:25,112] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 4.229 seconds
+[2022-04-24 22:57:55,335] {processor.py:163} INFO - Started process (PID=1815) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:57:55,339] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:57:55,342] {logging_mixin.py:109} INFO - [2022-04-24 22:57:55,342] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:57:57,009] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:57:57,028] {logging_mixin.py:109} INFO - [2022-04-24 22:57:57,028] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:57:57,056] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.735 seconds
+[2022-04-24 22:58:27,120] {processor.py:163} INFO - Started process (PID=1839) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:58:27,124] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:58:27,126] {logging_mixin.py:109} INFO - [2022-04-24 22:58:27,125] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:58:27,994] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:58:28,011] {logging_mixin.py:109} INFO - [2022-04-24 22:58:28,011] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:58:28,050] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.936 seconds
+[2022-04-24 22:58:58,259] {processor.py:163} INFO - Started process (PID=1871) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:58:58,262] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:58:58,264] {logging_mixin.py:109} INFO - [2022-04-24 22:58:58,264] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:58:59,408] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:58:59,426] {logging_mixin.py:109} INFO - [2022-04-24 22:58:59,426] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:58:59,458] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.206 seconds
+[2022-04-24 22:59:29,561] {processor.py:163} INFO - Started process (PID=1893) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:59:29,564] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 22:59:29,567] {logging_mixin.py:109} INFO - [2022-04-24 22:59:29,567] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:59:30,466] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 22:59:30,481] {logging_mixin.py:109} INFO - [2022-04-24 22:59:30,480] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 22:59:30,507] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.954 seconds
+[2022-04-24 23:00:00,574] {processor.py:163} INFO - Started process (PID=1916) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:00:00,578] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:00:00,580] {logging_mixin.py:109} INFO - [2022-04-24 23:00:00,580] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:00:01,568] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:00:01,681] {logging_mixin.py:109} INFO - [2022-04-24 23:00:01,680] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:00:01,806] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.240 seconds
+[2022-04-24 23:00:32,007] {processor.py:163} INFO - Started process (PID=1946) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:00:32,010] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:00:32,013] {logging_mixin.py:109} INFO - [2022-04-24 23:00:32,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:00:32,823] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:00:32,845] {logging_mixin.py:109} INFO - [2022-04-24 23:00:32,845] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:00:32,873] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.872 seconds
+[2022-04-24 23:01:03,022] {processor.py:163} INFO - Started process (PID=1967) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:01:03,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:01:03,027] {logging_mixin.py:109} INFO - [2022-04-24 23:01:03,027] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:01:03,822] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:01:03,837] {logging_mixin.py:109} INFO - [2022-04-24 23:01:03,836] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:01:03,865] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.852 seconds
+[2022-04-24 23:01:34,049] {processor.py:163} INFO - Started process (PID=1987) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:01:34,052] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:01:34,053] {logging_mixin.py:109} INFO - [2022-04-24 23:01:34,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:01:34,953] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:01:34,970] {logging_mixin.py:109} INFO - [2022-04-24 23:01:34,970] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:01:35,004] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.963 seconds
+[2022-04-24 23:02:05,206] {processor.py:163} INFO - Started process (PID=2019) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:02:05,210] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:02:05,212] {logging_mixin.py:109} INFO - [2022-04-24 23:02:05,212] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:02:06,496] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:02:06,517] {logging_mixin.py:109} INFO - [2022-04-24 23:02:06,516] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:02:06,548] {logging_mixin.py:109} INFO - [2022-04-24 23:02:06,548] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:02:06,571] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.371 seconds
+[2022-04-24 23:02:37,485] {processor.py:163} INFO - Started process (PID=2042) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:02:37,489] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:02:37,492] {logging_mixin.py:109} INFO - [2022-04-24 23:02:37,492] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:02:38,346] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:02:38,363] {logging_mixin.py:109} INFO - [2022-04-24 23:02:38,363] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:02:38,384] {logging_mixin.py:109} INFO - [2022-04-24 23:02:38,384] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:02:38,398] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.922 seconds
+[2022-04-24 23:03:08,510] {processor.py:163} INFO - Started process (PID=2075) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:03:08,526] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:03:08,534] {logging_mixin.py:109} INFO - [2022-04-24 23:03:08,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:03:09,414] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:03:09,432] {logging_mixin.py:109} INFO - [2022-04-24 23:03:09,431] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:03:09,476] {logging_mixin.py:109} INFO - [2022-04-24 23:03:09,476] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:03:09,502] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.000 seconds
+[2022-04-24 23:03:39,740] {processor.py:163} INFO - Started process (PID=2098) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:03:39,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:03:39,747] {logging_mixin.py:109} INFO - [2022-04-24 23:03:39,746] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:03:40,739] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:03:40,758] {logging_mixin.py:109} INFO - [2022-04-24 23:03:40,757] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:03:40,777] {logging_mixin.py:109} INFO - [2022-04-24 23:03:40,777] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:03:40,788] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.053 seconds
+[2022-04-24 23:04:10,910] {processor.py:163} INFO - Started process (PID=2118) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:04:10,915] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:04:10,919] {logging_mixin.py:109} INFO - [2022-04-24 23:04:10,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:04:11,853] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:04:11,874] {logging_mixin.py:109} INFO - [2022-04-24 23:04:11,873] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:04:11,895] {logging_mixin.py:109} INFO - [2022-04-24 23:04:11,895] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:04:11,910] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.011 seconds
+[2022-04-24 23:04:42,144] {processor.py:163} INFO - Started process (PID=2152) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:04:42,147] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:04:42,149] {logging_mixin.py:109} INFO - [2022-04-24 23:04:42,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:04:42,910] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:04:42,926] {logging_mixin.py:109} INFO - [2022-04-24 23:04:42,926] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:04:42,943] {logging_mixin.py:109} INFO - [2022-04-24 23:04:42,943] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:04:42,957] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.819 seconds
+[2022-04-24 23:05:13,147] {processor.py:163} INFO - Started process (PID=2172) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:05:13,150] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:05:13,152] {logging_mixin.py:109} INFO - [2022-04-24 23:05:13,152] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:05:13,920] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:05:13,937] {logging_mixin.py:109} INFO - [2022-04-24 23:05:13,937] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:05:13,955] {logging_mixin.py:109} INFO - [2022-04-24 23:05:13,955] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:05:13,965] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.824 seconds
+[2022-04-24 23:05:44,117] {processor.py:163} INFO - Started process (PID=2203) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:05:44,122] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:05:44,126] {logging_mixin.py:109} INFO - [2022-04-24 23:05:44,125] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:05:45,751] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:05:45,778] {logging_mixin.py:109} INFO - [2022-04-24 23:05:45,777] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:05:45,808] {logging_mixin.py:109} INFO - [2022-04-24 23:05:45,808] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:05:45,825] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.719 seconds
+[2022-04-24 23:06:15,994] {processor.py:163} INFO - Started process (PID=2227) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:06:15,998] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:06:16,000] {logging_mixin.py:109} INFO - [2022-04-24 23:06:16,000] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:06:16,761] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:06:16,774] {logging_mixin.py:109} INFO - [2022-04-24 23:06:16,774] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:06:16,792] {logging_mixin.py:109} INFO - [2022-04-24 23:06:16,792] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:06:16,804] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.818 seconds
+[2022-04-24 23:06:46,927] {processor.py:163} INFO - Started process (PID=2249) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:06:46,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:06:46,933] {logging_mixin.py:109} INFO - [2022-04-24 23:06:46,933] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:06:47,697] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:06:47,710] {logging_mixin.py:109} INFO - [2022-04-24 23:06:47,710] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:06:47,727] {logging_mixin.py:109} INFO - [2022-04-24 23:06:47,727] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:06:47,738] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.816 seconds
+[2022-04-24 23:07:17,875] {processor.py:163} INFO - Started process (PID=2281) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:07:17,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:07:17,883] {logging_mixin.py:109} INFO - [2022-04-24 23:07:17,883] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:07:18,794] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:07:18,818] {logging_mixin.py:109} INFO - [2022-04-24 23:07:18,818] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:07:18,859] {logging_mixin.py:109} INFO - [2022-04-24 23:07:18,859] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:07:18,879] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.014 seconds
+[2022-04-24 23:07:48,992] {processor.py:163} INFO - Started process (PID=2304) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:07:48,995] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:07:48,997] {logging_mixin.py:109} INFO - [2022-04-24 23:07:48,997] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:07:50,128] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:07:50,143] {logging_mixin.py:109} INFO - [2022-04-24 23:07:50,142] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:07:50,160] {logging_mixin.py:109} INFO - [2022-04-24 23:07:50,160] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:07:50,172] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.185 seconds
+[2022-04-24 23:08:20,347] {processor.py:163} INFO - Started process (PID=2337) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:08:20,358] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:08:20,362] {logging_mixin.py:109} INFO - [2022-04-24 23:08:20,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:08:21,216] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:08:21,232] {logging_mixin.py:109} INFO - [2022-04-24 23:08:21,232] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:08:21,253] {logging_mixin.py:109} INFO - [2022-04-24 23:08:21,253] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:08:21,266] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.941 seconds
+[2022-04-24 23:08:51,397] {processor.py:163} INFO - Started process (PID=2359) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:08:51,402] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:08:51,403] {logging_mixin.py:109} INFO - [2022-04-24 23:08:51,403] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:08:52,170] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:08:52,184] {logging_mixin.py:109} INFO - [2022-04-24 23:08:52,184] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:08:52,212] {logging_mixin.py:109} INFO - [2022-04-24 23:08:52,212] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:08:52,223] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.836 seconds
+[2022-04-24 23:09:22,443] {processor.py:163} INFO - Started process (PID=2390) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:09:22,447] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:09:22,449] {logging_mixin.py:109} INFO - [2022-04-24 23:09:22,449] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:09:24,358] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:09:24,378] {logging_mixin.py:109} INFO - [2022-04-24 23:09:24,378] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:09:24,402] {logging_mixin.py:109} INFO - [2022-04-24 23:09:24,402] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:09:24,421] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.001 seconds
+[2022-04-24 23:09:54,649] {processor.py:163} INFO - Started process (PID=2414) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:09:54,652] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:09:54,654] {logging_mixin.py:109} INFO - [2022-04-24 23:09:54,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:09:55,920] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:09:55,956] {logging_mixin.py:109} INFO - [2022-04-24 23:09:55,955] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:09:55,995] {logging_mixin.py:109} INFO - [2022-04-24 23:09:55,995] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:09:56,020] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.379 seconds
+[2022-04-24 23:10:26,169] {processor.py:163} INFO - Started process (PID=2435) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:10:26,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:10:26,173] {logging_mixin.py:109} INFO - [2022-04-24 23:10:26,173] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:10:27,164] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:10:27,184] {logging_mixin.py:109} INFO - [2022-04-24 23:10:27,184] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:10:27,206] {logging_mixin.py:109} INFO - [2022-04-24 23:10:27,206] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:10:27,219] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.057 seconds
+[2022-04-24 23:10:57,298] {processor.py:163} INFO - Started process (PID=2468) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:10:57,301] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:10:57,304] {logging_mixin.py:109} INFO - [2022-04-24 23:10:57,303] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:10:58,206] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:10:58,226] {logging_mixin.py:109} INFO - [2022-04-24 23:10:58,226] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:10:58,249] {logging_mixin.py:109} INFO - [2022-04-24 23:10:58,249] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:10:58,261] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.970 seconds
+[2022-04-24 23:11:28,436] {processor.py:163} INFO - Started process (PID=2492) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:11:28,440] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:11:28,442] {logging_mixin.py:109} INFO - [2022-04-24 23:11:28,442] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:11:29,918] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:11:29,938] {logging_mixin.py:109} INFO - [2022-04-24 23:11:29,937] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:11:29,960] {logging_mixin.py:109} INFO - [2022-04-24 23:11:29,960] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:11:29,988] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.560 seconds
+[2022-04-24 23:12:00,125] {processor.py:163} INFO - Started process (PID=2519) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:12:00,131] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:12:00,133] {logging_mixin.py:109} INFO - [2022-04-24 23:12:00,133] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:12:01,248] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:12:01,266] {logging_mixin.py:109} INFO - [2022-04-24 23:12:01,266] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:12:01,289] {logging_mixin.py:109} INFO - [2022-04-24 23:12:01,288] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:12:01,307] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.188 seconds
+[2022-04-24 23:12:31,416] {processor.py:163} INFO - Started process (PID=2552) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:12:31,423] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:12:31,425] {logging_mixin.py:109} INFO - [2022-04-24 23:12:31,425] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:12:32,569] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:12:32,583] {logging_mixin.py:109} INFO - [2022-04-24 23:12:32,582] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:12:32,600] {logging_mixin.py:109} INFO - [2022-04-24 23:12:32,600] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:12:32,611] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.202 seconds
+[2022-04-24 23:13:02,737] {processor.py:163} INFO - Started process (PID=2573) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:13:02,740] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:13:02,742] {logging_mixin.py:109} INFO - [2022-04-24 23:13:02,742] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:13:04,032] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:13:04,055] {logging_mixin.py:109} INFO - [2022-04-24 23:13:04,055] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:13:04,097] {logging_mixin.py:109} INFO - [2022-04-24 23:13:04,097] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:13:04,115] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.382 seconds
+[2022-04-24 23:13:34,289] {processor.py:163} INFO - Started process (PID=2606) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:13:34,293] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:13:34,296] {logging_mixin.py:109} INFO - [2022-04-24 23:13:34,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:13:36,411] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:13:36,451] {logging_mixin.py:109} INFO - [2022-04-24 23:13:36,450] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:13:36,505] {logging_mixin.py:109} INFO - [2022-04-24 23:13:36,504] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:13:36,537] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.267 seconds
+[2022-04-24 23:14:06,716] {processor.py:163} INFO - Started process (PID=2628) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:14:06,723] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:14:06,730] {logging_mixin.py:109} INFO - [2022-04-24 23:14:06,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:14:07,677] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:14:07,694] {logging_mixin.py:109} INFO - [2022-04-24 23:14:07,693] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:14:07,712] {logging_mixin.py:109} INFO - [2022-04-24 23:14:07,711] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:14:07,723] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.014 seconds
+[2022-04-24 23:14:37,918] {processor.py:163} INFO - Started process (PID=2650) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:14:37,921] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:14:37,923] {logging_mixin.py:109} INFO - [2022-04-24 23:14:37,923] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:14:38,678] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:14:38,693] {logging_mixin.py:109} INFO - [2022-04-24 23:14:38,693] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:14:38,710] {logging_mixin.py:109} INFO - [2022-04-24 23:14:38,710] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:14:38,722] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.830 seconds
+[2022-04-24 23:15:08,870] {processor.py:163} INFO - Started process (PID=2682) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:15:08,875] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:15:08,877] {logging_mixin.py:109} INFO - [2022-04-24 23:15:08,877] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:15:09,767] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:15:09,782] {logging_mixin.py:109} INFO - [2022-04-24 23:15:09,782] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:15:09,799] {logging_mixin.py:109} INFO - [2022-04-24 23:15:09,799] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:15:09,812] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.948 seconds
+[2022-04-24 23:15:39,952] {processor.py:163} INFO - Started process (PID=2704) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:15:39,956] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:15:39,958] {logging_mixin.py:109} INFO - [2022-04-24 23:15:39,958] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:15:41,643] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:15:41,658] {logging_mixin.py:109} INFO - [2022-04-24 23:15:41,658] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:15:41,682] {logging_mixin.py:109} INFO - [2022-04-24 23:15:41,682] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:15:41,697] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.754 seconds
+[2022-04-24 23:16:11,858] {processor.py:163} INFO - Started process (PID=2738) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:16:11,865] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:16:11,869] {logging_mixin.py:109} INFO - [2022-04-24 23:16:11,868] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:16:14,340] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:16:14,357] {logging_mixin.py:109} INFO - [2022-04-24 23:16:14,356] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:16:14,385] {logging_mixin.py:109} INFO - [2022-04-24 23:16:14,385] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:16:14,397] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.549 seconds
+[2022-04-24 23:16:44,543] {processor.py:163} INFO - Started process (PID=2758) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:16:44,549] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:16:44,566] {logging_mixin.py:109} INFO - [2022-04-24 23:16:44,566] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:16:45,698] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:16:45,714] {logging_mixin.py:109} INFO - [2022-04-24 23:16:45,714] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:16:45,740] {logging_mixin.py:109} INFO - [2022-04-24 23:16:45,740] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:16:45,753] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.224 seconds
+[2022-04-24 23:17:15,877] {processor.py:163} INFO - Started process (PID=2780) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:17:15,883] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:17:15,885] {logging_mixin.py:109} INFO - [2022-04-24 23:17:15,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:17:17,388] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:17:17,403] {logging_mixin.py:109} INFO - [2022-04-24 23:17:17,403] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:17:17,423] {logging_mixin.py:109} INFO - [2022-04-24 23:17:17,423] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:17:17,439] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.570 seconds
+[2022-04-24 23:17:47,676] {processor.py:163} INFO - Started process (PID=2804) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:17:47,681] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:17:47,684] {logging_mixin.py:109} INFO - [2022-04-24 23:17:47,684] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:17:48,753] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:17:48,768] {logging_mixin.py:109} INFO - [2022-04-24 23:17:48,768] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:17:48,789] {logging_mixin.py:109} INFO - [2022-04-24 23:17:48,789] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:17:48,804] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.161 seconds
+[2022-04-24 23:18:19,180] {processor.py:163} INFO - Started process (PID=2839) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:18:19,184] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:18:19,186] {logging_mixin.py:109} INFO - [2022-04-24 23:18:19,186] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:18:20,129] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:18:20,149] {logging_mixin.py:109} INFO - [2022-04-24 23:18:20,148] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:18:20,170] {logging_mixin.py:109} INFO - [2022-04-24 23:18:20,170] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:18:20,183] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.008 seconds
+[2022-04-24 23:18:50,333] {processor.py:163} INFO - Started process (PID=2860) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:18:50,337] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:18:50,339] {logging_mixin.py:109} INFO - [2022-04-24 23:18:50,339] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:18:51,517] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:18:51,557] {logging_mixin.py:109} INFO - [2022-04-24 23:18:51,556] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:18:51,594] {logging_mixin.py:109} INFO - [2022-04-24 23:18:51,594] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:18:51,609] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.282 seconds
+[2022-04-24 23:19:21,735] {processor.py:163} INFO - Started process (PID=2882) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:19:21,738] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:19:21,742] {logging_mixin.py:109} INFO - [2022-04-24 23:19:21,741] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:19:22,954] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:19:22,975] {logging_mixin.py:109} INFO - [2022-04-24 23:19:22,974] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:19:23,017] {logging_mixin.py:109} INFO - [2022-04-24 23:19:23,017] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:19:23,037] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.311 seconds
+[2022-04-24 23:19:53,205] {processor.py:163} INFO - Started process (PID=2916) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:19:53,209] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:19:53,211] {logging_mixin.py:109} INFO - [2022-04-24 23:19:53,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:19:54,658] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:19:54,691] {logging_mixin.py:109} INFO - [2022-04-24 23:19:54,690] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:19:54,725] {logging_mixin.py:109} INFO - [2022-04-24 23:19:54,725] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:19:54,750] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.549 seconds
+[2022-04-24 23:20:21,954] {processor.py:163} INFO - Started process (PID=2938) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:20:21,960] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:20:21,963] {logging_mixin.py:109} INFO - [2022-04-24 23:20:21,963] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:20:23,305] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:20:23,883] {logging_mixin.py:109} INFO - [2022-04-24 23:20:23,882] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:20:23,916] {logging_mixin.py:109} INFO - [2022-04-24 23:20:23,916] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:20:23,952] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.027 seconds
+[2022-04-24 23:20:30,984] {processor.py:163} INFO - Started process (PID=2941) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:20:30,987] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:20:30,989] {logging_mixin.py:109} INFO - [2022-04-24 23:20:30,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:20:32,125] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:20:32,132] {logging_mixin.py:109} INFO - [2022-04-24 23:20:32,131] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:20:32,199] {logging_mixin.py:109} INFO - [2022-04-24 23:20:32,199] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:20:32,251] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.275 seconds
+[2022-04-24 23:21:02,445] {processor.py:163} INFO - Started process (PID=2963) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:21:02,450] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:21:02,452] {logging_mixin.py:109} INFO - [2022-04-24 23:21:02,452] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:21:03,464] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:21:03,482] {logging_mixin.py:109} INFO - [2022-04-24 23:21:03,482] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:21:03,505] {logging_mixin.py:109} INFO - [2022-04-24 23:21:03,505] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:21:03,530] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.093 seconds
+[2022-04-24 23:21:33,590] {processor.py:163} INFO - Started process (PID=2984) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:21:33,594] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:21:33,596] {logging_mixin.py:109} INFO - [2022-04-24 23:21:33,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:21:34,782] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:21:34,802] {logging_mixin.py:109} INFO - [2022-04-24 23:21:34,801] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:21:34,823] {logging_mixin.py:109} INFO - [2022-04-24 23:21:34,823] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:21:34,838] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.253 seconds
+[2022-04-24 23:22:05,005] {processor.py:163} INFO - Started process (PID=3015) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:22:05,009] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:22:05,011] {logging_mixin.py:109} INFO - [2022-04-24 23:22:05,011] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:22:08,580] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:22:08,626] {logging_mixin.py:109} INFO - [2022-04-24 23:22:08,623] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:22:08,715] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 3.750 seconds
+[2022-04-24 23:22:39,268] {processor.py:163} INFO - Started process (PID=3027) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:22:39,281] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:22:39,298] {logging_mixin.py:109} INFO - [2022-04-24 23:22:39,294] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:22:47,465] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:22:47,561] {logging_mixin.py:109} INFO - [2022-04-24 23:22:47,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:22:47,733] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 8.498 seconds
+[2022-04-24 23:23:18,201] {processor.py:163} INFO - Started process (PID=3048) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:23:18,204] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:23:18,206] {logging_mixin.py:109} INFO - [2022-04-24 23:23:18,206] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:23:23,921] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:23:24,044] {logging_mixin.py:109} INFO - [2022-04-24 23:23:24,043] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:23:24,270] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 6.093 seconds
+[2022-04-24 23:23:54,549] {processor.py:163} INFO - Started process (PID=3068) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:23:54,552] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:23:54,554] {logging_mixin.py:109} INFO - [2022-04-24 23:23:54,554] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:23:56,222] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:23:56,242] {logging_mixin.py:109} INFO - [2022-04-24 23:23:56,242] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:23:56,288] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.749 seconds
+[2022-04-24 23:24:26,429] {processor.py:163} INFO - Started process (PID=3089) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:24:26,432] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:24:26,435] {logging_mixin.py:109} INFO - [2022-04-24 23:24:26,434] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:24:27,590] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:24:27,608] {logging_mixin.py:109} INFO - [2022-04-24 23:24:27,608] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:24:27,654] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.231 seconds
+[2022-04-24 23:24:57,749] {processor.py:163} INFO - Started process (PID=3120) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:24:57,752] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:24:57,754] {logging_mixin.py:109} INFO - [2022-04-24 23:24:57,754] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:24:59,260] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:24:59,305] {logging_mixin.py:109} INFO - [2022-04-24 23:24:59,305] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:24:59,359] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.617 seconds
+[2022-04-24 23:25:29,504] {processor.py:163} INFO - Started process (PID=3146) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:25:29,507] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:25:29,512] {logging_mixin.py:109} INFO - [2022-04-24 23:25:29,511] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:25:30,646] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:25:30,666] {logging_mixin.py:109} INFO - [2022-04-24 23:25:30,666] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:25:30,729] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.231 seconds
+[2022-04-24 23:26:00,908] {processor.py:163} INFO - Started process (PID=3168) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:26:00,915] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:26:00,917] {logging_mixin.py:109} INFO - [2022-04-24 23:26:00,917] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:26:02,761] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:26:02,792] {logging_mixin.py:109} INFO - [2022-04-24 23:26:02,791] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:26:02,846] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.946 seconds
+[2022-04-24 23:26:33,081] {processor.py:163} INFO - Started process (PID=3192) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:26:33,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:26:33,090] {logging_mixin.py:109} INFO - [2022-04-24 23:26:33,090] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:26:34,992] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:26:35,026] {logging_mixin.py:109} INFO - [2022-04-24 23:26:35,025] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:26:35,082] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.010 seconds
+[2022-04-24 23:27:05,318] {processor.py:163} INFO - Started process (PID=3223) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:27:05,321] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:27:05,329] {logging_mixin.py:109} INFO - [2022-04-24 23:27:05,329] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:27:06,386] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:27:06,401] {logging_mixin.py:109} INFO - [2022-04-24 23:27:06,401] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:27:06,429] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.126 seconds
+[2022-04-24 23:27:36,495] {processor.py:163} INFO - Started process (PID=3246) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:27:36,499] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:27:36,502] {logging_mixin.py:109} INFO - [2022-04-24 23:27:36,501] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:27:38,663] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:27:38,700] {logging_mixin.py:109} INFO - [2022-04-24 23:27:38,699] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:27:38,795] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.327 seconds
+[2022-04-24 23:28:09,014] {processor.py:163} INFO - Started process (PID=3270) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:28:09,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:28:09,020] {logging_mixin.py:109} INFO - [2022-04-24 23:28:09,020] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:28:10,234] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:28:10,249] {logging_mixin.py:109} INFO - [2022-04-24 23:28:10,249] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:28:10,277] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.276 seconds
+[2022-04-24 23:28:40,392] {processor.py:163} INFO - Started process (PID=3302) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:28:40,395] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:28:40,397] {logging_mixin.py:109} INFO - [2022-04-24 23:28:40,396] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:28:41,451] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:28:41,489] {logging_mixin.py:109} INFO - [2022-04-24 23:28:41,489] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:28:41,588] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.203 seconds
+[2022-04-24 23:29:11,739] {processor.py:163} INFO - Started process (PID=3325) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:29:11,742] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:29:11,744] {logging_mixin.py:109} INFO - [2022-04-24 23:29:11,744] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:29:12,681] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:29:12,697] {logging_mixin.py:109} INFO - [2022-04-24 23:29:12,697] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:29:12,727] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.994 seconds
+[2022-04-24 23:29:42,880] {processor.py:163} INFO - Started process (PID=3347) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:29:42,883] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:29:42,885] {logging_mixin.py:109} INFO - [2022-04-24 23:29:42,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:29:44,051] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:29:44,074] {logging_mixin.py:109} INFO - [2022-04-24 23:29:44,074] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:29:44,109] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.237 seconds
+[2022-04-24 23:30:14,213] {processor.py:163} INFO - Started process (PID=3379) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:30:14,216] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:30:14,219] {logging_mixin.py:109} INFO - [2022-04-24 23:30:14,218] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:30:15,168] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:30:15,191] {logging_mixin.py:109} INFO - [2022-04-24 23:30:15,190] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:30:15,222] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.015 seconds
+[2022-04-24 23:30:45,355] {processor.py:163} INFO - Started process (PID=3401) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:30:45,359] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:30:45,361] {logging_mixin.py:109} INFO - [2022-04-24 23:30:45,360] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:30:46,425] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:30:46,501] {logging_mixin.py:109} INFO - [2022-04-24 23:30:46,501] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:30:46,583] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.239 seconds
+[2022-04-24 23:31:16,878] {processor.py:163} INFO - Started process (PID=3426) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:31:16,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:31:16,900] {logging_mixin.py:109} INFO - [2022-04-24 23:31:16,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:31:20,724] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:31:21,136] {logging_mixin.py:109} INFO - [2022-04-24 23:31:21,136] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:31:21,158] {logging_mixin.py:109} INFO - [2022-04-24 23:31:21,158] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:31:21,179] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 4.320 seconds
+[2022-04-24 23:31:51,357] {processor.py:163} INFO - Started process (PID=3448) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:31:51,361] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:31:51,368] {logging_mixin.py:109} INFO - [2022-04-24 23:31:51,368] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:31:57,590] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:31:57,635] {logging_mixin.py:109} INFO - [2022-04-24 23:31:57,633] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:31:57,694] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 6.347 seconds
+[2022-04-24 23:32:27,849] {processor.py:163} INFO - Started process (PID=3468) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:32:27,860] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:32:27,925] {logging_mixin.py:109} INFO - [2022-04-24 23:32:27,909] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:32:36,586] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:32:36,680] {logging_mixin.py:109} INFO - [2022-04-24 23:32:36,679] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:32:36,953] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 9.125 seconds
+[2022-04-24 23:33:07,615] {processor.py:163} INFO - Started process (PID=3488) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:33:07,641] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:33:07,678] {logging_mixin.py:109} INFO - [2022-04-24 23:33:07,669] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:33:12,471] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:33:12,534] {logging_mixin.py:109} INFO - [2022-04-24 23:33:12,534] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:33:12,651] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 5.094 seconds
+[2022-04-24 23:33:42,798] {processor.py:163} INFO - Started process (PID=3510) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:33:42,805] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:33:42,815] {logging_mixin.py:109} INFO - [2022-04-24 23:33:42,814] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:33:45,389] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:33:45,447] {logging_mixin.py:109} INFO - [2022-04-24 23:33:45,447] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:33:45,566] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.785 seconds
+[2022-04-24 23:34:15,867] {processor.py:163} INFO - Started process (PID=3530) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:34:15,878] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:34:15,880] {logging_mixin.py:109} INFO - [2022-04-24 23:34:15,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:34:17,515] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:34:17,535] {logging_mixin.py:109} INFO - [2022-04-24 23:34:17,535] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:34:17,584] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.731 seconds
+[2022-04-24 23:34:47,734] {processor.py:163} INFO - Started process (PID=3552) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:34:47,741] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:34:47,744] {logging_mixin.py:109} INFO - [2022-04-24 23:34:47,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:34:49,404] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:34:49,436] {logging_mixin.py:109} INFO - [2022-04-24 23:34:49,436] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:34:49,500] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.785 seconds
+[2022-04-24 23:35:19,651] {processor.py:163} INFO - Started process (PID=3573) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:35:19,654] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:35:19,657] {logging_mixin.py:109} INFO - [2022-04-24 23:35:19,657] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:35:20,673] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:35:20,694] {logging_mixin.py:109} INFO - [2022-04-24 23:35:20,694] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:35:20,729] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.086 seconds
+[2022-04-24 23:35:50,894] {processor.py:163} INFO - Started process (PID=3610) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:35:50,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:35:50,900] {logging_mixin.py:109} INFO - [2022-04-24 23:35:50,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:35:51,945] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:35:51,963] {logging_mixin.py:109} INFO - [2022-04-24 23:35:51,963] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:35:51,997] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.112 seconds
+[2022-04-24 23:36:22,067] {processor.py:163} INFO - Started process (PID=3632) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:36:22,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:36:22,073] {logging_mixin.py:109} INFO - [2022-04-24 23:36:22,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:36:22,880] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:36:22,895] {logging_mixin.py:109} INFO - [2022-04-24 23:36:22,894] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:36:22,932] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.874 seconds
+[2022-04-24 23:36:53,154] {processor.py:163} INFO - Started process (PID=3653) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:36:53,164] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:36:53,170] {logging_mixin.py:109} INFO - [2022-04-24 23:36:53,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:36:54,969] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:36:55,014] {logging_mixin.py:109} INFO - [2022-04-24 23:36:55,013] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:36:55,086] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.937 seconds
+[2022-04-24 23:37:25,374] {processor.py:163} INFO - Started process (PID=3676) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:37:25,377] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:37:25,379] {logging_mixin.py:109} INFO - [2022-04-24 23:37:25,379] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:37:26,826] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:37:26,841] {logging_mixin.py:109} INFO - [2022-04-24 23:37:26,841] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:37:26,874] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.505 seconds
+[2022-04-24 23:37:57,067] {processor.py:163} INFO - Started process (PID=3698) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:37:57,071] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:37:57,073] {logging_mixin.py:109} INFO - [2022-04-24 23:37:57,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:37:58,094] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:37:58,111] {logging_mixin.py:109} INFO - [2022-04-24 23:37:58,111] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:37:58,143] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.084 seconds
+[2022-04-24 23:38:28,412] {processor.py:163} INFO - Started process (PID=3728) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:38:28,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:38:28,439] {logging_mixin.py:109} INFO - [2022-04-24 23:38:28,437] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:38:35,225] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:38:35,255] {logging_mixin.py:109} INFO - [2022-04-24 23:38:35,255] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:38:35,329] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 6.979 seconds
+[2022-04-24 23:39:05,557] {processor.py:163} INFO - Started process (PID=3751) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:39:05,564] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:39:05,569] {logging_mixin.py:109} INFO - [2022-04-24 23:39:05,569] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:39:08,523] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:39:08,568] {logging_mixin.py:109} INFO - [2022-04-24 23:39:08,567] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:39:08,633] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 3.127 seconds
+[2022-04-24 23:39:38,888] {processor.py:163} INFO - Started process (PID=3774) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:39:38,893] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:39:38,896] {logging_mixin.py:109} INFO - [2022-04-24 23:39:38,895] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:39:39,788] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:39:39,805] {logging_mixin.py:109} INFO - [2022-04-24 23:39:39,805] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:39:39,846] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.965 seconds
+[2022-04-24 23:40:10,160] {processor.py:163} INFO - Started process (PID=3796) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:40:10,163] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:40:10,165] {logging_mixin.py:109} INFO - [2022-04-24 23:40:10,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:40:11,001] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:40:11,034] {logging_mixin.py:109} INFO - [2022-04-24 23:40:11,033] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:40:11,088] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.935 seconds
+[2022-04-24 23:40:41,342] {processor.py:163} INFO - Started process (PID=3818) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:40:41,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:40:41,348] {logging_mixin.py:109} INFO - [2022-04-24 23:40:41,347] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:40:43,330] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:40:43,732] {logging_mixin.py:109} INFO - [2022-04-24 23:40:43,707] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:40:44,041] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.706 seconds
+[2022-04-24 23:41:14,264] {processor.py:163} INFO - Started process (PID=3848) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:41:14,268] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:41:14,279] {logging_mixin.py:109} INFO - [2022-04-24 23:41:14,279] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:41:16,270] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:41:16,288] {logging_mixin.py:109} INFO - [2022-04-24 23:41:16,287] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:41:16,309] {logging_mixin.py:109} INFO - [2022-04-24 23:41:16,309] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:41:16,322] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.069 seconds
+[2022-04-24 23:41:46,524] {processor.py:163} INFO - Started process (PID=3873) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:41:46,527] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:41:46,529] {logging_mixin.py:109} INFO - [2022-04-24 23:41:46,529] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:41:47,976] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:41:47,996] {logging_mixin.py:109} INFO - [2022-04-24 23:41:47,996] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:41:48,024] {logging_mixin.py:109} INFO - [2022-04-24 23:41:48,024] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:41:48,040] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.520 seconds
+[2022-04-24 23:42:18,249] {processor.py:163} INFO - Started process (PID=3896) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:18,254] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:42:18,256] {logging_mixin.py:109} INFO - [2022-04-24 23:42:18,256] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:19,209] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:19,234] {logging_mixin.py:109} INFO - [2022-04-24 23:42:19,234] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:42:19,302] {logging_mixin.py:109} INFO - [2022-04-24 23:42:19,301] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:42:19,357] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.113 seconds
+[2022-04-24 23:42:49,653] {processor.py:163} INFO - Started process (PID=3917) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:49,669] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:42:49,676] {logging_mixin.py:109} INFO - [2022-04-24 23:42:49,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:51,612] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:51,651] {logging_mixin.py:109} INFO - [2022-04-24 23:42:51,650] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:42:51,673] {logging_mixin.py:109} INFO - [2022-04-24 23:42:51,673] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:42:51,700] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.068 seconds
+[2022-04-24 23:42:53,691] {processor.py:163} INFO - Started process (PID=3930) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:53,698] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:42:53,704] {logging_mixin.py:109} INFO - [2022-04-24 23:42:53,703] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:54,810] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:42:55,118] {logging_mixin.py:109} INFO - [2022-04-24 23:42:55,117] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:42:55,143] {logging_mixin.py:109} INFO - [2022-04-24 23:42:55,143] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:42:55,170] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.492 seconds
+[2022-04-24 23:43:25,326] {processor.py:163} INFO - Started process (PID=3954) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:43:25,331] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:43:25,335] {logging_mixin.py:109} INFO - [2022-04-24 23:43:25,335] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:43:26,584] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:43:26,616] {logging_mixin.py:109} INFO - [2022-04-24 23:43:26,615] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:43:26,651] {logging_mixin.py:109} INFO - [2022-04-24 23:43:26,651] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:43:26,695] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.379 seconds
+[2022-04-24 23:43:56,950] {processor.py:163} INFO - Started process (PID=3977) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:43:56,972] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:43:56,975] {logging_mixin.py:109} INFO - [2022-04-24 23:43:56,975] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:44:04,249] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:44:04,405] {logging_mixin.py:109} INFO - [2022-04-24 23:44:04,405] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:44:04,705] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 7.779 seconds
+[2022-04-24 23:44:35,382] {processor.py:163} INFO - Started process (PID=3998) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:44:35,388] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:44:35,427] {logging_mixin.py:109} INFO - [2022-04-24 23:44:35,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:44:40,550] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:44:40,686] {logging_mixin.py:109} INFO - [2022-04-24 23:44:40,684] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:44:40,798] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 5.471 seconds
+[2022-04-24 23:45:10,954] {processor.py:163} INFO - Started process (PID=4021) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:45:10,961] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:45:10,965] {logging_mixin.py:109} INFO - [2022-04-24 23:45:10,965] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:45:12,636] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:45:12,672] {logging_mixin.py:109} INFO - [2022-04-24 23:45:12,672] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:45:12,738] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.791 seconds
+[2022-04-24 23:45:42,903] {processor.py:163} INFO - Started process (PID=4043) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:45:42,906] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:45:42,909] {logging_mixin.py:109} INFO - [2022-04-24 23:45:42,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:45:44,303] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:45:44,327] {logging_mixin.py:109} INFO - [2022-04-24 23:45:44,326] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:45:44,359] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.472 seconds
+[2022-04-24 23:46:14,477] {processor.py:163} INFO - Started process (PID=4066) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:46:14,482] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:46:14,485] {logging_mixin.py:109} INFO - [2022-04-24 23:46:14,485] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:46:15,800] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:46:15,828] {logging_mixin.py:109} INFO - [2022-04-24 23:46:15,827] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:46:15,893] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.426 seconds
+[2022-04-24 23:46:46,038] {processor.py:163} INFO - Started process (PID=4089) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:46:46,043] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:46:46,046] {logging_mixin.py:109} INFO - [2022-04-24 23:46:46,046] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:46:46,999] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:46:47,014] {logging_mixin.py:109} INFO - [2022-04-24 23:46:47,014] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:46:47,047] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.018 seconds
+[2022-04-24 23:47:17,159] {processor.py:163} INFO - Started process (PID=4123) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:47:17,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:47:17,164] {logging_mixin.py:109} INFO - [2022-04-24 23:47:17,164] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:47:19,092] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:47:19,113] {logging_mixin.py:109} INFO - [2022-04-24 23:47:19,112] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:47:19,174] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.020 seconds
+[2022-04-24 23:47:49,370] {processor.py:163} INFO - Started process (PID=4145) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:47:49,373] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:47:49,375] {logging_mixin.py:109} INFO - [2022-04-24 23:47:49,374] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:47:50,302] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:47:50,345] {logging_mixin.py:109} INFO - [2022-04-24 23:47:50,344] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:47:50,412] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.052 seconds
+[2022-04-24 23:48:20,597] {processor.py:163} INFO - Started process (PID=4168) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:48:20,610] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:48:20,614] {logging_mixin.py:109} INFO - [2022-04-24 23:48:20,613] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:48:21,600] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:48:21,620] {logging_mixin.py:109} INFO - [2022-04-24 23:48:21,620] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:48:21,648] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.061 seconds
+[2022-04-24 23:48:51,769] {processor.py:163} INFO - Started process (PID=4202) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:48:51,780] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:48:51,782] {logging_mixin.py:109} INFO - [2022-04-24 23:48:51,782] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:48:55,555] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:48:55,642] {logging_mixin.py:109} INFO - [2022-04-24 23:48:55,641] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:48:55,774] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 4.022 seconds
+[2022-04-24 23:49:26,061] {processor.py:163} INFO - Started process (PID=4224) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:49:26,065] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:49:26,067] {logging_mixin.py:109} INFO - [2022-04-24 23:49:26,067] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:49:26,886] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:49:26,900] {logging_mixin.py:109} INFO - [2022-04-24 23:49:26,899] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:49:26,929] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.873 seconds
+[2022-04-24 23:49:57,144] {processor.py:163} INFO - Started process (PID=4248) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:49:57,148] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:49:57,150] {logging_mixin.py:109} INFO - [2022-04-24 23:49:57,150] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:49:58,027] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:49:58,060] {logging_mixin.py:109} INFO - [2022-04-24 23:49:58,059] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:49:58,101] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.965 seconds
+[2022-04-24 23:50:28,320] {processor.py:163} INFO - Started process (PID=4279) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:50:28,327] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:50:28,331] {logging_mixin.py:109} INFO - [2022-04-24 23:50:28,330] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:50:29,949] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:50:29,993] {logging_mixin.py:109} INFO - [2022-04-24 23:50:29,992] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:50:30,056] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.747 seconds
+[2022-04-24 23:51:00,210] {processor.py:163} INFO - Started process (PID=4305) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:51:00,213] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:51:00,217] {logging_mixin.py:109} INFO - [2022-04-24 23:51:00,214] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:51:01,013] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:51:01,028] {logging_mixin.py:109} INFO - [2022-04-24 23:51:01,027] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:51:01,057] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.856 seconds
+[2022-04-24 23:51:31,214] {processor.py:163} INFO - Started process (PID=4328) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:51:31,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:51:31,219] {logging_mixin.py:109} INFO - [2022-04-24 23:51:31,219] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:51:32,120] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:51:32,165] {logging_mixin.py:109} INFO - [2022-04-24 23:51:32,164] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:51:32,236] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.032 seconds
+[2022-04-24 23:52:02,408] {processor.py:163} INFO - Started process (PID=4362) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:52:02,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:52:02,417] {logging_mixin.py:109} INFO - [2022-04-24 23:52:02,416] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:52:04,528] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:52:04,542] {logging_mixin.py:109} INFO - [2022-04-24 23:52:04,542] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:52:04,569] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.180 seconds
+[2022-04-24 23:52:34,711] {processor.py:163} INFO - Started process (PID=4384) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:52:34,716] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:52:34,718] {logging_mixin.py:109} INFO - [2022-04-24 23:52:34,718] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:52:35,521] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:52:35,541] {logging_mixin.py:109} INFO - [2022-04-24 23:52:35,541] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:52:35,570] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.869 seconds
+[2022-04-24 23:53:05,785] {processor.py:163} INFO - Started process (PID=4407) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:53:05,789] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:53:05,793] {logging_mixin.py:109} INFO - [2022-04-24 23:53:05,792] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:53:06,627] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:53:06,644] {logging_mixin.py:109} INFO - [2022-04-24 23:53:06,644] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:53:06,677] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.901 seconds
+[2022-04-24 23:53:36,781] {processor.py:163} INFO - Started process (PID=4428) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:53:36,784] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:53:36,786] {logging_mixin.py:109} INFO - [2022-04-24 23:53:36,786] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:53:37,865] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:53:37,882] {logging_mixin.py:109} INFO - [2022-04-24 23:53:37,882] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:53:37,901] {logging_mixin.py:109} INFO - [2022-04-24 23:53:37,900] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:53:37,913] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.136 seconds
+[2022-04-24 23:54:08,121] {processor.py:163} INFO - Started process (PID=4461) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:54:08,123] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:54:08,125] {logging_mixin.py:109} INFO - [2022-04-24 23:54:08,125] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:54:09,083] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:54:09,098] {logging_mixin.py:109} INFO - [2022-04-24 23:54:09,097] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:54:09,118] {logging_mixin.py:109} INFO - [2022-04-24 23:54:09,118] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:54:09,132] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.016 seconds
+[2022-04-24 23:54:39,266] {processor.py:163} INFO - Started process (PID=4485) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:54:39,269] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:54:39,271] {logging_mixin.py:109} INFO - [2022-04-24 23:54:39,270] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:54:40,202] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:54:40,237] {logging_mixin.py:109} INFO - [2022-04-24 23:54:40,236] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:54:40,264] {logging_mixin.py:109} INFO - [2022-04-24 23:54:40,264] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:54:40,279] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.018 seconds
+[2022-04-24 23:55:10,414] {processor.py:163} INFO - Started process (PID=4515) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:55:10,417] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:55:10,418] {logging_mixin.py:109} INFO - [2022-04-24 23:55:10,418] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:55:11,387] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:55:11,412] {logging_mixin.py:109} INFO - [2022-04-24 23:55:11,411] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:55:11,440] {logging_mixin.py:109} INFO - [2022-04-24 23:55:11,440] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:55:11,458] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.048 seconds
+[2022-04-24 23:55:41,573] {processor.py:163} INFO - Started process (PID=4538) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:55:41,577] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:55:41,579] {logging_mixin.py:109} INFO - [2022-04-24 23:55:41,579] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:55:42,945] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:55:42,981] {logging_mixin.py:109} INFO - [2022-04-24 23:55:42,981] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:55:43,021] {logging_mixin.py:109} INFO - [2022-04-24 23:55:43,020] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:55:43,040] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.471 seconds
+[2022-04-24 23:56:13,214] {processor.py:163} INFO - Started process (PID=4574) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:56:13,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:56:13,219] {logging_mixin.py:109} INFO - [2022-04-24 23:56:13,219] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:56:14,131] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:56:14,147] {logging_mixin.py:109} INFO - [2022-04-24 23:56:14,146] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:56:14,171] {logging_mixin.py:109} INFO - [2022-04-24 23:56:14,171] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:56:14,187] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.977 seconds
+[2022-04-24 23:56:44,391] {processor.py:163} INFO - Started process (PID=4596) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:56:44,393] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:56:44,395] {logging_mixin.py:109} INFO - [2022-04-24 23:56:44,395] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:56:45,163] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:56:45,183] {logging_mixin.py:109} INFO - [2022-04-24 23:56:45,183] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:56:45,206] {logging_mixin.py:109} INFO - [2022-04-24 23:56:45,206] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:56:45,221] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.836 seconds
+[2022-04-24 23:57:15,375] {processor.py:163} INFO - Started process (PID=4620) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:57:15,378] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:57:15,380] {logging_mixin.py:109} INFO - [2022-04-24 23:57:15,380] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:57:17,160] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:57:17,259] {logging_mixin.py:109} INFO - [2022-04-24 23:57:17,257] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:57:17,332] {logging_mixin.py:109} INFO - [2022-04-24 23:57:17,330] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:57:17,358] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.987 seconds
+[2022-04-24 23:57:47,565] {processor.py:163} INFO - Started process (PID=4651) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:57:47,570] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:57:47,571] {logging_mixin.py:109} INFO - [2022-04-24 23:57:47,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:57:48,443] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:57:48,457] {logging_mixin.py:109} INFO - [2022-04-24 23:57:48,457] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:57:48,474] {logging_mixin.py:109} INFO - [2022-04-24 23:57:48,474] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:57:48,485] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.928 seconds
+[2022-04-24 23:58:18,704] {processor.py:163} INFO - Started process (PID=4673) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:58:18,706] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:58:18,708] {logging_mixin.py:109} INFO - [2022-04-24 23:58:18,708] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:58:19,595] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:58:19,615] {logging_mixin.py:109} INFO - [2022-04-24 23:58:19,614] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:58:19,632] {logging_mixin.py:109} INFO - [2022-04-24 23:58:19,632] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:58:19,645] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.957 seconds
+[2022-04-24 23:58:49,844] {processor.py:163} INFO - Started process (PID=4709) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:58:49,849] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:58:49,851] {logging_mixin.py:109} INFO - [2022-04-24 23:58:49,851] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:58:52,003] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:58:52,063] {logging_mixin.py:109} INFO - [2022-04-24 23:58:52,062] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:58:52,113] {logging_mixin.py:109} INFO - [2022-04-24 23:58:52,113] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:58:52,140] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 2.302 seconds
+[2022-04-24 23:59:22,422] {processor.py:163} INFO - Started process (PID=4730) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:59:22,425] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:59:22,427] {logging_mixin.py:109} INFO - [2022-04-24 23:59:22,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:59:23,888] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:59:23,905] {logging_mixin.py:109} INFO - [2022-04-24 23:59:23,904] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:59:23,925] {logging_mixin.py:109} INFO - [2022-04-24 23:59:23,925] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:59:23,939] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 1.521 seconds
+[2022-04-24 23:59:54,121] {processor.py:163} INFO - Started process (PID=4755) to work on /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:59:54,125] {processor.py:642} INFO - Processing file /opt/airflow/dags/download_2_gcs_dag_V3.py for tasks to queue
+[2022-04-24 23:59:54,128] {logging_mixin.py:109} INFO - [2022-04-24 23:59:54,128] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:59:54,933] {processor.py:654} INFO - DAG(s) dict_keys(['local_2_gcs_2_bq_dag']) retrieved from /opt/airflow/dags/download_2_gcs_dag_V3.py
+[2022-04-24 23:59:54,973] {logging_mixin.py:109} INFO - [2022-04-24 23:59:54,972] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-04-24 23:59:55,000] {logging_mixin.py:109} INFO - [2022-04-24 23:59:55,000] {dag.py:2935} INFO - Setting next_dagrun for local_2_gcs_2_bq_dag to None
+[2022-04-24 23:59:55,015] {processor.py:171} INFO - Processing /opt/airflow/dags/download_2_gcs_dag_V3.py took 0.900 seconds

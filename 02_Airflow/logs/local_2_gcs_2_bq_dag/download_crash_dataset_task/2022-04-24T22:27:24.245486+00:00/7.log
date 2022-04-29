@@ -1,0 +1,28 @@
+[2022-04-27 17:27:31,243] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.download_crash_dataset_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-27 17:27:31,302] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.download_crash_dataset_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-27 17:27:31,307] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 17:27:31,310] {taskinstance.py:1239} INFO - Starting attempt 7 of 8
+[2022-04-27 17:27:31,314] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 17:27:31,360] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_crash_dataset_task> on 2022-04-24 22:27:24.245486+00:00
+[2022-04-27 17:27:31,374] {standard_task_runner.py:52} INFO - Started process 2665 to run task
+[2022-04-27 17:27:31,411] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'download_crash_dataset_task', 'manual__2022-04-24T22:27:24.245486+00:00', '--job-id', '218', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V2.py', '--cfg-path', '/tmp/tmpghysm9_9', '--error-file', '/tmp/tmpteirxf8g']
+[2022-04-27 17:27:31,420] {standard_task_runner.py:77} INFO - Job 218: Subtask download_crash_dataset_task
+[2022-04-27 17:27:31,814] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.download_crash_dataset_task manual__2022-04-24T22:27:24.245486+00:00 [running]> on host 2c2e7134f604
+[2022-04-27 17:27:32,033] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=download_crash_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T22:27:24.245486+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T22:27:24.245486+00:00
+[2022-04-27 17:27:32,049] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-04-27 17:27:32,054] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://data.cityofchicago.org/api/views/85ca-t3if/rows.csv?accessType=DOWNLOAD > /opt/***/85ca-t3if.csv']
+[2022-04-27 17:27:32,099] {subprocess.py:85} INFO - Output:
+[2022-04-27 17:28:59,449] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-04-27 17:28:59,863] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=download_crash_dataset_task, execution_date=20220424T222724, start_date=20220427T172731, end_date=20220427T172859
+[2022-04-27 17:29:00,414] {local_task_job.py:212} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-04-27 17:29:00,542] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 2665. PIDs of all processes in the group: [2665]
+[2022-04-27 17:29:00,546] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 2665
+[2022-04-27 17:29:00,579] {process_utils.py:70} INFO - Process psutil.Process(pid=2665, status='terminated', exitcode=0, started='17:27:30') (2665) terminated with exit code 0

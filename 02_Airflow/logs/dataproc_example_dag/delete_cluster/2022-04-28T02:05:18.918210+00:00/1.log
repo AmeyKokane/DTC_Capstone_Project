@@ -1,0 +1,24 @@
+[2022-04-28 02:41:55,187] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.delete_cluster manual__2022-04-28T02:05:18.918210+00:00 [queued]>
+[2022-04-28 02:41:55,223] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.delete_cluster manual__2022-04-28T02:05:18.918210+00:00 [queued]>
+[2022-04-28 02:41:55,225] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 02:41:55,228] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-28 02:41:55,230] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 02:41:55,268] {taskinstance.py:1259} INFO - Executing <Task(DataprocDeleteClusterOperator): delete_cluster> on 2022-04-28 02:05:18.918210+00:00
+[2022-04-28 02:41:55,287] {standard_task_runner.py:52} INFO - Started process 2541 to run task
+[2022-04-28 02:41:55,298] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_example_dag', 'delete_cluster', 'manual__2022-04-28T02:05:18.918210+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv2.py', '--cfg-path', '/tmp/tmp35_hhz8a', '--error-file', '/tmp/tmpcd3_h3c2']
+[2022-04-28 02:41:55,303] {standard_task_runner.py:77} INFO - Job 25: Subtask delete_cluster
+[2022-04-28 02:41:55,470] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_example_dag.delete_cluster manual__2022-04-28T02:05:18.918210+00:00 [running]> on host 1d2c8c1aba91
+[2022-04-28 02:41:55,620] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_example_dag
+AIRFLOW_CTX_TASK_ID=delete_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-28T02:05:18.918210+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-28T02:05:18.918210+00:00
+[2022-04-28 02:41:55,625] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-28 02:41:55,627] {dataproc.py:918} INFO - Deleting cluster: dtc-capstone-cluster
+[2022-04-28 02:42:35,487] {dataproc.py:930} INFO - Cluster deleted.
+[2022-04-28 02:42:35,510] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dataproc_example_dag, task_id=delete_cluster, execution_date=20220428T020518, start_date=20220428T024155, end_date=20220428T024235
+[2022-04-28 02:42:35,564] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-28 02:42:35,627] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

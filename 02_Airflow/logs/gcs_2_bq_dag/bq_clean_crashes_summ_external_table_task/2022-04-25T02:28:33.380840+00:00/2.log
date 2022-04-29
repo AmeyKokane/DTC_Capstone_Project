@@ -1,0 +1,22 @@
+[2022-04-25 02:46:05,164] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_clean_crashes_summ_external_table_task manual__2022-04-25T02:28:33.380840+00:00 [queued]>
+[2022-04-25 02:46:05,198] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_clean_crashes_summ_external_table_task manual__2022-04-25T02:28:33.380840+00:00 [queued]>
+[2022-04-25 02:46:05,199] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-25 02:46:05,200] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-04-25 02:46:05,201] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-25 02:46:05,251] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bq_clean_crashes_summ_external_table_task> on 2022-04-25 02:28:33.380840+00:00
+[2022-04-25 02:46:05,273] {standard_task_runner.py:52} INFO - Started process 931 to run task
+[2022-04-25 02:46:05,296] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_clean_crashes_summ_external_table_task', 'manual__2022-04-25T02:28:33.380840+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_v1.py', '--cfg-path', '/tmp/tmpkltgr_bl', '--error-file', '/tmp/tmpb591jlex']
+[2022-04-25 02:46:05,305] {standard_task_runner.py:77} INFO - Job 189: Subtask bq_clean_crashes_summ_external_table_task
+[2022-04-25 02:46:05,512] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_clean_crashes_summ_external_table_task manual__2022-04-25T02:28:33.380840+00:00 [running]> on host 2c2e7134f604
+[2022-04-25 02:46:05,724] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_clean_crashes_summ_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-25T02:28:33.380840+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-25T02:28:33.380840+00:00
+[2022-04-25 02:46:05,731] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-25 02:46:06,641] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=bq_clean_crashes_summ_external_table_task, execution_date=20220425T022833, start_date=20220425T024605, end_date=20220425T024606
+[2022-04-25 02:46:06,759] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-25 02:46:06,925] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

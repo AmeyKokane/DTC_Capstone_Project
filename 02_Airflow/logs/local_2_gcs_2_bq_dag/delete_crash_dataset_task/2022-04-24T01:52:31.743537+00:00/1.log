@@ -1,0 +1,63 @@
+[2022-04-24 01:53:08,368] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.delete_crash_dataset_task manual__2022-04-24T01:52:31.743537+00:00 [queued]>
+[2022-04-24 01:53:08,441] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.delete_crash_dataset_task manual__2022-04-24T01:52:31.743537+00:00 [queued]>
+[2022-04-24 01:53:08,443] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 01:53:08,444] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-24 01:53:08,445] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 01:53:08,500] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): delete_crash_dataset_task> on 2022-04-24 01:52:31.743537+00:00
+[2022-04-24 01:53:08,518] {standard_task_runner.py:52} INFO - Started process 5165 to run task
+[2022-04-24 01:53:08,542] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'delete_crash_dataset_task', 'manual__2022-04-24T01:52:31.743537+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V2.py', '--cfg-path', '/tmp/tmpczzwbw49', '--error-file', '/tmp/tmp8s2gi42c']
+[2022-04-24 01:53:08,576] {standard_task_runner.py:77} INFO - Job 49: Subtask delete_crash_dataset_task
+[2022-04-24 01:53:09,090] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.delete_crash_dataset_task manual__2022-04-24T01:52:31.743537+00:00 [running]> on host 65283f82c270
+[2022-04-24 01:53:09,452] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=delete_crash_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T01:52:31.743537+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T01:52:31.743537+00:00
+[2022-04-24 01:53:09,462] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-04-24 01:53:09,465] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/85ca-t3if /opt/***/85ca-t3if.parquet']
+[2022-04-24 01:53:09,607] {subprocess.py:85} INFO - Output:
+[2022-04-24 01:53:09,652] {subprocess.py:89} INFO - rm: cannot remove '/opt/***/85ca-t3if': No such file or directory
+[2022-04-24 01:53:09,655] {subprocess.py:93} INFO - Command exited with return code 1
+[2022-04-24 01:53:09,750] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-04-24 01:53:09,782] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=local_2_gcs_2_bq_dag, task_id=delete_crash_dataset_task, execution_date=20220424T015231, start_date=20220424T015308, end_date=20220424T015309
+[2022-04-24 01:53:09,854] {standard_task_runner.py:92} ERROR - Failed to execute job 49 for task delete_crash_dataset_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-04-24 01:53:09,978] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-24 01:53:10,082] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2022-04-24 22:56:44,885] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.people_bigquery_external_table_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 22:56:44,903] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.people_bigquery_external_table_task manual__2022-04-24T22:27:24.245486+00:00 [queued]>
+[2022-04-24 22:56:44,904] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 22:56:44,905] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-04-24 22:56:44,905] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-24 22:56:44,920] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): people_bigquery_external_table_task> on 2022-04-24 22:27:24.245486+00:00
+[2022-04-24 22:56:44,927] {standard_task_runner.py:52} INFO - Started process 1673 to run task
+[2022-04-24 22:56:44,935] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'people_bigquery_external_table_task', 'manual__2022-04-24T22:27:24.245486+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V3.py', '--cfg-path', '/tmp/tmp8uujetnn', '--error-file', '/tmp/tmpzow3wm3o']
+[2022-04-24 22:56:44,938] {standard_task_runner.py:77} INFO - Job 104: Subtask people_bigquery_external_table_task
+[2022-04-24 22:56:45,024] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.people_bigquery_external_table_task manual__2022-04-24T22:27:24.245486+00:00 [running]> on host 2bdc5459fc64
+[2022-04-24 22:56:45,166] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=people_bigquery_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-24T22:27:24.245486+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-24T22:27:24.245486+00:00
+[2022-04-24 22:56:45,173] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-24 22:56:46,064] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=people_bigquery_external_table_task, execution_date=20220424T222724, start_date=20220424T225644, end_date=20220424T225646
+[2022-04-24 22:56:46,141] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-24 22:56:46,235] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

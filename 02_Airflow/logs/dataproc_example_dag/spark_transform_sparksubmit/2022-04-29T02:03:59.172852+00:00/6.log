@@ -1,0 +1,111 @@
+[2022-04-29 03:03:17,487] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-29T02:03:59.172852+00:00 [queued]>
+[2022-04-29 03:03:17,559] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-29T02:03:59.172852+00:00 [queued]>
+[2022-04-29 03:03:17,571] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-29 03:03:17,574] {taskinstance.py:1239} INFO - Starting attempt 6 of 6
+[2022-04-29 03:03:17,584] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-29 03:03:17,739] {taskinstance.py:1259} INFO - Executing <Task(DataprocSubmitJobOperator): spark_transform_sparksubmit> on 2022-04-29 02:03:59.172852+00:00
+[2022-04-29 03:03:17,876] {standard_task_runner.py:52} INFO - Started process 2425 to run task
+[2022-04-29 03:03:17,924] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_example_dag', 'spark_transform_sparksubmit', 'manual__2022-04-29T02:03:59.172852+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv2.py', '--cfg-path', '/tmp/tmp3s54conv', '--error-file', '/tmp/tmp6j8_eqlw']
+[2022-04-29 03:03:17,941] {standard_task_runner.py:77} INFO - Job 9: Subtask spark_transform_sparksubmit
+[2022-04-29 03:03:18,454] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-29T02:03:59.172852+00:00 [running]> on host c3ee2a0c6e37
+[2022-04-29 03:03:19,225] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_example_dag
+AIRFLOW_CTX_TASK_ID=spark_transform_sparksubmit
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-29T02:03:59.172852+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-29T02:03:59.172852+00:00
+[2022-04-29 03:03:19,242] {dataproc.py:1997} INFO - Submitting job
+[2022-04-29 03:03:19,287] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-29 03:03:19,808] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 67, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "Not found: Cluster projects/quiet-rigging-347402/regions/us-central1/clusters/dtc-capstone-cluster"
+	debug_error_string = "{"created":"@1651201399.806224800","description":"Error received from peer ipv4:142.250.190.74:443","file":"src/core/lib/surface/call.cc","file_line":1063,"grpc_message":"Not found: Cluster projects/quiet-rigging-347402/regions/us-central1/clusters/dtc-capstone-cluster","grpc_status":5}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 2006, in execute
+    metadata=self.metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 979, in submit_job
+    metadata=metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/services/job_controller/client.py", line 412, in submit_job
+    response = rpc(request, retry=retry, timeout=timeout, metadata=metadata,)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 145, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 69, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.NotFound: 404 Not found: Cluster projects/quiet-rigging-347402/regions/us-central1/clusters/dtc-capstone-cluster
+[2022-04-29 03:03:20,119] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=dataproc_example_dag, task_id=spark_transform_sparksubmit, execution_date=20220429T020359, start_date=20220429T030317, end_date=20220429T030320
+[2022-04-29 03:03:20,326] {standard_task_runner.py:92} ERROR - Failed to execute job 9 for task spark_transform_sparksubmit
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 67, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "Not found: Cluster projects/quiet-rigging-347402/regions/us-central1/clusters/dtc-capstone-cluster"
+	debug_error_string = "{"created":"@1651201399.806224800","description":"Error received from peer ipv4:142.250.190.74:443","file":"src/core/lib/surface/call.cc","file_line":1063,"grpc_message":"Not found: Cluster projects/quiet-rigging-347402/regions/us-central1/clusters/dtc-capstone-cluster","grpc_status":5}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 2006, in execute
+    metadata=self.metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 979, in submit_job
+    metadata=metadata,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/services/job_controller/client.py", line 412, in submit_job
+    response = rpc(request, retry=retry, timeout=timeout, metadata=metadata,)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 145, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 69, in error_remapped_callable
+    six.raise_from(exceptions.from_grpc_error(exc), exc)
+  File "<string>", line 3, in raise_from
+google.api_core.exceptions.NotFound: 404 Not found: Cluster projects/quiet-rigging-347402/regions/us-central1/clusters/dtc-capstone-cluster
+[2022-04-29 03:03:20,469] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-29 03:03:20,945] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,181 @@
+[2022-04-29 02:06:16,872] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-29T02:03:59.172852+00:00 [queued]>
+[2022-04-29 02:06:16,899] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-29T02:03:59.172852+00:00 [queued]>
+[2022-04-29 02:06:16,900] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-29 02:06:16,902] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-29 02:06:16,903] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-29 02:06:16,925] {taskinstance.py:1259} INFO - Executing <Task(DataprocSubmitJobOperator): spark_transform_sparksubmit> on 2022-04-29 02:03:59.172852+00:00
+[2022-04-29 02:06:16,933] {standard_task_runner.py:52} INFO - Started process 447 to run task
+[2022-04-29 02:06:16,946] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_example_dag', 'spark_transform_sparksubmit', 'manual__2022-04-29T02:03:59.172852+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv2.py', '--cfg-path', '/tmp/tmp83s9vg34', '--error-file', '/tmp/tmpajwp4r3f']
+[2022-04-29 02:06:16,949] {standard_task_runner.py:77} INFO - Job 4: Subtask spark_transform_sparksubmit
+[2022-04-29 02:06:17,103] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_example_dag.spark_transform_sparksubmit manual__2022-04-29T02:03:59.172852+00:00 [running]> on host c3ee2a0c6e37
+[2022-04-29 02:06:17,247] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_example_dag
+AIRFLOW_CTX_TASK_ID=spark_transform_sparksubmit
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-29T02:03:59.172852+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-29T02:03:59.172852+00:00
+[2022-04-29 02:06:17,250] {dataproc.py:1997} INFO - Submitting job
+[2022-04-29 02:06:17,252] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-29 02:06:17,537] {dataproc.py:2009} INFO - Job 6fe3215e-4d3a-484a-9746-0891bd2878b0 submitted successfully.
+[2022-04-29 02:06:17,560] {dataproc.py:2022} INFO - Waiting for job 6fe3215e-4d3a-484a-9746-0891bd2878b0 to complete
+[2022-04-29 02:06:58,418] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 2024, in execute
+    job_id=job_id, region=self.region, project_id=self.project_id, timeout=self.wait_timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 871, in wait_for_job
+    raise AirflowException(f'Job failed:\n{job}')
+airflow.exceptions.AirflowException: Job failed:
+reference {
+  project_id: "quiet-rigging-347402"
+  job_id: "6fe3215e-4d3a-484a-9746-0891bd2878b0"
+}
+placement {
+  cluster_name: "dtc-capstone-cluster"
+  cluster_uuid: "464d7a08-3d87-41d2-8e1b-ce11ee3e53e6"
+}
+pyspark_job {
+  main_python_file_uri: "gs://dtc_capstone_quiet-rigging-347402/dataproc/spark_sql_dataproc_v2.py"
+  args: "--input_crashes=gs://dtc_capstone_quiet-rigging-347402/raw/crash/*"
+  args: "--input_vehicles=gs://dtc_capstone_quiet-rigging-347402/raw/vehicles/*"
+  args: "--input_people=gs://dtc_capstone_quiet-rigging-347402/raw/people/*"
+  args: "--output=gs://dtc_capstone_quiet-rigging-347402/clean"
+  jar_file_uris: "gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar"
+}
+status {
+  state: ERROR
+  details: "Google Cloud Dataproc Agent reports job failure. If logs are available, they can be found at:\nhttps://console.cloud.google.com/dataproc/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0?project=quiet-rigging-347402&region=us-central1\ngcloud dataproc jobs wait \'6fe3215e-4d3a-484a-9746-0891bd2878b0\' --region \'us-central1\' --project \'quiet-rigging-347402\'\nhttps://console.cloud.google.com/storage/browser/dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/\ngs://dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/driveroutput"
+  state_start_time {
+    seconds: 1651198015
+    nanos: 875934000
+  }
+}
+yarn_applications {
+  name: "test"
+  state: FINISHED
+  progress: 1.0
+  tracking_url: "http://dtc-capstone-cluster-m:8088/proxy/application_1651197908716_0001/"
+}
+status_history {
+  state: PENDING
+  state_start_time {
+    seconds: 1651197977
+    nanos: 515595000
+  }
+}
+status_history {
+  state: SETUP_DONE
+  state_start_time {
+    seconds: 1651197977
+    nanos: 558651000
+  }
+}
+status_history {
+  state: RUNNING
+  state_start_time {
+    seconds: 1651197977
+    nanos: 892465000
+  }
+}
+driver_control_files_uri: "gs://dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/"
+driver_output_resource_uri: "gs://dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/driveroutput"
+job_uuid: "6fe3215e-4d3a-484a-9746-0891bd2878b0"
+done: true
+
+[2022-04-29 02:06:58,443] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=dataproc_example_dag, task_id=spark_transform_sparksubmit, execution_date=20220429T020359, start_date=20220429T020616, end_date=20220429T020658
+[2022-04-29 02:06:58,480] {standard_task_runner.py:92} ERROR - Failed to execute job 4 for task spark_transform_sparksubmit
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 2024, in execute
+    job_id=job_id, region=self.region, project_id=self.project_id, timeout=self.wait_timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 871, in wait_for_job
+    raise AirflowException(f'Job failed:\n{job}')
+airflow.exceptions.AirflowException: Job failed:
+reference {
+  project_id: "quiet-rigging-347402"
+  job_id: "6fe3215e-4d3a-484a-9746-0891bd2878b0"
+}
+placement {
+  cluster_name: "dtc-capstone-cluster"
+  cluster_uuid: "464d7a08-3d87-41d2-8e1b-ce11ee3e53e6"
+}
+pyspark_job {
+  main_python_file_uri: "gs://dtc_capstone_quiet-rigging-347402/dataproc/spark_sql_dataproc_v2.py"
+  args: "--input_crashes=gs://dtc_capstone_quiet-rigging-347402/raw/crash/*"
+  args: "--input_vehicles=gs://dtc_capstone_quiet-rigging-347402/raw/vehicles/*"
+  args: "--input_people=gs://dtc_capstone_quiet-rigging-347402/raw/people/*"
+  args: "--output=gs://dtc_capstone_quiet-rigging-347402/clean"
+  jar_file_uris: "gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar"
+}
+status {
+  state: ERROR
+  details: "Google Cloud Dataproc Agent reports job failure. If logs are available, they can be found at:\nhttps://console.cloud.google.com/dataproc/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0?project=quiet-rigging-347402&region=us-central1\ngcloud dataproc jobs wait \'6fe3215e-4d3a-484a-9746-0891bd2878b0\' --region \'us-central1\' --project \'quiet-rigging-347402\'\nhttps://console.cloud.google.com/storage/browser/dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/\ngs://dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/driveroutput"
+  state_start_time {
+    seconds: 1651198015
+    nanos: 875934000
+  }
+}
+yarn_applications {
+  name: "test"
+  state: FINISHED
+  progress: 1.0
+  tracking_url: "http://dtc-capstone-cluster-m:8088/proxy/application_1651197908716_0001/"
+}
+status_history {
+  state: PENDING
+  state_start_time {
+    seconds: 1651197977
+    nanos: 515595000
+  }
+}
+status_history {
+  state: SETUP_DONE
+  state_start_time {
+    seconds: 1651197977
+    nanos: 558651000
+  }
+}
+status_history {
+  state: RUNNING
+  state_start_time {
+    seconds: 1651197977
+    nanos: 892465000
+  }
+}
+driver_control_files_uri: "gs://dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/"
+driver_output_resource_uri: "gs://dataproc-staging-us-central1-113206216777-nuq0oayd/google-cloud-dataproc-metainfo/464d7a08-3d87-41d2-8e1b-ce11ee3e53e6/jobs/6fe3215e-4d3a-484a-9746-0891bd2878b0/driveroutput"
+job_uuid: "6fe3215e-4d3a-484a-9746-0891bd2878b0"
+done: true
+
+[2022-04-29 02:06:58,524] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-04-29 02:06:58,657] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

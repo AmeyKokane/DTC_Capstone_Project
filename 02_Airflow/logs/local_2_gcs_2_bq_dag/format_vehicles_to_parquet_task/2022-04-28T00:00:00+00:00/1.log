@@ -1,0 +1,44 @@
+[2022-04-28 01:09:03,910] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.format_vehicles_to_parquet_task scheduled__2022-04-28T00:00:00+00:00 [queued]>
+[2022-04-28 01:09:04,042] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.format_vehicles_to_parquet_task scheduled__2022-04-28T00:00:00+00:00 [queued]>
+[2022-04-28 01:09:04,043] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 01:09:04,045] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-28 01:09:04,047] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 01:09:04,175] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_vehicles_to_parquet_task> on 2022-04-28 00:00:00+00:00
+[2022-04-28 01:09:04,249] {standard_task_runner.py:52} INFO - Started process 211 to run task
+[2022-04-28 01:09:04,314] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'format_vehicles_to_parquet_task', 'scheduled__2022-04-28T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V2.py', '--cfg-path', '/tmp/tmpfj_nv_3i', '--error-file', '/tmp/tmpsb66ago3']
+[2022-04-28 01:09:04,333] {standard_task_runner.py:77} INFO - Job 8: Subtask format_vehicles_to_parquet_task
+[2022-04-28 01:09:04,951] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.format_vehicles_to_parquet_task scheduled__2022-04-28T00:00:00+00:00 [running]> on host 130e3b0cefbc
+[2022-04-28 01:09:05,519] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=format_vehicles_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-28T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-28T00:00:00+00:00
+[2022-04-28 01:10:12,525] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-28 01:10:12,544] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=format_vehicles_to_parquet_task, execution_date=20220428T000000, start_date=20220428T010903, end_date=20220428T011012
+[2022-04-28 01:10:12,805] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-28 01:10:12,926] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-04-28 01:56:00,094] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.format_vehicles_to_parquet_task scheduled__2022-04-28T00:00:00+00:00 [queued]>
+[2022-04-28 01:56:00,220] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_2_gcs_2_bq_dag.format_vehicles_to_parquet_task scheduled__2022-04-28T00:00:00+00:00 [queued]>
+[2022-04-28 01:56:00,231] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 01:56:00,232] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-04-28 01:56:00,238] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-28 01:56:00,383] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_vehicles_to_parquet_task> on 2022-04-28 00:00:00+00:00
+[2022-04-28 01:56:00,491] {standard_task_runner.py:52} INFO - Started process 583 to run task
+[2022-04-28 01:56:00,540] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_2_gcs_2_bq_dag', 'format_vehicles_to_parquet_task', 'scheduled__2022-04-28T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/download_2_gcs_dag_V2.py', '--cfg-path', '/tmp/tmp4gv4eenz', '--error-file', '/tmp/tmpv9zswaxq']
+[2022-04-28 01:56:00,552] {standard_task_runner.py:77} INFO - Job 8: Subtask format_vehicles_to_parquet_task
+[2022-04-28 01:56:01,217] {logging_mixin.py:109} INFO - Running <TaskInstance: local_2_gcs_2_bq_dag.format_vehicles_to_parquet_task scheduled__2022-04-28T00:00:00+00:00 [running]> on host 1d2c8c1aba91
+[2022-04-28 01:56:01,722] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_2_gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=format_vehicles_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-28T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-28T00:00:00+00:00
+[2022-04-28 01:56:46,536] {python.py:175} INFO - Done. Returned value was: None
+[2022-04-28 01:56:46,559] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_2_gcs_2_bq_dag, task_id=format_vehicles_to_parquet_task, execution_date=20220428T000000, start_date=20220428T015600, end_date=20220428T015646
+[2022-04-28 01:56:46,649] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-28 01:56:46,714] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

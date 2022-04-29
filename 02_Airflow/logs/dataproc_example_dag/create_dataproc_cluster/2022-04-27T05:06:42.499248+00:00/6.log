@@ -1,0 +1,24 @@
+[2022-04-27 16:39:36,649] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.create_dataproc_cluster manual__2022-04-27T05:06:42.499248+00:00 [queued]>
+[2022-04-27 16:39:36,689] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_example_dag.create_dataproc_cluster manual__2022-04-27T05:06:42.499248+00:00 [queued]>
+[2022-04-27 16:39:36,694] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 16:39:36,696] {taskinstance.py:1239} INFO - Starting attempt 6 of 7
+[2022-04-27 16:39:36,698] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-27 16:39:36,755] {taskinstance.py:1259} INFO - Executing <Task(DataprocCreateClusterOperator): create_dataproc_cluster> on 2022-04-27 05:06:42.499248+00:00
+[2022-04-27 16:39:36,772] {standard_task_runner.py:52} INFO - Started process 824 to run task
+[2022-04-27 16:39:36,793] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_example_dag', 'create_dataproc_cluster', 'manual__2022-04-27T05:06:42.499248+00:00', '--job-id', '216', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv2.py', '--cfg-path', '/tmp/tmpthnusme4', '--error-file', '/tmp/tmphc1x0jdd']
+[2022-04-27 16:39:36,802] {standard_task_runner.py:77} INFO - Job 216: Subtask create_dataproc_cluster
+[2022-04-27 16:39:37,056] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_example_dag.create_dataproc_cluster manual__2022-04-27T05:06:42.499248+00:00 [running]> on host 2c2e7134f604
+[2022-04-27 16:39:37,283] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_example_dag
+AIRFLOW_CTX_TASK_ID=create_dataproc_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-27T05:06:42.499248+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-27T05:06:42.499248+00:00
+[2022-04-27 16:39:37,287] {dataproc.py:662} INFO - Creating cluster: dtc-capstone-cluster
+[2022-04-27 16:39:37,296] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-27 16:42:00,885] {dataproc.py:606} INFO - Cluster created.
+[2022-04-27 16:42:00,946] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dataproc_example_dag, task_id=create_dataproc_cluster, execution_date=20220427T050642, start_date=20220427T163936, end_date=20220427T164200
+[2022-04-27 16:42:01,004] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-27 16:42:01,068] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
