@@ -1,0 +1,28 @@
+[2022-05-01 15:55:57,056] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.download_people_dataset_task manual__2022-05-01T15:37:36.925969+00:00 [queued]>
+[2022-05-01 15:55:57,085] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.download_people_dataset_task manual__2022-05-01T15:37:36.925969+00:00 [queued]>
+[2022-05-01 15:55:57,086] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:55:57,088] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-05-01 15:55:57,090] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:55:57,179] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_local_and_upload_GCS.download_people_dataset_task> on 2022-05-01 15:37:36.925969+00:00
+[2022-05-01 15:55:57,206] {standard_task_runner.py:52} INFO - Started process 1567 to run task
+[2022-05-01 15:55:57,285] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_gcs_sparkdataproc_bq_dag', 'download_local_and_upload_GCS.download_people_dataset_task', 'manual__2022-05-01T15:37:36.925969+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/final_dag.py', '--cfg-path', '/tmp/tmpqbx0zq19', '--error-file', '/tmp/tmpdq0fz6wz']
+[2022-05-01 15:55:57,303] {standard_task_runner.py:77} INFO - Job 32: Subtask download_local_and_upload_GCS.download_people_dataset_task
+[2022-05-01 15:55:58,246] {logging_mixin.py:109} INFO - Running <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.download_people_dataset_task manual__2022-05-01T15:37:36.925969+00:00 [running]> on host 97b9d78a285f
+[2022-05-01 15:55:58,622] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_gcs_sparkdataproc_bq_dag
+AIRFLOW_CTX_TASK_ID=download_local_and_upload_GCS.download_people_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-01T15:37:36.925969+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-01T15:37:36.925969+00:00
+[2022-05-01 15:55:58,630] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-01 15:55:58,638] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://data.cityofchicago.org/api/views/u6pd-qa9d/rows.csv?accessType=DOWNLOAD > /opt/***/u6pd-qa9d.csv']
+[2022-05-01 15:55:58,822] {subprocess.py:85} INFO - Output:
+[2022-05-01 15:58:32,616] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-05-01 15:58:33,774] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_gcs_sparkdataproc_bq_dag, task_id=download_local_and_upload_GCS.download_people_dataset_task, execution_date=20220501T153736, start_date=20220501T155557, end_date=20220501T155833
+[2022-05-01 15:58:34,893] {local_task_job.py:212} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-05-01 15:58:34,988] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 1567. PIDs of all processes in the group: [1567]
+[2022-05-01 15:58:34,993] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 1567
+[2022-05-01 15:58:35,228] {process_utils.py:70} INFO - Process psutil.Process(pid=1567, status='terminated', exitcode=0, started='15:55:56') (1567) terminated with exit code 0

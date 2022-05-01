@@ -1,0 +1,26 @@
+[2022-05-01 15:52:18,975] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.sparkdataproc_and_bigquery.spark_transform_sparksubmit scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:52:19,074] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.sparkdataproc_and_bigquery.spark_transform_sparksubmit scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:52:19,083] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:52:19,084] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-05-01 15:52:19,090] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:52:19,194] {taskinstance.py:1259} INFO - Executing <Task(DataprocSubmitJobOperator): sparkdataproc_and_bigquery.spark_transform_sparksubmit> on 2022-05-01 00:00:00+00:00
+[2022-05-01 15:52:19,233] {standard_task_runner.py:52} INFO - Started process 1374 to run task
+[2022-05-01 15:52:19,289] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_gcs_sparkdataproc_bq_dag', 'sparkdataproc_and_bigquery.spark_transform_sparksubmit', 'scheduled__2022-05-01T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/final_dag.py', '--cfg-path', '/tmp/tmpvuv6riy7', '--error-file', '/tmp/tmpb63nft66']
+[2022-05-01 15:52:19,308] {standard_task_runner.py:77} INFO - Job 27: Subtask sparkdataproc_and_bigquery.spark_transform_sparksubmit
+[2022-05-01 15:52:19,820] {logging_mixin.py:109} INFO - Running <TaskInstance: local_gcs_sparkdataproc_bq_dag.sparkdataproc_and_bigquery.spark_transform_sparksubmit scheduled__2022-05-01T00:00:00+00:00 [running]> on host 97b9d78a285f
+[2022-05-01 15:52:20,100] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_gcs_sparkdataproc_bq_dag
+AIRFLOW_CTX_TASK_ID=sparkdataproc_and_bigquery.spark_transform_sparksubmit
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-01T00:00:00+00:00
+[2022-05-01 15:52:20,109] {dataproc.py:1997} INFO - Submitting job
+[2022-05-01 15:52:20,127] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-05-01 15:52:20,530] {dataproc.py:2009} INFO - Job 944d218b-7efc-45a9-8f07-af8aca85c504 submitted successfully.
+[2022-05-01 15:52:20,594] {dataproc.py:2022} INFO - Waiting for job 944d218b-7efc-45a9-8f07-af8aca85c504 to complete
+[2022-05-01 15:53:42,538] {dataproc.py:2026} INFO - Job 944d218b-7efc-45a9-8f07-af8aca85c504 completed successfully.
+[2022-05-01 15:53:42,685] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_gcs_sparkdataproc_bq_dag, task_id=sparkdataproc_and_bigquery.spark_transform_sparksubmit, execution_date=20220501T000000, start_date=20220501T155218, end_date=20220501T155342
+[2022-05-01 15:53:42,828] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-01 15:53:42,968] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

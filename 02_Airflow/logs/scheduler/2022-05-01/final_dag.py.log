@@ -1,0 +1,956 @@
+[2022-05-01 15:16:19,060] {processor.py:163} INFO - Started process (PID=76) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:16:19,121] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:16:19,146] {logging_mixin.py:109} INFO - [2022-05-01 15:16:19,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:16:49,189] {logging_mixin.py:109} INFO - [2022-05-01 15:16:49,189] {timeout.py:36} ERROR - Process timed out, PID: 76
+[2022-05-01 15:16:49,202] {logging_mixin.py:109} WARNING - --- Logging error ---
+[2022-05-01 15:16:49,261] {logging_mixin.py:109} WARNING - Traceback (most recent call last):
+[2022-05-01 15:16:49,280] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+[2022-05-01 15:16:49,285] {logging_mixin.py:109} WARNING -   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[2022-05-01 15:16:49,289] {logging_mixin.py:109} WARNING -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-05-01 15:16:49,292] {logging_mixin.py:109} WARNING -   File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+[2022-05-01 15:16:49,299] {logging_mixin.py:109} WARNING - TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:16:49,300] {logging_mixin.py:109} WARNING - 
+During handling of the above exception, another exception occurred:
+[2022-05-01 15:16:49,302] {logging_mixin.py:109} WARNING - Traceback (most recent call last):
+[2022-05-01 15:16:49,309] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 1025, in emit
+    msg = self.format(record)
+[2022-05-01 15:16:49,311] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 869, in format
+    return fmt.format(record)
+[2022-05-01 15:16:49,313] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 616, in format
+    record.exc_text = self.formatException(record.exc_info)
+[2022-05-01 15:16:49,322] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/logging/__init__.py", line 566, in formatException
+    traceback.print_exception(ei[0], ei[1], tb, None, sio)
+[2022-05-01 15:16:49,324] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/traceback.py", line 104, in print_exception
+    type(value), value, tb, limit=limit).format(chain=chain):
+[2022-05-01 15:16:49,326] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/traceback.py", line 508, in __init__
+    capture_locals=capture_locals)
+[2022-05-01 15:16:49,333] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/traceback.py", line 363, in extract
+    f.line
+[2022-05-01 15:16:49,335] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/traceback.py", line 285, in line
+    self._line = linecache.getline(self.filename, self.lineno).strip()
+[2022-05-01 15:16:49,339] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/linecache.py", line 16, in getline
+    lines = getlines(filename, module_globals)
+[2022-05-01 15:16:49,344] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/linecache.py", line 47, in getlines
+    return updatecache(filename, module_globals)
+[2022-05-01 15:16:49,347] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+[2022-05-01 15:16:49,351] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/tokenize.py", line 447, in open
+    buffer = _builtin_open(filename, 'rb')
+[2022-05-01 15:16:49,360] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+[2022-05-01 15:16:49,367] {logging_mixin.py:109} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/final_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 76
+[2022-05-01 15:16:49,370] {logging_mixin.py:109} WARNING - Call stack:
+[2022-05-01 15:16:49,388] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/bin/airflow", line 8, in <module>
+    sys.exit(main())
+[2022-05-01 15:16:49,420] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/__main__.py", line 48, in main
+    args.func(args)
+[2022-05-01 15:16:49,421] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+[2022-05-01 15:16:49,423] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+[2022-05-01 15:16:49,425] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/scheduler_command.py", line 75, in scheduler
+    _run_scheduler_job(args=args)
+[2022-05-01 15:16:49,430] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/scheduler_command.py", line 46, in _run_scheduler_job
+    job.run()
+[2022-05-01 15:16:49,440] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/base_job.py", line 245, in run
+    self._execute()
+[2022-05-01 15:16:49,444] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/scheduler_job.py", line 624, in _execute
+    self.processor_agent.start()
+[2022-05-01 15:16:49,446] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 161, in start
+    process.start()
+[2022-05-01 15:16:49,450] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/process.py", line 112, in start
+    self._popen = self._Popen(self)
+[2022-05-01 15:16:49,454] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+[2022-05-01 15:16:49,458] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/popen_fork.py", line 20, in __init__
+    self._launch(process_obj)
+[2022-05-01 15:16:49,461] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/popen_fork.py", line 74, in _launch
+    code = process_obj._bootstrap()
+[2022-05-01 15:16:49,469] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+[2022-05-01 15:16:49,474] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+[2022-05-01 15:16:49,481] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 287, in _run_processor_manager
+    processor_manager.start()
+[2022-05-01 15:16:49,485] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 520, in start
+    return self._run_parsing_loop()
+[2022-05-01 15:16:49,487] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 536, in _run_parsing_loop
+    self.start_new_processes()
+[2022-05-01 15:16:49,489] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 964, in start_new_processes
+    processor.start()
+[2022-05-01 15:16:49,498] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 204, in start
+    process.start()
+[2022-05-01 15:16:49,502] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/process.py", line 112, in start
+    self._popen = self._Popen(self)
+[2022-05-01 15:16:49,504] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+[2022-05-01 15:16:49,512] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/popen_fork.py", line 20, in __init__
+    self._launch(process_obj)
+[2022-05-01 15:16:49,513] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/popen_fork.py", line 74, in _launch
+    code = process_obj._bootstrap()
+[2022-05-01 15:16:49,515] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+[2022-05-01 15:16:49,517] {logging_mixin.py:109} WARNING -   File "/usr/local/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+[2022-05-01 15:16:49,536] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 168, in _run_file_processor
+    callback_requests=callback_requests,
+[2022-05-01 15:16:49,537] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+[2022-05-01 15:16:49,541] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 645, in process_file
+    dagbag = DagBag(file_path, include_examples=False, include_smart_sensor=False)
+[2022-05-01 15:16:49,543] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 141, in __init__
+    safe_mode=safe_mode,
+[2022-05-01 15:16:49,545] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 515, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+[2022-05-01 15:16:49,547] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 294, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+[2022-05-01 15:16:49,553] {logging_mixin.py:109} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 334, in _load_modules_from_file
+    self.log.exception("Failed to import: %s", filepath)
+[2022-05-01 15:16:49,557] {logging_mixin.py:109} WARNING - Message: 'Failed to import: %s'
+Arguments: ('/opt/airflow/dags/final_dag.py',)
+[2022-05-01 15:16:49,763] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:16:49,879] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 31.057 seconds
+[2022-05-01 15:17:20,455] {processor.py:163} INFO - Started process (PID=122) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:17:20,491] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:17:20,553] {logging_mixin.py:109} INFO - [2022-05-01 15:17:20,552] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:17:34,127] {logging_mixin.py:109} INFO - [2022-05-01 15:17:34,123] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:17:34,174] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:17:34,202] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 13.813 seconds
+[2022-05-01 15:18:04,960] {processor.py:163} INFO - Started process (PID=152) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:18:04,980] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:18:04,988] {logging_mixin.py:109} INFO - [2022-05-01 15:18:04,988] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:18:07,142] {logging_mixin.py:109} INFO - [2022-05-01 15:18:07,138] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:18:07,172] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:18:07,192] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.238 seconds
+[2022-05-01 15:18:38,084] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:18:38,088] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:18:38,092] {logging_mixin.py:109} INFO - [2022-05-01 15:18:38,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:18:39,371] {logging_mixin.py:109} INFO - [2022-05-01 15:18:39,365] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:18:39,407] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:18:39,425] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.348 seconds
+[2022-05-01 15:19:09,591] {processor.py:163} INFO - Started process (PID=215) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:19:09,602] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:19:09,613] {logging_mixin.py:109} INFO - [2022-05-01 15:19:09,612] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:19:11,558] {logging_mixin.py:109} INFO - [2022-05-01 15:19:11,547] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:19:11,611] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:19:11,633] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.056 seconds
+[2022-05-01 15:19:42,542] {processor.py:163} INFO - Started process (PID=244) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:19:42,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:19:42,559] {logging_mixin.py:109} INFO - [2022-05-01 15:19:42,559] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:19:45,653] {logging_mixin.py:109} INFO - [2022-05-01 15:19:45,647] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:19:45,703] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:19:45,728] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.197 seconds
+[2022-05-01 15:20:16,536] {processor.py:163} INFO - Started process (PID=273) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:20:16,541] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:20:16,545] {logging_mixin.py:109} INFO - [2022-05-01 15:20:16,545] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:20:18,438] {logging_mixin.py:109} INFO - [2022-05-01 15:20:18,435] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:20:18,507] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:20:18,537] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.011 seconds
+[2022-05-01 15:20:49,513] {processor.py:163} INFO - Started process (PID=303) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:20:49,516] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:20:49,519] {logging_mixin.py:109} INFO - [2022-05-01 15:20:49,519] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:20:52,677] {logging_mixin.py:109} INFO - [2022-05-01 15:20:52,674] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:20:52,770] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:20:52,815] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.310 seconds
+[2022-05-01 15:21:23,415] {processor.py:163} INFO - Started process (PID=333) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:21:23,420] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:21:23,423] {logging_mixin.py:109} INFO - [2022-05-01 15:21:23,423] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:21:24,872] {logging_mixin.py:109} INFO - [2022-05-01 15:21:24,869] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:21:24,901] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:21:24,913] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.508 seconds
+[2022-05-01 15:21:55,166] {processor.py:163} INFO - Started process (PID=362) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:21:55,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:21:55,177] {logging_mixin.py:109} INFO - [2022-05-01 15:21:55,177] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:21:57,308] {logging_mixin.py:109} INFO - [2022-05-01 15:21:57,298] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:21:57,336] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:21:57,360] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.205 seconds
+[2022-05-01 15:22:27,686] {processor.py:163} INFO - Started process (PID=395) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:22:27,700] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:22:27,721] {logging_mixin.py:109} INFO - [2022-05-01 15:22:27,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:22:29,561] {logging_mixin.py:109} INFO - [2022-05-01 15:22:29,555] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download local and upload GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:22:29,593] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:22:29,613] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.958 seconds
+[2022-05-01 15:22:38,769] {processor.py:163} INFO - Started process (PID=407) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:22:38,773] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:22:38,776] {logging_mixin.py:109} INFO - [2022-05-01 15:22:38,776] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:22:41,159] {logging_mixin.py:109} INFO - [2022-05-01 15:22:41,155] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:22:41,189] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:22:41,216] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.458 seconds
+[2022-05-01 15:23:11,575] {processor.py:163} INFO - Started process (PID=444) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:23:11,583] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:23:11,586] {logging_mixin.py:109} INFO - [2022-05-01 15:23:11,586] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:23:12,945] {logging_mixin.py:109} INFO - [2022-05-01 15:23:12,937] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:23:12,995] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:23:13,039] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.471 seconds
+[2022-05-01 15:23:27,951] {processor.py:163} INFO - Started process (PID=465) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:23:27,955] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:23:27,958] {logging_mixin.py:109} INFO - [2022-05-01 15:23:27,958] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:23:29,161] {logging_mixin.py:109} INFO - [2022-05-01 15:23:29,157] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:23:29,189] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:23:29,208] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.264 seconds
+[2022-05-01 15:23:59,415] {processor.py:163} INFO - Started process (PID=492) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:23:59,422] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:23:59,427] {logging_mixin.py:109} INFO - [2022-05-01 15:23:59,426] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:24:00,471] {logging_mixin.py:109} INFO - [2022-05-01 15:24:00,468] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:24:00,493] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:24:00,505] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.096 seconds
+[2022-05-01 15:24:30,388] {processor.py:163} INFO - Started process (PID=521) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:24:30,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:24:30,402] {logging_mixin.py:109} INFO - [2022-05-01 15:24:30,402] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:24:31,888] {logging_mixin.py:109} INFO - [2022-05-01 15:24:31,876] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:24:31,921] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:24:31,952] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.611 seconds
+[2022-05-01 15:25:02,677] {processor.py:163} INFO - Started process (PID=551) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:25:02,683] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:25:02,686] {logging_mixin.py:109} INFO - [2022-05-01 15:25:02,686] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:25:04,423] {logging_mixin.py:109} INFO - [2022-05-01 15:25:04,421] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:25:04,466] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:25:04,486] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.825 seconds
+[2022-05-01 15:25:35,291] {processor.py:163} INFO - Started process (PID=582) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:25:35,300] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:25:35,309] {logging_mixin.py:109} INFO - [2022-05-01 15:25:35,308] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:25:36,680] {logging_mixin.py:109} INFO - [2022-05-01 15:25:36,674] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:25:36,713] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:25:36,767] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.489 seconds
+[2022-05-01 15:26:06,968] {processor.py:163} INFO - Started process (PID=611) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:26:06,985] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:26:06,992] {logging_mixin.py:109} INFO - [2022-05-01 15:26:06,990] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:26:09,453] {logging_mixin.py:109} INFO - [2022-05-01 15:26:09,445] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:26:09,490] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:26:09,508] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.554 seconds
+[2022-05-01 15:26:39,684] {processor.py:163} INFO - Started process (PID=640) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:26:39,699] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:26:39,709] {logging_mixin.py:109} INFO - [2022-05-01 15:26:39,708] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:26:40,953] {logging_mixin.py:109} INFO - [2022-05-01 15:26:40,949] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:26:40,983] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:26:41,001] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.350 seconds
+[2022-05-01 15:27:11,131] {processor.py:163} INFO - Started process (PID=669) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:27:11,133] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:27:11,151] {logging_mixin.py:109} INFO - [2022-05-01 15:27:11,140] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:27:13,419] {logging_mixin.py:109} INFO - [2022-05-01 15:27:13,409] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 83, in <module>
+    with TaskGroup(groupid='download_local_and_upload_GCS') as dwldloc_n_upldgcs_tag:
+TypeError: __init__() got an unexpected keyword argument 'groupid'
+[2022-05-01 15:27:13,453] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:27:13,468] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.352 seconds
+[2022-05-01 15:27:25,664] {processor.py:163} INFO - Started process (PID=682) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:27:25,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:27:25,672] {logging_mixin.py:109} INFO - [2022-05-01 15:27:25,671] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:27:27,559] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:27:57,031] {logging_mixin.py:109} INFO - [2022-05-01 15:27:57,031] {manager.py:496} INFO - Created Permission View: can edit on DAG:local_gcs_sparkdataproc_bq_dag
+[2022-05-01 15:27:57,060] {logging_mixin.py:109} INFO - [2022-05-01 15:27:57,059] {manager.py:496} INFO - Created Permission View: can read on DAG:local_gcs_sparkdataproc_bq_dag
+[2022-05-01 15:27:57,062] {logging_mixin.py:109} INFO - [2022-05-01 15:27:57,062] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:27:57,085] {logging_mixin.py:109} INFO - [2022-05-01 15:27:57,084] {dag.py:2415} INFO - Creating ORM DAG for local_gcs_sparkdataproc_bq_dag
+[2022-05-01 15:27:57,109] {logging_mixin.py:109} INFO - [2022-05-01 15:27:57,109] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:27:57,148] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 31.528 seconds
+[2022-05-01 15:28:28,200] {processor.py:163} INFO - Started process (PID=734) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:28:28,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:28:28,219] {logging_mixin.py:109} INFO - [2022-05-01 15:28:28,219] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:28:30,365] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:28:30,392] {logging_mixin.py:109} INFO - [2022-05-01 15:28:30,391] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:28:30,417] {logging_mixin.py:109} INFO - [2022-05-01 15:28:30,416] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:28:30,434] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.290 seconds
+[2022-05-01 15:29:01,106] {processor.py:163} INFO - Started process (PID=761) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:29:01,118] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:29:01,132] {logging_mixin.py:109} INFO - [2022-05-01 15:29:01,132] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:29:05,709] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:29:05,794] {logging_mixin.py:109} INFO - [2022-05-01 15:29:05,793] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:29:05,831] {logging_mixin.py:109} INFO - [2022-05-01 15:29:05,831] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:29:05,890] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 4.807 seconds
+[2022-05-01 15:29:36,423] {processor.py:163} INFO - Started process (PID=791) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:29:36,429] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:29:36,433] {logging_mixin.py:109} INFO - [2022-05-01 15:29:36,432] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:29:41,756] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:29:41,884] {logging_mixin.py:109} INFO - [2022-05-01 15:29:41,883] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:29:41,964] {logging_mixin.py:109} INFO - [2022-05-01 15:29:41,963] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:29:42,011] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 5.596 seconds
+[2022-05-01 15:30:12,372] {processor.py:163} INFO - Started process (PID=811) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:30:12,388] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:30:12,397] {logging_mixin.py:109} INFO - [2022-05-01 15:30:12,396] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:30:16,681] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:30:16,816] {logging_mixin.py:109} INFO - [2022-05-01 15:30:16,807] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:30:16,987] {logging_mixin.py:109} INFO - [2022-05-01 15:30:16,987] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:30:17,052] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 4.694 seconds
+[2022-05-01 15:30:47,453] {processor.py:163} INFO - Started process (PID=839) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:30:47,458] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:30:47,464] {logging_mixin.py:109} INFO - [2022-05-01 15:30:47,463] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:30:51,241] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:30:51,274] {logging_mixin.py:109} INFO - [2022-05-01 15:30:51,274] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:30:51,307] {logging_mixin.py:109} INFO - [2022-05-01 15:30:51,307] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:30:51,339] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.906 seconds
+[2022-05-01 15:31:22,036] {processor.py:163} INFO - Started process (PID=866) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:31:22,044] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:31:22,048] {logging_mixin.py:109} INFO - [2022-05-01 15:31:22,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:31:24,088] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:31:24,137] {logging_mixin.py:109} INFO - [2022-05-01 15:31:24,128] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:31:24,165] {logging_mixin.py:109} INFO - [2022-05-01 15:31:24,165] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:31:24,182] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.156 seconds
+[2022-05-01 15:31:54,802] {processor.py:163} INFO - Started process (PID=899) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:31:54,808] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:31:54,812] {logging_mixin.py:109} INFO - [2022-05-01 15:31:54,812] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:31:57,883] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:31:57,941] {logging_mixin.py:109} INFO - [2022-05-01 15:31:57,940] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:31:57,989] {logging_mixin.py:109} INFO - [2022-05-01 15:31:57,989] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:31:58,009] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.269 seconds
+[2022-05-01 15:32:29,021] {processor.py:163} INFO - Started process (PID=937) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:32:29,030] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:32:29,036] {logging_mixin.py:109} INFO - [2022-05-01 15:32:29,036] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:32:32,251] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:32:32,295] {logging_mixin.py:109} INFO - [2022-05-01 15:32:32,294] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:32:32,366] {logging_mixin.py:109} INFO - [2022-05-01 15:32:32,366] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:32:32,418] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.443 seconds
+[2022-05-01 15:33:02,696] {processor.py:163} INFO - Started process (PID=966) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:33:02,702] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:33:02,705] {logging_mixin.py:109} INFO - [2022-05-01 15:33:02,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:33:08,439] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:33:08,582] {logging_mixin.py:109} INFO - [2022-05-01 15:33:08,538] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:33:08,751] {logging_mixin.py:109} INFO - [2022-05-01 15:33:08,751] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:33:08,843] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 6.151 seconds
+[2022-05-01 15:33:39,533] {processor.py:163} INFO - Started process (PID=1005) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:33:39,544] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:33:39,551] {logging_mixin.py:109} INFO - [2022-05-01 15:33:39,551] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:33:45,001] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:33:45,057] {logging_mixin.py:109} INFO - [2022-05-01 15:33:45,054] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:33:45,096] {logging_mixin.py:109} INFO - [2022-05-01 15:33:45,096] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:33:45,119] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 5.590 seconds
+[2022-05-01 15:34:15,545] {processor.py:163} INFO - Started process (PID=1035) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:34:15,548] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:34:15,551] {logging_mixin.py:109} INFO - [2022-05-01 15:34:15,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:34:18,916] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:34:18,986] {logging_mixin.py:109} INFO - [2022-05-01 15:34:18,985] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:34:19,044] {logging_mixin.py:109} INFO - [2022-05-01 15:34:19,044] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:34:19,079] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.546 seconds
+[2022-05-01 15:34:50,199] {processor.py:163} INFO - Started process (PID=1068) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:34:50,219] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:34:50,224] {logging_mixin.py:109} INFO - [2022-05-01 15:34:50,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:34:52,918] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:34:52,956] {logging_mixin.py:109} INFO - [2022-05-01 15:34:52,955] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:34:52,978] {logging_mixin.py:109} INFO - [2022-05-01 15:34:52,978] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:34:53,003] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.833 seconds
+[2022-05-01 15:35:24,194] {processor.py:163} INFO - Started process (PID=1098) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:35:24,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:35:24,213] {logging_mixin.py:109} INFO - [2022-05-01 15:35:24,212] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:35:26,451] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:35:26,485] {logging_mixin.py:109} INFO - [2022-05-01 15:35:26,485] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:35:26,512] {logging_mixin.py:109} INFO - [2022-05-01 15:35:26,512] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:35:26,538] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.364 seconds
+[2022-05-01 15:35:56,976] {processor.py:163} INFO - Started process (PID=1127) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:35:56,986] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:35:56,990] {logging_mixin.py:109} INFO - [2022-05-01 15:35:56,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:35:58,877] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:35:58,919] {logging_mixin.py:109} INFO - [2022-05-01 15:35:58,919] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:35:58,974] {logging_mixin.py:109} INFO - [2022-05-01 15:35:58,974] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:35:59,079] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.117 seconds
+[2022-05-01 15:36:29,559] {processor.py:163} INFO - Started process (PID=1158) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:36:29,566] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:36:29,571] {logging_mixin.py:109} INFO - [2022-05-01 15:36:29,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:36:31,023] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:36:31,059] {logging_mixin.py:109} INFO - [2022-05-01 15:36:31,058] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:36:31,080] {logging_mixin.py:109} INFO - [2022-05-01 15:36:31,080] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:36:31,094] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.574 seconds
+[2022-05-01 15:37:01,308] {processor.py:163} INFO - Started process (PID=1200) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:37:01,315] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:37:01,318] {logging_mixin.py:109} INFO - [2022-05-01 15:37:01,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:37:04,320] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:37:04,352] {logging_mixin.py:109} INFO - [2022-05-01 15:37:04,352] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:37:04,408] {logging_mixin.py:109} INFO - [2022-05-01 15:37:04,408] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:37:04,449] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.151 seconds
+[2022-05-01 15:37:35,542] {processor.py:163} INFO - Started process (PID=1230) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:37:35,549] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:37:35,556] {logging_mixin.py:109} INFO - [2022-05-01 15:37:35,555] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:37:45,171] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:37:45,229] {logging_mixin.py:109} INFO - [2022-05-01 15:37:45,228] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:37:45,404] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 9.874 seconds
+[2022-05-01 15:38:21,202] {processor.py:163} INFO - Started process (PID=1269) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:38:21,274] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:38:21,278] {logging_mixin.py:109} INFO - [2022-05-01 15:38:21,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:38:41,721] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:38:42,135] {logging_mixin.py:109} INFO - [2022-05-01 15:38:42,105] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:38:42,593] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 21.493 seconds
+[2022-05-01 15:39:13,707] {processor.py:163} INFO - Started process (PID=1298) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:39:13,761] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:39:13,786] {logging_mixin.py:109} INFO - [2022-05-01 15:39:13,785] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:39:35,379] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:39:36,948] {logging_mixin.py:109} INFO - [2022-05-01 15:39:36,947] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:39:37,602] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 24.069 seconds
+[2022-05-01 15:40:08,536] {processor.py:163} INFO - Started process (PID=1336) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:40:08,571] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:40:08,593] {logging_mixin.py:109} INFO - [2022-05-01 15:40:08,592] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:40:24,387] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:40:24,533] {logging_mixin.py:109} INFO - [2022-05-01 15:40:24,533] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:40:25,117] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 16.674 seconds
+[2022-05-01 15:40:55,969] {processor.py:163} INFO - Started process (PID=1365) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:40:55,989] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:40:55,993] {logging_mixin.py:109} INFO - [2022-05-01 15:40:55,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:41:01,141] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:41:01,185] {logging_mixin.py:109} INFO - [2022-05-01 15:41:01,185] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:41:01,274] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 5.354 seconds
+[2022-05-01 15:41:37,094] {processor.py:163} INFO - Started process (PID=1400) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:41:37,115] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:41:37,145] {logging_mixin.py:109} INFO - [2022-05-01 15:41:37,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:42:07,202] {logging_mixin.py:109} INFO - [2022-05-01 15:42:07,158] {timeout.py:36} ERROR - Process timed out, PID: 1400
+[2022-05-01 15:42:07,395] {logging_mixin.py:109} INFO - [2022-05-01 15:42:07,242] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 6, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator, BigQueryInsertJobOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 46, in <module>
+    from googleapiclient.discovery import Resource, build
+  File "/home/airflow/.local/lib/python3.7/site-packages/googleapiclient/discovery.py", line 60, in <module>
+    from googleapiclient import _auth
+  File "/home/airflow/.local/lib/python3.7/site-packages/googleapiclient/_auth.py", line 33, in <module>
+    import oauth2client
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 906, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1280, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1252, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1364, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 81, in _path_stat
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/final_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1400
+[2022-05-01 15:42:07,625] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/final_dag.py
+[2022-05-01 15:42:07,635] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:42:07,802] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 30.766 seconds
+[2022-05-01 15:42:39,047] {processor.py:163} INFO - Started process (PID=1436) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:42:39,101] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:42:39,106] {logging_mixin.py:109} INFO - [2022-05-01 15:42:39,105] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:43:09,245] {logging_mixin.py:109} INFO - [2022-05-01 15:43:09,244] {timeout.py:36} ERROR - Process timed out, PID: 1436
+[2022-05-01 15:43:09,494] {logging_mixin.py:109} INFO - [2022-05-01 15:43:09,266] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/final_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final_dag.py", line 7, in <module>
+    from airflow.providers.google.cloud.operators.dataproc import   ClusterGenerator, DataprocCreateClusterOperator, DataprocDeleteClusterOperator, \
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 34, in <module>
+    from google.cloud.dataproc_v1 import Batch, Cluster
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/__init__.py", line 17, in <module>
+    from .services.autoscaling_policy_service import AutoscalingPolicyServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/services/autoscaling_policy_service/__init__.py", line 16, in <module>
+    from .client import AutoscalingPolicyServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/services/autoscaling_policy_service/client.py", line 35, in <module>
+    from google.cloud.dataproc_v1.services.autoscaling_policy_service import pagers
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/services/autoscaling_policy_service/pagers.py", line 27, in <module>
+    from google.cloud.dataproc_v1.types import autoscaling_policies
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/types/__init__.py", line 76, in <module>
+    from .jobs import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/dataproc_v1/types/jobs.py", line 818, in <module>
+    class SubmitJobRequest(proto.Message):
+  File "/home/airflow/.local/lib/python3.7/site-packages/proto/message.py", line 44, in __new__
+    package, marshal = _package_info.compile(name, attrs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/proto/_package_info.py", line 40, in compile
+    marshal = Marshal(name=getattr(proto_module, "marshal", package))
+  File "/home/airflow/.local/lib/python3.7/site-packages/proto/marshal/marshal.py", line 242, in __new__
+    if klass is None:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/final_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 1436
+[2022-05-01 15:43:09,690] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:43:09,938] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 30.994 seconds
+[2022-05-01 15:43:49,042] {processor.py:163} INFO - Started process (PID=1480) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:43:49,058] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:43:49,075] {logging_mixin.py:109} INFO - [2022-05-01 15:43:49,074] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:43:59,142] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:43:59,336] {logging_mixin.py:109} INFO - [2022-05-01 15:43:59,336] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:43:59,532] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 10.617 seconds
+[2022-05-01 15:44:30,083] {processor.py:163} INFO - Started process (PID=1510) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:44:30,097] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:44:30,106] {logging_mixin.py:109} INFO - [2022-05-01 15:44:30,105] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:44:35,218] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:44:35,249] {logging_mixin.py:109} INFO - [2022-05-01 15:44:35,249] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:44:35,299] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 5.254 seconds
+[2022-05-01 15:45:05,703] {processor.py:163} INFO - Started process (PID=1538) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:45:05,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:45:05,832] {logging_mixin.py:109} INFO - [2022-05-01 15:45:05,766] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:45:12,862] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:45:13,144] {logging_mixin.py:109} INFO - [2022-05-01 15:45:13,126] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:45:13,307] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 7.654 seconds
+[2022-05-01 15:45:44,425] {processor.py:163} INFO - Started process (PID=1566) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:45:44,431] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:45:44,449] {logging_mixin.py:109} INFO - [2022-05-01 15:45:44,449] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:46:03,483] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:46:03,982] {logging_mixin.py:109} INFO - [2022-05-01 15:46:03,972] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:46:04,272] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 20.079 seconds
+[2022-05-01 15:46:35,503] {processor.py:163} INFO - Started process (PID=1602) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:46:35,540] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:46:35,566] {logging_mixin.py:109} INFO - [2022-05-01 15:46:35,546] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:46:55,272] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:46:55,520] {logging_mixin.py:109} INFO - [2022-05-01 15:46:55,519] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:46:55,976] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 20.492 seconds
+[2022-05-01 15:47:26,798] {processor.py:163} INFO - Started process (PID=1632) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:47:26,841] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:47:26,855] {logging_mixin.py:109} INFO - [2022-05-01 15:47:26,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:47:48,150] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:47:48,342] {logging_mixin.py:109} INFO - [2022-05-01 15:47:48,331] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:47:49,248] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 22.525 seconds
+[2022-05-01 15:48:22,242] {processor.py:163} INFO - Started process (PID=1672) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:48:22,264] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:48:22,271] {logging_mixin.py:109} INFO - [2022-05-01 15:48:22,270] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:48:38,740] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:48:38,985] {logging_mixin.py:109} INFO - [2022-05-01 15:48:38,985] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:48:39,910] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 17.736 seconds
+[2022-05-01 15:49:11,966] {processor.py:163} INFO - Started process (PID=1700) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:49:12,021] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:49:12,054] {logging_mixin.py:109} INFO - [2022-05-01 15:49:12,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:49:24,055] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:49:24,172] {logging_mixin.py:109} INFO - [2022-05-01 15:49:24,172] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:49:24,584] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 12.716 seconds
+[2022-05-01 15:49:55,105] {processor.py:163} INFO - Started process (PID=1738) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:49:55,124] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:49:55,127] {logging_mixin.py:109} INFO - [2022-05-01 15:49:55,126] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:49:58,267] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:49:58,356] {logging_mixin.py:109} INFO - [2022-05-01 15:49:58,355] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:49:58,439] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.350 seconds
+[2022-05-01 15:50:28,830] {processor.py:163} INFO - Started process (PID=1757) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:50:28,837] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:50:28,841] {logging_mixin.py:109} INFO - [2022-05-01 15:50:28,841] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:50:31,678] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:50:31,788] {logging_mixin.py:109} INFO - [2022-05-01 15:50:31,787] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:50:32,016] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.230 seconds
+[2022-05-01 15:51:02,333] {processor.py:163} INFO - Started process (PID=1785) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:51:02,339] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:51:02,347] {logging_mixin.py:109} INFO - [2022-05-01 15:51:02,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:51:03,991] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:51:04,025] {logging_mixin.py:109} INFO - [2022-05-01 15:51:04,025] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:51:04,086] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.761 seconds
+[2022-05-01 15:51:34,962] {processor.py:163} INFO - Started process (PID=1812) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:51:34,974] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:51:34,979] {logging_mixin.py:109} INFO - [2022-05-01 15:51:34,978] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:51:36,304] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:51:36,359] {logging_mixin.py:109} INFO - [2022-05-01 15:51:36,358] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:51:36,465] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.514 seconds
+[2022-05-01 15:52:06,914] {processor.py:163} INFO - Started process (PID=1840) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:52:06,918] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:52:06,920] {logging_mixin.py:109} INFO - [2022-05-01 15:52:06,920] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:52:08,116] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:52:08,148] {logging_mixin.py:109} INFO - [2022-05-01 15:52:08,148] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:52:08,188] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.285 seconds
+[2022-05-01 15:52:38,741] {processor.py:163} INFO - Started process (PID=1868) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:52:38,753] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:52:38,757] {logging_mixin.py:109} INFO - [2022-05-01 15:52:38,756] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:52:40,370] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:52:40,403] {logging_mixin.py:109} INFO - [2022-05-01 15:52:40,403] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:52:40,442] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.711 seconds
+[2022-05-01 15:53:10,893] {processor.py:163} INFO - Started process (PID=1900) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:53:10,902] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:53:10,905] {logging_mixin.py:109} INFO - [2022-05-01 15:53:10,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:53:12,893] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:53:12,927] {logging_mixin.py:109} INFO - [2022-05-01 15:53:12,927] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:53:12,998] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.122 seconds
+[2022-05-01 15:53:43,486] {processor.py:163} INFO - Started process (PID=1934) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:53:43,499] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:53:43,510] {logging_mixin.py:109} INFO - [2022-05-01 15:53:43,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:53:48,356] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:53:48,431] {logging_mixin.py:109} INFO - [2022-05-01 15:53:48,422] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:53:48,728] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 5.262 seconds
+[2022-05-01 15:54:19,281] {processor.py:163} INFO - Started process (PID=1962) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:54:19,299] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:54:19,310] {logging_mixin.py:109} INFO - [2022-05-01 15:54:19,310] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:54:21,146] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:54:21,178] {logging_mixin.py:109} INFO - [2022-05-01 15:54:21,176] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:54:21,239] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.973 seconds
+[2022-05-01 15:54:51,944] {processor.py:163} INFO - Started process (PID=1991) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:54:51,954] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:54:51,962] {logging_mixin.py:109} INFO - [2022-05-01 15:54:51,961] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:54:53,380] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:54:53,453] {logging_mixin.py:109} INFO - [2022-05-01 15:54:53,452] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:54:53,498] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.581 seconds
+[2022-05-01 15:55:23,635] {processor.py:163} INFO - Started process (PID=2019) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:55:23,647] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:55:23,652] {logging_mixin.py:109} INFO - [2022-05-01 15:55:23,652] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:55:26,171] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:55:26,305] {logging_mixin.py:109} INFO - [2022-05-01 15:55:26,304] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:55:26,437] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.824 seconds
+[2022-05-01 15:55:56,986] {processor.py:163} INFO - Started process (PID=2048) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:55:56,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:55:57,005] {logging_mixin.py:109} INFO - [2022-05-01 15:55:57,005] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:56:12,415] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:56:15,646] {logging_mixin.py:109} INFO - [2022-05-01 15:56:15,645] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:56:16,940] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 20.013 seconds
+[2022-05-01 15:56:53,119] {processor.py:163} INFO - Started process (PID=2087) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:56:53,189] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:56:53,351] {logging_mixin.py:109} INFO - [2022-05-01 15:56:53,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:57:18,861] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:57:19,296] {logging_mixin.py:109} INFO - [2022-05-01 15:57:19,295] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:57:20,281] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 27.355 seconds
+[2022-05-01 15:57:52,089] {processor.py:163} INFO - Started process (PID=2125) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:57:52,287] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:57:52,383] {logging_mixin.py:109} INFO - [2022-05-01 15:57:52,307] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:58:19,158] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:58:19,251] {logging_mixin.py:109} INFO - [2022-05-01 15:58:19,250] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:58:19,774] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 27.980 seconds
+[2022-05-01 15:58:50,128] {processor.py:163} INFO - Started process (PID=2160) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:58:50,160] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:58:50,195] {logging_mixin.py:109} INFO - [2022-05-01 15:58:50,194] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:59:05,717] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:59:06,161] {logging_mixin.py:109} INFO - [2022-05-01 15:59:06,150] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:59:06,639] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 16.636 seconds
+[2022-05-01 15:59:37,523] {processor.py:163} INFO - Started process (PID=2196) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 15:59:37,536] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 15:59:37,551] {logging_mixin.py:109} INFO - [2022-05-01 15:59:37,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:59:40,154] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 15:59:40,222] {logging_mixin.py:109} INFO - [2022-05-01 15:59:40,222] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:59:40,274] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.757 seconds
+[2022-05-01 16:00:10,804] {processor.py:163} INFO - Started process (PID=2228) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:00:10,819] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:00:10,822] {logging_mixin.py:109} INFO - [2022-05-01 16:00:10,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:00:15,083] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:00:15,164] {logging_mixin.py:109} INFO - [2022-05-01 16:00:15,161] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:00:15,300] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 4.528 seconds
+[2022-05-01 16:00:45,937] {processor.py:163} INFO - Started process (PID=2247) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:00:45,942] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:00:45,947] {logging_mixin.py:109} INFO - [2022-05-01 16:00:45,946] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:00:49,254] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:00:49,334] {logging_mixin.py:109} INFO - [2022-05-01 16:00:49,334] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:00:49,400] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 3.470 seconds
+[2022-05-01 16:01:19,733] {processor.py:163} INFO - Started process (PID=2281) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:01:19,739] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:01:19,744] {logging_mixin.py:109} INFO - [2022-05-01 16:01:19,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:01:21,323] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:01:21,408] {logging_mixin.py:109} INFO - [2022-05-01 16:01:21,406] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:01:21,508] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.781 seconds
+[2022-05-01 16:01:52,209] {processor.py:163} INFO - Started process (PID=2310) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:01:52,215] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:01:52,219] {logging_mixin.py:109} INFO - [2022-05-01 16:01:52,218] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:01:54,211] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:01:54,235] {logging_mixin.py:109} INFO - [2022-05-01 16:01:54,234] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:01:54,280] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.082 seconds
+[2022-05-01 16:02:24,498] {processor.py:163} INFO - Started process (PID=2339) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:02:24,507] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:02:24,512] {logging_mixin.py:109} INFO - [2022-05-01 16:02:24,512] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:02:26,162] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:02:26,191] {logging_mixin.py:109} INFO - [2022-05-01 16:02:26,190] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:02:26,232] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.768 seconds
+[2022-05-01 16:02:56,376] {processor.py:163} INFO - Started process (PID=2366) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:02:56,381] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:02:56,384] {logging_mixin.py:109} INFO - [2022-05-01 16:02:56,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:02:57,793] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:02:57,832] {logging_mixin.py:109} INFO - [2022-05-01 16:02:57,832] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:02:57,880] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.510 seconds
+[2022-05-01 16:03:28,301] {processor.py:163} INFO - Started process (PID=2395) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:03:28,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:03:28,319] {logging_mixin.py:109} INFO - [2022-05-01 16:03:28,319] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:03:30,090] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:03:30,159] {logging_mixin.py:109} INFO - [2022-05-01 16:03:30,158] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:03:30,198] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.040 seconds
+[2022-05-01 16:04:00,557] {processor.py:163} INFO - Started process (PID=2423) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:04:00,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:04:00,563] {logging_mixin.py:109} INFO - [2022-05-01 16:04:00,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:04:01,693] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:04:01,720] {logging_mixin.py:109} INFO - [2022-05-01 16:04:01,719] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:04:01,767] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.215 seconds
+[2022-05-01 16:04:32,113] {processor.py:163} INFO - Started process (PID=2451) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:04:32,121] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:04:32,125] {logging_mixin.py:109} INFO - [2022-05-01 16:04:32,125] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:04:33,456] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:04:33,480] {logging_mixin.py:109} INFO - [2022-05-01 16:04:33,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:04:33,520] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.420 seconds
+[2022-05-01 16:05:04,304] {processor.py:163} INFO - Started process (PID=2479) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:05:04,313] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:05:04,323] {logging_mixin.py:109} INFO - [2022-05-01 16:05:04,322] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:05:06,808] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:05:06,842] {logging_mixin.py:109} INFO - [2022-05-01 16:05:06,842] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:05:06,894] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.600 seconds
+[2022-05-01 16:05:37,080] {processor.py:163} INFO - Started process (PID=2506) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:05:37,090] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:05:37,106] {logging_mixin.py:109} INFO - [2022-05-01 16:05:37,101] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:05:39,024] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:05:39,078] {logging_mixin.py:109} INFO - [2022-05-01 16:05:39,077] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:05:39,124] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.060 seconds
+[2022-05-01 16:06:09,686] {processor.py:163} INFO - Started process (PID=2536) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:09,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:06:09,715] {logging_mixin.py:109} INFO - [2022-05-01 16:06:09,713] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:14,626] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:14,650] {logging_mixin.py:109} INFO - [2022-05-01 16:06:14,649] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:06:14,698] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 5.034 seconds
+[2022-05-01 16:06:16,486] {processor.py:163} INFO - Started process (PID=2542) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:16,498] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:06:16,501] {logging_mixin.py:109} INFO - [2022-05-01 16:06:16,501] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:18,032] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:18,879] {logging_mixin.py:109} INFO - [2022-05-01 16:06:18,878] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:06:18,924] {logging_mixin.py:109} INFO - [2022-05-01 16:06:18,923] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:06:18,972] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.507 seconds
+[2022-05-01 16:06:49,203] {processor.py:163} INFO - Started process (PID=2571) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:49,216] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:06:49,220] {logging_mixin.py:109} INFO - [2022-05-01 16:06:49,219] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:53,458] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:06:53,491] {logging_mixin.py:109} INFO - [2022-05-01 16:06:53,490] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:06:53,514] {logging_mixin.py:109} INFO - [2022-05-01 16:06:53,514] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:06:53,530] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 4.342 seconds
+[2022-05-01 16:07:23,910] {processor.py:163} INFO - Started process (PID=2600) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:07:23,915] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:07:23,917] {logging_mixin.py:109} INFO - [2022-05-01 16:07:23,917] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:07:25,680] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:07:25,714] {logging_mixin.py:109} INFO - [2022-05-01 16:07:25,714] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:07:25,748] {logging_mixin.py:109} INFO - [2022-05-01 16:07:25,748] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:07:25,771] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.898 seconds
+[2022-05-01 16:07:56,492] {processor.py:163} INFO - Started process (PID=2631) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:07:56,506] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:07:56,514] {logging_mixin.py:109} INFO - [2022-05-01 16:07:56,512] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:07:57,806] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:07:57,833] {logging_mixin.py:109} INFO - [2022-05-01 16:07:57,833] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:07:57,864] {logging_mixin.py:109} INFO - [2022-05-01 16:07:57,864] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:07:57,877] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.393 seconds
+[2022-05-01 16:08:28,294] {processor.py:163} INFO - Started process (PID=2656) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:08:28,299] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:08:28,301] {logging_mixin.py:109} INFO - [2022-05-01 16:08:28,301] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:08:29,445] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:08:29,468] {logging_mixin.py:109} INFO - [2022-05-01 16:08:29,467] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:08:29,490] {logging_mixin.py:109} INFO - [2022-05-01 16:08:29,490] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:08:29,506] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.216 seconds
+[2022-05-01 16:09:00,304] {processor.py:163} INFO - Started process (PID=2678) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:09:00,308] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:09:00,312] {logging_mixin.py:109} INFO - [2022-05-01 16:09:00,312] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:09:01,864] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:09:01,895] {logging_mixin.py:109} INFO - [2022-05-01 16:09:01,895] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:09:01,928] {logging_mixin.py:109} INFO - [2022-05-01 16:09:01,928] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:09:01,949] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.652 seconds
+[2022-05-01 16:09:32,302] {processor.py:163} INFO - Started process (PID=2702) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:09:32,314] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:09:32,317] {logging_mixin.py:109} INFO - [2022-05-01 16:09:32,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:09:33,615] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:09:33,647] {logging_mixin.py:109} INFO - [2022-05-01 16:09:33,646] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:09:33,670] {logging_mixin.py:109} INFO - [2022-05-01 16:09:33,670] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:09:33,693] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.402 seconds
+[2022-05-01 16:10:03,907] {processor.py:163} INFO - Started process (PID=2723) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:10:03,925] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:10:03,929] {logging_mixin.py:109} INFO - [2022-05-01 16:10:03,928] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:10:12,900] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:10:12,966] {logging_mixin.py:109} INFO - [2022-05-01 16:10:12,966] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:10:13,045] {logging_mixin.py:109} INFO - [2022-05-01 16:10:13,045] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:10:13,081] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 9.201 seconds
+[2022-05-01 16:10:44,044] {processor.py:163} INFO - Started process (PID=2743) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:10:44,111] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:10:44,119] {logging_mixin.py:109} INFO - [2022-05-01 16:10:44,118] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:10:57,586] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:10:57,643] {logging_mixin.py:109} INFO - [2022-05-01 16:10:57,641] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:10:57,751] {logging_mixin.py:109} INFO - [2022-05-01 16:10:57,750] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:10:57,792] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 13.786 seconds
+[2022-05-01 16:11:28,530] {processor.py:163} INFO - Started process (PID=2768) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:11:28,691] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:11:28,697] {logging_mixin.py:109} INFO - [2022-05-01 16:11:28,697] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:11:41,062] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:11:41,260] {logging_mixin.py:109} INFO - [2022-05-01 16:11:41,259] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:11:41,435] {logging_mixin.py:109} INFO - [2022-05-01 16:11:41,435] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:11:41,638] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 13.204 seconds
+[2022-05-01 16:12:12,554] {processor.py:163} INFO - Started process (PID=2789) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:12:12,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:12:12,564] {logging_mixin.py:109} INFO - [2022-05-01 16:12:12,564] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:12:13,648] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:12:13,667] {logging_mixin.py:109} INFO - [2022-05-01 16:12:13,667] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:12:13,763] {logging_mixin.py:109} INFO - [2022-05-01 16:12:13,763] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:12:13,794] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.250 seconds
+[2022-05-01 16:12:43,948] {processor.py:163} INFO - Started process (PID=2811) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:12:43,952] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:12:43,956] {logging_mixin.py:109} INFO - [2022-05-01 16:12:43,955] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:12:45,898] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:12:45,939] {logging_mixin.py:109} INFO - [2022-05-01 16:12:45,938] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:12:45,970] {logging_mixin.py:109} INFO - [2022-05-01 16:12:45,970] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:12:45,997] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 2.058 seconds
+[2022-05-01 16:13:16,231] {processor.py:163} INFO - Started process (PID=2833) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:13:16,236] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:13:16,238] {logging_mixin.py:109} INFO - [2022-05-01 16:13:16,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:13:17,281] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:13:17,305] {logging_mixin.py:109} INFO - [2022-05-01 16:13:17,305] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:13:17,330] {logging_mixin.py:109} INFO - [2022-05-01 16:13:17,330] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:13:17,346] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.127 seconds
+[2022-05-01 16:13:47,503] {processor.py:163} INFO - Started process (PID=2854) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:13:47,507] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:13:47,509] {logging_mixin.py:109} INFO - [2022-05-01 16:13:47,509] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:13:48,504] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:13:48,527] {logging_mixin.py:109} INFO - [2022-05-01 16:13:48,526] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:13:48,545] {logging_mixin.py:109} INFO - [2022-05-01 16:13:48,545] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:13:48,561] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.063 seconds
+[2022-05-01 16:14:18,725] {processor.py:163} INFO - Started process (PID=2876) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:14:18,728] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:14:18,730] {logging_mixin.py:109} INFO - [2022-05-01 16:14:18,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:14:20,427] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:14:20,546] {logging_mixin.py:109} INFO - [2022-05-01 16:14:20,545] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:14:20,595] {logging_mixin.py:109} INFO - [2022-05-01 16:14:20,595] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:14:20,622] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.905 seconds
+[2022-05-01 16:14:51,144] {processor.py:163} INFO - Started process (PID=2897) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:14:51,148] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:14:51,153] {logging_mixin.py:109} INFO - [2022-05-01 16:14:51,152] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:14:52,492] {processor.py:654} INFO - DAG(s) dict_keys(['local_gcs_sparkdataproc_bq_dag']) retrieved from /opt/airflow/dags/final_dag.py
+[2022-05-01 16:14:52,518] {logging_mixin.py:109} INFO - [2022-05-01 16:14:52,517] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:14:52,545] {logging_mixin.py:109} INFO - [2022-05-01 16:14:52,545] {dag.py:2935} INFO - Setting next_dagrun for local_gcs_sparkdataproc_bq_dag to None
+[2022-05-01 16:14:52,577] {processor.py:171} INFO - Processing /opt/airflow/dags/final_dag.py took 1.440 seconds
+[2022-05-01 16:15:22,784] {processor.py:163} INFO - Started process (PID=2918) to work on /opt/airflow/dags/final_dag.py
+[2022-05-01 16:15:22,793] {processor.py:642} INFO - Processing file /opt/airflow/dags/final_dag.py for tasks to queue
+[2022-05-01 16:15:22,797] {logging_mixin.py:109} INFO - [2022-05-01 16:15:22,797] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/final_dag.py

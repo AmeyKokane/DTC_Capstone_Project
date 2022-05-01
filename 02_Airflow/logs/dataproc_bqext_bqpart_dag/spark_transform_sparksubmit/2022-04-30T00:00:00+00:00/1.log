@@ -1,0 +1,22 @@
+[2022-05-01 00:02:44,731] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_bqext_bqpart_dag.spark_transform_sparksubmit scheduled__2022-04-30T00:00:00+00:00 [queued]>
+[2022-05-01 00:02:44,789] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_bqext_bqpart_dag.spark_transform_sparksubmit scheduled__2022-04-30T00:00:00+00:00 [queued]>
+[2022-05-01 00:02:44,793] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 00:02:44,796] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-05-01 00:02:44,804] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 00:02:44,876] {taskinstance.py:1259} INFO - Executing <Task(DataprocSubmitJobOperator): spark_transform_sparksubmit> on 2022-04-30 00:00:00+00:00
+[2022-05-01 00:02:44,927] {standard_task_runner.py:52} INFO - Started process 1011 to run task
+[2022-05-01 00:02:44,978] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_bqext_bqpart_dag', 'spark_transform_sparksubmit', 'scheduled__2022-04-30T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv3.py', '--cfg-path', '/tmp/tmpm30e2a1c', '--error-file', '/tmp/tmpyvch3tom']
+[2022-05-01 00:02:44,985] {standard_task_runner.py:77} INFO - Job 11: Subtask spark_transform_sparksubmit
+[2022-05-01 00:02:45,306] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_bqext_bqpart_dag.spark_transform_sparksubmit scheduled__2022-04-30T00:00:00+00:00 [running]> on host 87df04080a08
+[2022-05-01 00:02:45,594] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_bqext_bqpart_dag
+AIRFLOW_CTX_TASK_ID=spark_transform_sparksubmit
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-30T00:00:00+00:00
+[2022-05-01 00:02:45,603] {dataproc.py:1997} INFO - Submitting job
+[2022-05-01 00:02:45,620] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-05-01 00:02:46,018] {dataproc.py:2009} INFO - Job 72820b07-68aa-43b9-82af-1ae9f4a1ec27 submitted successfully.
+[2022-05-01 00:02:46,079] {dataproc.py:2022} INFO - Waiting for job 72820b07-68aa-43b9-82af-1ae9f4a1ec27 to complete

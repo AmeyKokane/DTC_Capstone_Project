@@ -1,0 +1,26 @@
+[2022-05-01 15:49:25,763] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.delete_vehicles_dataset_task scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:49:25,789] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.delete_vehicles_dataset_task scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:49:25,795] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:49:25,806] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-05-01 15:49:25,807] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:49:25,913] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_local_and_upload_GCS.delete_vehicles_dataset_task> on 2022-05-01 00:00:00+00:00
+[2022-05-01 15:49:25,977] {standard_task_runner.py:52} INFO - Started process 1256 to run task
+[2022-05-01 15:49:26,022] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_gcs_sparkdataproc_bq_dag', 'download_local_and_upload_GCS.delete_vehicles_dataset_task', 'scheduled__2022-05-01T00:00:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/final_dag.py', '--cfg-path', '/tmp/tmpn0gchdv5', '--error-file', '/tmp/tmp43dd01v3']
+[2022-05-01 15:49:26,035] {standard_task_runner.py:77} INFO - Job 25: Subtask download_local_and_upload_GCS.delete_vehicles_dataset_task
+[2022-05-01 15:49:26,359] {logging_mixin.py:109} INFO - Running <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.delete_vehicles_dataset_task scheduled__2022-05-01T00:00:00+00:00 [running]> on host 97b9d78a285f
+[2022-05-01 15:49:26,677] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_gcs_sparkdataproc_bq_dag
+AIRFLOW_CTX_TASK_ID=download_local_and_upload_GCS.delete_vehicles_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-01T00:00:00+00:00
+[2022-05-01 15:49:26,696] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-01 15:49:26,714] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/68nd-jvt3.csv /opt/***/68nd-jvt3.parquet']
+[2022-05-01 15:49:26,960] {subprocess.py:85} INFO - Output:
+[2022-05-01 15:49:27,501] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-05-01 15:49:27,699] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_gcs_sparkdataproc_bq_dag, task_id=download_local_and_upload_GCS.delete_vehicles_dataset_task, execution_date=20220501T000000, start_date=20220501T154925, end_date=20220501T154927
+[2022-05-01 15:49:27,910] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-01 15:49:28,469] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

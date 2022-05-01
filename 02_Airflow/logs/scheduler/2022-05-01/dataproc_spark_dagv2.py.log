@@ -1,0 +1,672 @@
+[2022-05-01 00:00:10,844] {processor.py:163} INFO - Started process (PID=1083) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:00:10,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 00:00:10,903] {logging_mixin.py:109} INFO - [2022-05-01 00:00:10,902] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:00:17,258] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:00:22,861] {logging_mixin.py:109} INFO - [2022-05-01 00:00:22,845] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 00:00:23,204] {logging_mixin.py:109} INFO - [2022-05-01 00:00:23,157] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 00:00:23,423] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 12.730 seconds
+[2022-05-01 00:00:53,722] {processor.py:163} INFO - Started process (PID=1109) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:00:53,737] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 00:00:53,751] {logging_mixin.py:109} INFO - [2022-05-01 00:00:53,750] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:00:56,111] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:00:56,265] {logging_mixin.py:109} INFO - [2022-05-01 00:00:56,264] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 00:00:56,481] {logging_mixin.py:109} INFO - [2022-05-01 00:00:56,481] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 00:00:56,549] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.856 seconds
+[2022-05-01 00:01:27,024] {processor.py:163} INFO - Started process (PID=1137) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:01:27,033] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 00:01:27,037] {logging_mixin.py:109} INFO - [2022-05-01 00:01:27,036] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:01:29,343] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:01:29,374] {logging_mixin.py:109} INFO - [2022-05-01 00:01:29,373] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 00:01:29,422] {logging_mixin.py:109} INFO - [2022-05-01 00:01:29,422] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 00:01:29,445] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.443 seconds
+[2022-05-01 00:02:05,164] {processor.py:163} INFO - Started process (PID=1160) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:02:05,179] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 00:02:05,182] {logging_mixin.py:109} INFO - [2022-05-01 00:02:05,181] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:02:06,235] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:02:06,380] {logging_mixin.py:109} INFO - [2022-05-01 00:02:06,379] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 00:02:06,433] {logging_mixin.py:109} INFO - [2022-05-01 00:02:06,433] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 00:02:06,473] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.324 seconds
+[2022-05-01 00:02:47,195] {processor.py:163} INFO - Started process (PID=1186) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:02:47,207] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 00:02:47,213] {logging_mixin.py:109} INFO - [2022-05-01 00:02:47,212] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:02:47,750] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:02:47,779] {logging_mixin.py:109} INFO - [2022-05-01 00:02:47,778] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 00:02:47,816] {logging_mixin.py:109} INFO - [2022-05-01 00:02:47,815] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 00:02:47,843] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.655 seconds
+[2022-05-01 00:03:19,463] {processor.py:163} INFO - Started process (PID=1213) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:03:19,474] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 00:03:19,481] {logging_mixin.py:109} INFO - [2022-05-01 00:03:19,480] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:03:20,256] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 00:03:20,272] {logging_mixin.py:109} INFO - [2022-05-01 00:03:20,272] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 00:03:20,295] {logging_mixin.py:109} INFO - [2022-05-01 00:03:20,295] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 00:03:20,310] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.860 seconds
+[2022-05-01 15:16:50,223] {processor.py:163} INFO - Started process (PID=92) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:16:50,238] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:16:50,251] {logging_mixin.py:109} INFO - [2022-05-01 15:16:50,251] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:16:56,289] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:16:56,547] {logging_mixin.py:109} INFO - [2022-05-01 15:16:56,547] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:16:56,801] {logging_mixin.py:109} INFO - [2022-05-01 15:16:56,801] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:16:56,907] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 6.714 seconds
+[2022-05-01 15:17:28,042] {processor.py:163} INFO - Started process (PID=127) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:17:28,081] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:17:28,091] {logging_mixin.py:109} INFO - [2022-05-01 15:17:28,091] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:17:33,372] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:17:33,744] {logging_mixin.py:109} INFO - [2022-05-01 15:17:33,744] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:17:33,884] {logging_mixin.py:109} INFO - [2022-05-01 15:17:33,884] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:17:33,957] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 5.988 seconds
+[2022-05-01 15:18:04,268] {processor.py:163} INFO - Started process (PID=151) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:18:04,284] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:18:04,327] {logging_mixin.py:109} INFO - [2022-05-01 15:18:04,327] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:18:05,090] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:18:05,112] {logging_mixin.py:109} INFO - [2022-05-01 15:18:05,111] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:18:05,139] {logging_mixin.py:109} INFO - [2022-05-01 15:18:05,138] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:18:05,349] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.100 seconds
+[2022-05-01 15:18:35,695] {processor.py:163} INFO - Started process (PID=181) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:18:35,702] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:18:35,710] {logging_mixin.py:109} INFO - [2022-05-01 15:18:35,709] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:18:37,049] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:18:37,080] {logging_mixin.py:109} INFO - [2022-05-01 15:18:37,079] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:18:37,122] {logging_mixin.py:109} INFO - [2022-05-01 15:18:37,122] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:18:37,152] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.466 seconds
+[2022-05-01 15:19:07,544] {processor.py:163} INFO - Started process (PID=214) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:19:07,553] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:19:07,558] {logging_mixin.py:109} INFO - [2022-05-01 15:19:07,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:19:08,779] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:19:08,819] {logging_mixin.py:109} INFO - [2022-05-01 15:19:08,818] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:19:08,853] {logging_mixin.py:109} INFO - [2022-05-01 15:19:08,853] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:19:08,879] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.352 seconds
+[2022-05-01 15:19:39,497] {processor.py:163} INFO - Started process (PID=234) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:19:39,517] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:19:39,532] {logging_mixin.py:109} INFO - [2022-05-01 15:19:39,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:19:40,504] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:19:40,566] {logging_mixin.py:109} INFO - [2022-05-01 15:19:40,565] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:19:40,608] {logging_mixin.py:109} INFO - [2022-05-01 15:19:40,607] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:19:40,626] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.176 seconds
+[2022-05-01 15:20:11,021] {processor.py:163} INFO - Started process (PID=263) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:20:11,025] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:20:11,029] {logging_mixin.py:109} INFO - [2022-05-01 15:20:11,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:20:11,510] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:20:11,528] {logging_mixin.py:109} INFO - [2022-05-01 15:20:11,528] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:20:11,555] {logging_mixin.py:109} INFO - [2022-05-01 15:20:11,555] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:20:11,574] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.562 seconds
+[2022-05-01 15:20:42,084] {processor.py:163} INFO - Started process (PID=291) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:20:42,096] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:20:42,370] {logging_mixin.py:109} INFO - [2022-05-01 15:20:42,363] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:20:43,321] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:20:43,338] {logging_mixin.py:109} INFO - [2022-05-01 15:20:43,338] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:20:43,363] {logging_mixin.py:109} INFO - [2022-05-01 15:20:43,363] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:20:43,379] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.314 seconds
+[2022-05-01 15:21:13,843] {processor.py:163} INFO - Started process (PID=322) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:21:13,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:21:13,857] {logging_mixin.py:109} INFO - [2022-05-01 15:21:13,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:21:14,377] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:21:14,400] {logging_mixin.py:109} INFO - [2022-05-01 15:21:14,399] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:21:14,433] {logging_mixin.py:109} INFO - [2022-05-01 15:21:14,432] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:21:14,464] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.626 seconds
+[2022-05-01 15:21:44,859] {processor.py:163} INFO - Started process (PID=361) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:21:44,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:21:44,887] {logging_mixin.py:109} INFO - [2022-05-01 15:21:44,886] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:21:45,580] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:21:45,599] {logging_mixin.py:109} INFO - [2022-05-01 15:21:45,598] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:21:45,629] {logging_mixin.py:109} INFO - [2022-05-01 15:21:45,629] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:21:45,651] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.804 seconds
+[2022-05-01 15:22:16,425] {processor.py:163} INFO - Started process (PID=394) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:22:16,430] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:22:16,432] {logging_mixin.py:109} INFO - [2022-05-01 15:22:16,432] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:22:17,516] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:22:17,578] {logging_mixin.py:109} INFO - [2022-05-01 15:22:17,578] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:22:17,597] {logging_mixin.py:109} INFO - [2022-05-01 15:22:17,597] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:22:17,617] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.198 seconds
+[2022-05-01 15:22:48,101] {processor.py:163} INFO - Started process (PID=425) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:22:48,105] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:22:48,108] {logging_mixin.py:109} INFO - [2022-05-01 15:22:48,108] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:22:48,507] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:22:48,526] {logging_mixin.py:109} INFO - [2022-05-01 15:22:48,526] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:22:48,545] {logging_mixin.py:109} INFO - [2022-05-01 15:22:48,545] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:22:48,562] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.466 seconds
+[2022-05-01 15:23:18,631] {processor.py:163} INFO - Started process (PID=453) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:23:18,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:23:18,643] {logging_mixin.py:109} INFO - [2022-05-01 15:23:18,640] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:23:19,048] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:23:19,063] {logging_mixin.py:109} INFO - [2022-05-01 15:23:19,063] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:23:19,083] {logging_mixin.py:109} INFO - [2022-05-01 15:23:19,083] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:23:19,103] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.482 seconds
+[2022-05-01 15:23:52,399] {processor.py:163} INFO - Started process (PID=491) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:23:52,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:23:52,414] {logging_mixin.py:109} INFO - [2022-05-01 15:23:52,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:23:54,288] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:23:54,302] {logging_mixin.py:109} INFO - [2022-05-01 15:23:54,301] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:23:54,321] {logging_mixin.py:109} INFO - [2022-05-01 15:23:54,321] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:23:54,334] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.960 seconds
+[2022-05-01 15:24:24,744] {processor.py:163} INFO - Started process (PID=518) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:24:24,748] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:24:24,751] {logging_mixin.py:109} INFO - [2022-05-01 15:24:24,750] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:24:25,501] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:24:25,561] {logging_mixin.py:109} INFO - [2022-05-01 15:24:25,560] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:24:25,595] {logging_mixin.py:109} INFO - [2022-05-01 15:24:25,594] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:24:25,612] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.877 seconds
+[2022-05-01 15:24:56,629] {processor.py:163} INFO - Started process (PID=548) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:24:56,642] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:24:56,648] {logging_mixin.py:109} INFO - [2022-05-01 15:24:56,647] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:24:58,799] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:24:58,841] {logging_mixin.py:109} INFO - [2022-05-01 15:24:58,841] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:24:58,872] {logging_mixin.py:109} INFO - [2022-05-01 15:24:58,872] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:24:58,903] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.292 seconds
+[2022-05-01 15:25:29,324] {processor.py:163} INFO - Started process (PID=578) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:25:29,334] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:25:29,339] {logging_mixin.py:109} INFO - [2022-05-01 15:25:29,339] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:25:29,807] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:25:29,892] {logging_mixin.py:109} INFO - [2022-05-01 15:25:29,892] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:25:30,053] {logging_mixin.py:109} INFO - [2022-05-01 15:25:30,053] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:25:30,100] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.790 seconds
+[2022-05-01 15:26:00,621] {processor.py:163} INFO - Started process (PID=607) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:26:00,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:26:00,646] {logging_mixin.py:109} INFO - [2022-05-01 15:26:00,646] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:26:02,067] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:26:02,155] {logging_mixin.py:109} INFO - [2022-05-01 15:26:02,155] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:26:02,221] {logging_mixin.py:109} INFO - [2022-05-01 15:26:02,221] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:26:02,260] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.644 seconds
+[2022-05-01 15:26:33,021] {processor.py:163} INFO - Started process (PID=633) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:26:33,031] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:26:33,034] {logging_mixin.py:109} INFO - [2022-05-01 15:26:33,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:26:35,008] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:26:35,050] {logging_mixin.py:109} INFO - [2022-05-01 15:26:35,049] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:26:35,104] {logging_mixin.py:109} INFO - [2022-05-01 15:26:35,104] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:26:35,144] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.129 seconds
+[2022-05-01 15:27:06,046] {processor.py:163} INFO - Started process (PID=662) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:27:06,060] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:27:06,071] {logging_mixin.py:109} INFO - [2022-05-01 15:27:06,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:27:07,947] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:27:07,972] {logging_mixin.py:109} INFO - [2022-05-01 15:27:07,971] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:27:08,007] {logging_mixin.py:109} INFO - [2022-05-01 15:27:08,007] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:27:08,030] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.996 seconds
+[2022-05-01 15:27:38,771] {processor.py:163} INFO - Started process (PID=695) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:27:38,803] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:27:38,819] {logging_mixin.py:109} INFO - [2022-05-01 15:27:38,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:27:41,594] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:27:41,639] {logging_mixin.py:109} INFO - [2022-05-01 15:27:41,638] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:27:41,713] {logging_mixin.py:109} INFO - [2022-05-01 15:27:41,713] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:27:41,747] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 3.073 seconds
+[2022-05-01 15:28:12,394] {processor.py:163} INFO - Started process (PID=721) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:28:12,398] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:28:12,400] {logging_mixin.py:109} INFO - [2022-05-01 15:28:12,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:28:12,905] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:28:12,944] {logging_mixin.py:109} INFO - [2022-05-01 15:28:12,944] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:28:12,973] {logging_mixin.py:109} INFO - [2022-05-01 15:28:12,973] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:28:12,997] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.610 seconds
+[2022-05-01 15:28:43,660] {processor.py:163} INFO - Started process (PID=749) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:28:43,672] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:28:43,686] {logging_mixin.py:109} INFO - [2022-05-01 15:28:43,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:28:45,457] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:28:45,506] {logging_mixin.py:109} INFO - [2022-05-01 15:28:45,505] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:28:45,616] {logging_mixin.py:109} INFO - [2022-05-01 15:28:45,615] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:28:45,654] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.016 seconds
+[2022-05-01 15:29:16,258] {processor.py:163} INFO - Started process (PID=767) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:29:16,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:29:16,276] {logging_mixin.py:109} INFO - [2022-05-01 15:29:16,276] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:29:17,716] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:29:17,787] {logging_mixin.py:109} INFO - [2022-05-01 15:29:17,786] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:29:17,837] {logging_mixin.py:109} INFO - [2022-05-01 15:29:17,837] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:29:17,876] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.633 seconds
+[2022-05-01 15:29:48,073] {processor.py:163} INFO - Started process (PID=797) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:29:48,080] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:29:48,085] {logging_mixin.py:109} INFO - [2022-05-01 15:29:48,084] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:29:48,905] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:29:48,935] {logging_mixin.py:109} INFO - [2022-05-01 15:29:48,934] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:29:48,969] {logging_mixin.py:109} INFO - [2022-05-01 15:29:48,969] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:29:48,990] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.923 seconds
+[2022-05-01 15:30:19,220] {processor.py:163} INFO - Started process (PID=826) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:30:19,228] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:30:19,233] {logging_mixin.py:109} INFO - [2022-05-01 15:30:19,233] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:30:20,635] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:30:20,694] {logging_mixin.py:109} INFO - [2022-05-01 15:30:20,693] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:30:20,886] {logging_mixin.py:109} INFO - [2022-05-01 15:30:20,886] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:30:20,956] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.748 seconds
+[2022-05-01 15:30:51,642] {processor.py:163} INFO - Started process (PID=845) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:30:51,654] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:30:51,664] {logging_mixin.py:109} INFO - [2022-05-01 15:30:51,663] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:30:55,682] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:30:55,809] {logging_mixin.py:109} INFO - [2022-05-01 15:30:55,808] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:30:55,870] {logging_mixin.py:109} INFO - [2022-05-01 15:30:55,870] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:30:55,897] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 4.310 seconds
+[2022-05-01 15:31:26,357] {processor.py:163} INFO - Started process (PID=872) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:31:26,370] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:31:26,381] {logging_mixin.py:109} INFO - [2022-05-01 15:31:26,375] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:31:27,576] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:31:27,622] {logging_mixin.py:109} INFO - [2022-05-01 15:31:27,621] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:31:27,807] {logging_mixin.py:109} INFO - [2022-05-01 15:31:27,807] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:31:27,880] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.536 seconds
+[2022-05-01 15:31:58,136] {processor.py:163} INFO - Started process (PID=914) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:31:58,142] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:31:58,147] {logging_mixin.py:109} INFO - [2022-05-01 15:31:58,146] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:31:58,644] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:31:58,671] {logging_mixin.py:109} INFO - [2022-05-01 15:31:58,671] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:31:58,702] {logging_mixin.py:109} INFO - [2022-05-01 15:31:58,701] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:31:58,729] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.605 seconds
+[2022-05-01 15:32:32,567] {processor.py:163} INFO - Started process (PID=943) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:32:32,570] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:32:32,572] {logging_mixin.py:109} INFO - [2022-05-01 15:32:32,572] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:32:33,142] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:32:33,167] {logging_mixin.py:109} INFO - [2022-05-01 15:32:33,166] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:32:33,203] {logging_mixin.py:109} INFO - [2022-05-01 15:32:33,203] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:32:33,233] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.674 seconds
+[2022-05-01 15:33:09,222] {processor.py:163} INFO - Started process (PID=981) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:33:09,226] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:33:09,231] {logging_mixin.py:109} INFO - [2022-05-01 15:33:09,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:33:10,812] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:33:10,875] {logging_mixin.py:109} INFO - [2022-05-01 15:33:10,875] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:33:10,932] {logging_mixin.py:109} INFO - [2022-05-01 15:33:10,932] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:33:10,965] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.777 seconds
+[2022-05-01 15:33:45,041] {processor.py:163} INFO - Started process (PID=1013) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:33:45,045] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:33:45,050] {logging_mixin.py:109} INFO - [2022-05-01 15:33:45,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:33:45,595] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:33:45,622] {logging_mixin.py:109} INFO - [2022-05-01 15:33:45,621] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:33:45,653] {logging_mixin.py:109} INFO - [2022-05-01 15:33:45,653] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:33:45,678] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.642 seconds
+[2022-05-01 15:34:18,676] {processor.py:163} INFO - Started process (PID=1041) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:34:18,680] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:34:18,687] {logging_mixin.py:109} INFO - [2022-05-01 15:34:18,686] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:34:19,641] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:34:19,769] {logging_mixin.py:109} INFO - [2022-05-01 15:34:19,769] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:34:19,824] {logging_mixin.py:109} INFO - [2022-05-01 15:34:19,824] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:34:19,895] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.231 seconds
+[2022-05-01 15:34:51,380] {processor.py:163} INFO - Started process (PID=1070) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:34:51,385] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:34:51,388] {logging_mixin.py:109} INFO - [2022-05-01 15:34:51,388] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:34:52,304] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:34:52,351] {logging_mixin.py:109} INFO - [2022-05-01 15:34:52,350] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:34:52,405] {logging_mixin.py:109} INFO - [2022-05-01 15:34:52,405] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:34:52,431] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.062 seconds
+[2022-05-01 15:35:22,766] {processor.py:163} INFO - Started process (PID=1095) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:35:22,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:35:22,775] {logging_mixin.py:109} INFO - [2022-05-01 15:35:22,775] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:35:23,878] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:35:23,947] {logging_mixin.py:109} INFO - [2022-05-01 15:35:23,947] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:35:24,023] {logging_mixin.py:109} INFO - [2022-05-01 15:35:24,023] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:35:24,056] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.295 seconds
+[2022-05-01 15:35:54,800] {processor.py:163} INFO - Started process (PID=1123) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:35:54,804] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:35:54,807] {logging_mixin.py:109} INFO - [2022-05-01 15:35:54,806] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:35:55,323] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:35:55,346] {logging_mixin.py:109} INFO - [2022-05-01 15:35:55,345] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:35:55,370] {logging_mixin.py:109} INFO - [2022-05-01 15:35:55,370] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:35:55,388] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.596 seconds
+[2022-05-01 15:36:25,795] {processor.py:163} INFO - Started process (PID=1154) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:36:25,799] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:36:25,801] {logging_mixin.py:109} INFO - [2022-05-01 15:36:25,801] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:36:26,382] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:36:26,404] {logging_mixin.py:109} INFO - [2022-05-01 15:36:26,404] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:36:26,432] {logging_mixin.py:109} INFO - [2022-05-01 15:36:26,432] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:36:26,454] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.667 seconds
+[2022-05-01 15:36:57,242] {processor.py:163} INFO - Started process (PID=1194) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:36:57,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:36:57,250] {logging_mixin.py:109} INFO - [2022-05-01 15:36:57,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:36:57,738] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:36:57,776] {logging_mixin.py:109} INFO - [2022-05-01 15:36:57,776] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:36:57,827] {logging_mixin.py:109} INFO - [2022-05-01 15:36:57,827] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:36:57,871] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.639 seconds
+[2022-05-01 15:37:28,524] {processor.py:163} INFO - Started process (PID=1225) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:37:28,527] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:37:28,529] {logging_mixin.py:109} INFO - [2022-05-01 15:37:28,529] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:37:29,065] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:37:29,139] {logging_mixin.py:109} INFO - [2022-05-01 15:37:29,139] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:37:29,171] {logging_mixin.py:109} INFO - [2022-05-01 15:37:29,170] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:37:29,195] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.681 seconds
+[2022-05-01 15:37:59,702] {processor.py:163} INFO - Started process (PID=1255) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:37:59,717] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:37:59,726] {logging_mixin.py:109} INFO - [2022-05-01 15:37:59,725] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:38:01,890] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:38:01,983] {logging_mixin.py:109} INFO - [2022-05-01 15:38:01,975] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:38:02,075] {logging_mixin.py:109} INFO - [2022-05-01 15:38:02,075] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:38:02,190] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.535 seconds
+[2022-05-01 15:38:36,773] {processor.py:163} INFO - Started process (PID=1274) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:38:36,790] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:38:36,808] {logging_mixin.py:109} INFO - [2022-05-01 15:38:36,808] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:38:44,408] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:38:44,478] {logging_mixin.py:109} INFO - [2022-05-01 15:38:44,477] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:38:44,670] {logging_mixin.py:109} INFO - [2022-05-01 15:38:44,670] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:38:44,873] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 8.133 seconds
+[2022-05-01 15:39:28,590] {processor.py:163} INFO - Started process (PID=1311) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:39:28,640] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:39:28,647] {logging_mixin.py:109} INFO - [2022-05-01 15:39:28,647] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:39:38,238] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:39:38,475] {logging_mixin.py:109} INFO - [2022-05-01 15:39:38,475] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:39:38,991] {logging_mixin.py:109} INFO - [2022-05-01 15:39:38,991] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:39:39,255] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 10.783 seconds
+[2022-05-01 15:40:15,956] {processor.py:163} INFO - Started process (PID=1339) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:40:15,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:40:16,005] {logging_mixin.py:109} INFO - [2022-05-01 15:40:16,005] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:40:22,365] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:40:22,443] {logging_mixin.py:109} INFO - [2022-05-01 15:40:22,442] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:40:22,536] {logging_mixin.py:109} INFO - [2022-05-01 15:40:22,536] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:40:22,600] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 6.693 seconds
+[2022-05-01 15:40:52,907] {processor.py:163} INFO - Started process (PID=1364) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:40:52,920] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:40:52,930] {logging_mixin.py:109} INFO - [2022-05-01 15:40:52,930] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:40:54,680] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:40:54,719] {logging_mixin.py:109} INFO - [2022-05-01 15:40:54,719] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:40:54,794] {logging_mixin.py:109} INFO - [2022-05-01 15:40:54,794] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:40:54,833] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.937 seconds
+[2022-05-01 15:41:25,616] {processor.py:163} INFO - Started process (PID=1389) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:41:25,631] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:41:25,671] {logging_mixin.py:109} INFO - [2022-05-01 15:41:25,662] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:41:35,156] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:41:35,580] {logging_mixin.py:109} INFO - [2022-05-01 15:41:35,566] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:41:36,196] {logging_mixin.py:109} INFO - [2022-05-01 15:41:36,195] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:41:36,642] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 11.117 seconds
+[2022-05-01 15:42:08,674] {processor.py:163} INFO - Started process (PID=1416) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:42:08,684] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:42:08,702] {logging_mixin.py:109} INFO - [2022-05-01 15:42:08,701] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:42:22,527] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:42:22,810] {logging_mixin.py:109} INFO - [2022-05-01 15:42:22,809] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:42:24,473] {logging_mixin.py:109} INFO - [2022-05-01 15:42:24,472] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:42:25,753] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 17.119 seconds
+[2022-05-01 15:42:58,829] {processor.py:163} INFO - Started process (PID=1451) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:42:58,887] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:42:58,914] {logging_mixin.py:109} INFO - [2022-05-01 15:42:58,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:43:07,640] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:43:08,013] {logging_mixin.py:109} INFO - [2022-05-01 15:43:08,012] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:43:08,468] {logging_mixin.py:109} INFO - [2022-05-01 15:43:08,468] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:43:08,994] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 10.358 seconds
+[2022-05-01 15:43:39,922] {processor.py:163} INFO - Started process (PID=1478) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:43:39,930] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:43:39,932] {logging_mixin.py:109} INFO - [2022-05-01 15:43:39,932] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:43:50,049] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:43:50,262] {logging_mixin.py:109} INFO - [2022-05-01 15:43:50,262] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:43:50,481] {logging_mixin.py:109} INFO - [2022-05-01 15:43:50,481] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:43:50,598] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 10.712 seconds
+[2022-05-01 15:44:21,303] {processor.py:163} INFO - Started process (PID=1508) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:44:21,319] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:44:21,357] {logging_mixin.py:109} INFO - [2022-05-01 15:44:21,332] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:44:25,383] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:44:25,529] {logging_mixin.py:109} INFO - [2022-05-01 15:44:25,528] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:44:25,776] {logging_mixin.py:109} INFO - [2022-05-01 15:44:25,776] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:44:25,872] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 4.617 seconds
+[2022-05-01 15:44:56,709] {processor.py:163} INFO - Started process (PID=1534) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:44:56,725] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:44:56,739] {logging_mixin.py:109} INFO - [2022-05-01 15:44:56,739] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:45:00,115] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:45:00,192] {logging_mixin.py:109} INFO - [2022-05-01 15:45:00,190] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:45:00,291] {logging_mixin.py:109} INFO - [2022-05-01 15:45:00,290] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:45:00,356] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 3.697 seconds
+[2022-05-01 15:45:30,952] {processor.py:163} INFO - Started process (PID=1553) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:45:30,969] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:45:30,978] {logging_mixin.py:109} INFO - [2022-05-01 15:45:30,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:45:34,312] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:45:34,437] {logging_mixin.py:109} INFO - [2022-05-01 15:45:34,424] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:45:34,712] {logging_mixin.py:109} INFO - [2022-05-01 15:45:34,712] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:45:34,816] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 3.899 seconds
+[2022-05-01 15:46:05,683] {processor.py:163} INFO - Started process (PID=1580) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:46:05,714] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:46:05,721] {logging_mixin.py:109} INFO - [2022-05-01 15:46:05,720] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:46:15,594] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:46:16,117] {logging_mixin.py:109} INFO - [2022-05-01 15:46:16,116] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:46:16,498] {logging_mixin.py:109} INFO - [2022-05-01 15:46:16,485] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:46:16,624] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 11.014 seconds
+[2022-05-01 15:46:48,635] {processor.py:163} INFO - Started process (PID=1607) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:46:48,669] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:46:48,678] {logging_mixin.py:109} INFO - [2022-05-01 15:46:48,678] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:46:58,359] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:46:58,445] {logging_mixin.py:109} INFO - [2022-05-01 15:46:58,445] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:46:58,618] {logging_mixin.py:109} INFO - [2022-05-01 15:46:58,618] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:46:58,712] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 10.134 seconds
+[2022-05-01 15:47:30,045] {processor.py:163} INFO - Started process (PID=1633) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:47:30,083] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:47:30,113] {logging_mixin.py:109} INFO - [2022-05-01 15:47:30,097] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:47:40,918] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:47:41,120] {logging_mixin.py:109} INFO - [2022-05-01 15:47:41,119] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:47:41,430] {logging_mixin.py:109} INFO - [2022-05-01 15:47:41,430] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:47:41,513] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 11.609 seconds
+[2022-05-01 15:48:12,072] {processor.py:163} INFO - Started process (PID=1661) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:48:12,103] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:48:12,132] {logging_mixin.py:109} INFO - [2022-05-01 15:48:12,132] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:48:22,724] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:48:22,938] {logging_mixin.py:109} INFO - [2022-05-01 15:48:22,938] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:48:23,214] {logging_mixin.py:109} INFO - [2022-05-01 15:48:23,214] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:48:23,389] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 11.476 seconds
+[2022-05-01 15:49:01,765] {processor.py:163} INFO - Started process (PID=1698) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:49:01,797] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:49:01,815] {logging_mixin.py:109} INFO - [2022-05-01 15:49:01,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:49:08,375] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:49:08,702] {logging_mixin.py:109} INFO - [2022-05-01 15:49:08,702] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:49:08,985] {logging_mixin.py:109} INFO - [2022-05-01 15:49:08,972] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:49:09,148] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 7.448 seconds
+[2022-05-01 15:49:39,847] {processor.py:163} INFO - Started process (PID=1725) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:49:39,854] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:49:39,866] {logging_mixin.py:109} INFO - [2022-05-01 15:49:39,866] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:49:40,850] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:49:40,902] {logging_mixin.py:109} INFO - [2022-05-01 15:49:40,901] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:49:41,046] {logging_mixin.py:109} INFO - [2022-05-01 15:49:41,046] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:49:41,104] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.264 seconds
+[2022-05-01 15:50:11,394] {processor.py:163} INFO - Started process (PID=1744) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:50:11,409] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:50:11,414] {logging_mixin.py:109} INFO - [2022-05-01 15:50:11,413] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:50:12,265] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:50:12,329] {logging_mixin.py:109} INFO - [2022-05-01 15:50:12,329] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:50:12,410] {logging_mixin.py:109} INFO - [2022-05-01 15:50:12,410] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:50:12,452] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.076 seconds
+[2022-05-01 15:50:43,001] {processor.py:163} INFO - Started process (PID=1772) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:50:43,007] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:50:43,009] {logging_mixin.py:109} INFO - [2022-05-01 15:50:43,009] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:50:43,604] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:50:43,634] {logging_mixin.py:109} INFO - [2022-05-01 15:50:43,633] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:50:43,670] {logging_mixin.py:109} INFO - [2022-05-01 15:50:43,669] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:50:43,695] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.701 seconds
+[2022-05-01 15:51:14,138] {processor.py:163} INFO - Started process (PID=1798) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:51:14,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:51:14,147] {logging_mixin.py:109} INFO - [2022-05-01 15:51:14,146] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:51:14,749] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:51:14,785] {logging_mixin.py:109} INFO - [2022-05-01 15:51:14,784] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:51:14,832] {logging_mixin.py:109} INFO - [2022-05-01 15:51:14,832] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:51:14,863] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.745 seconds
+[2022-05-01 15:51:45,070] {processor.py:163} INFO - Started process (PID=1824) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:51:45,075] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:51:45,081] {logging_mixin.py:109} INFO - [2022-05-01 15:51:45,081] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:51:45,780] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:51:45,880] {logging_mixin.py:109} INFO - [2022-05-01 15:51:45,875] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:51:45,944] {logging_mixin.py:109} INFO - [2022-05-01 15:51:45,944] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:51:45,967] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.905 seconds
+[2022-05-01 15:52:16,398] {processor.py:163} INFO - Started process (PID=1852) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:52:16,412] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:52:16,441] {logging_mixin.py:109} INFO - [2022-05-01 15:52:16,441] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:52:18,609] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:52:18,807] {logging_mixin.py:109} INFO - [2022-05-01 15:52:18,806] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:52:19,034] {logging_mixin.py:109} INFO - [2022-05-01 15:52:19,031] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:52:19,220] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.855 seconds
+[2022-05-01 15:52:49,631] {processor.py:163} INFO - Started process (PID=1878) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:52:49,635] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:52:49,643] {logging_mixin.py:109} INFO - [2022-05-01 15:52:49,643] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:52:50,861] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:52:50,967] {logging_mixin.py:109} INFO - [2022-05-01 15:52:50,967] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:52:51,080] {logging_mixin.py:109} INFO - [2022-05-01 15:52:51,080] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:52:51,133] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.522 seconds
+[2022-05-01 15:53:22,147] {processor.py:163} INFO - Started process (PID=1917) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:53:22,163] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:53:22,181] {logging_mixin.py:109} INFO - [2022-05-01 15:53:22,181] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:53:23,293] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:53:23,326] {logging_mixin.py:109} INFO - [2022-05-01 15:53:23,325] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:53:23,352] {logging_mixin.py:109} INFO - [2022-05-01 15:53:23,352] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:53:23,374] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.250 seconds
+[2022-05-01 15:53:53,812] {processor.py:163} INFO - Started process (PID=1937) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:53:53,817] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:53:53,822] {logging_mixin.py:109} INFO - [2022-05-01 15:53:53,821] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:53:54,355] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:53:54,409] {logging_mixin.py:109} INFO - [2022-05-01 15:53:54,409] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:53:54,495] {logging_mixin.py:109} INFO - [2022-05-01 15:53:54,495] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:53:54,531] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.731 seconds
+[2022-05-01 15:54:25,311] {processor.py:163} INFO - Started process (PID=1965) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:54:25,316] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:54:25,321] {logging_mixin.py:109} INFO - [2022-05-01 15:54:25,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:54:25,777] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:54:25,798] {logging_mixin.py:109} INFO - [2022-05-01 15:54:25,798] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:54:25,829] {logging_mixin.py:109} INFO - [2022-05-01 15:54:25,829] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:54:25,847] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.542 seconds
+[2022-05-01 15:54:56,345] {processor.py:163} INFO - Started process (PID=1994) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:54:56,369] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:54:56,404] {logging_mixin.py:109} INFO - [2022-05-01 15:54:56,390] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:54:57,508] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:54:57,586] {logging_mixin.py:109} INFO - [2022-05-01 15:54:57,580] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:54:57,655] {logging_mixin.py:109} INFO - [2022-05-01 15:54:57,655] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:54:57,690] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.407 seconds
+[2022-05-01 15:55:28,431] {processor.py:163} INFO - Started process (PID=2022) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:55:28,439] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:55:28,448] {logging_mixin.py:109} INFO - [2022-05-01 15:55:28,445] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:55:28,871] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:55:28,896] {logging_mixin.py:109} INFO - [2022-05-01 15:55:28,895] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:55:28,933] {logging_mixin.py:109} INFO - [2022-05-01 15:55:28,932] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:55:28,958] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.573 seconds
+[2022-05-01 15:56:00,161] {processor.py:163} INFO - Started process (PID=2051) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:56:00,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:56:00,208] {logging_mixin.py:109} INFO - [2022-05-01 15:56:00,208] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:56:07,521] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:56:07,758] {logging_mixin.py:109} INFO - [2022-05-01 15:56:07,757] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:56:08,029] {logging_mixin.py:109} INFO - [2022-05-01 15:56:08,029] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:56:08,143] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 7.997 seconds
+[2022-05-01 15:56:39,281] {processor.py:163} INFO - Started process (PID=2078) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:56:39,290] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:56:39,308] {logging_mixin.py:109} INFO - [2022-05-01 15:56:39,308] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:56:50,952] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:56:51,207] {logging_mixin.py:109} INFO - [2022-05-01 15:56:51,202] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:56:51,896] {logging_mixin.py:109} INFO - [2022-05-01 15:56:51,856] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:56:52,259] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 13.039 seconds
+[2022-05-01 15:57:22,977] {processor.py:163} INFO - Started process (PID=2105) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:57:22,998] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:57:23,008] {logging_mixin.py:109} INFO - [2022-05-01 15:57:23,007] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:57:30,310] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:57:30,765] {logging_mixin.py:109} INFO - [2022-05-01 15:57:30,764] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:57:31,429] {logging_mixin.py:109} INFO - [2022-05-01 15:57:31,429] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:57:31,787] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 8.874 seconds
+[2022-05-01 15:58:03,857] {processor.py:163} INFO - Started process (PID=2130) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:58:03,889] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:58:03,896] {logging_mixin.py:109} INFO - [2022-05-01 15:58:03,895] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:58:10,527] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:58:10,878] {logging_mixin.py:109} INFO - [2022-05-01 15:58:10,828] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:58:11,272] {logging_mixin.py:109} INFO - [2022-05-01 15:58:11,272] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:58:11,574] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 7.789 seconds
+[2022-05-01 15:58:41,871] {processor.py:163} INFO - Started process (PID=2159) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:58:41,885] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:58:41,907] {logging_mixin.py:109} INFO - [2022-05-01 15:58:41,906] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:58:45,421] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:58:46,200] {logging_mixin.py:109} INFO - [2022-05-01 15:58:46,165] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:58:46,723] {logging_mixin.py:109} INFO - [2022-05-01 15:58:46,723] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:58:46,835] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 4.980 seconds
+[2022-05-01 15:59:17,573] {processor.py:163} INFO - Started process (PID=2186) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:59:17,606] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:59:17,611] {logging_mixin.py:109} INFO - [2022-05-01 15:59:17,610] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:59:20,011] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:59:20,081] {logging_mixin.py:109} INFO - [2022-05-01 15:59:20,080] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:59:20,193] {logging_mixin.py:109} INFO - [2022-05-01 15:59:20,192] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:59:20,256] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.750 seconds
+[2022-05-01 15:59:55,327] {processor.py:163} INFO - Started process (PID=2215) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:59:55,340] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 15:59:55,354] {logging_mixin.py:109} INFO - [2022-05-01 15:59:55,353] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:59:57,342] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 15:59:57,379] {logging_mixin.py:109} INFO - [2022-05-01 15:59:57,378] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 15:59:57,454] {logging_mixin.py:109} INFO - [2022-05-01 15:59:57,454] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 15:59:57,572] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.250 seconds
+[2022-05-01 16:00:29,827] {processor.py:163} INFO - Started process (PID=2246) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:00:29,838] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:00:29,858] {logging_mixin.py:109} INFO - [2022-05-01 16:00:29,858] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:00:32,339] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:00:32,448] {logging_mixin.py:109} INFO - [2022-05-01 16:00:32,448] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:00:32,572] {logging_mixin.py:109} INFO - [2022-05-01 16:00:32,572] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:00:32,635] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.826 seconds
+[2022-05-01 16:01:03,378] {processor.py:163} INFO - Started process (PID=2275) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:01:03,386] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:01:03,390] {logging_mixin.py:109} INFO - [2022-05-01 16:01:03,389] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:01:04,882] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:01:04,931] {logging_mixin.py:109} INFO - [2022-05-01 16:01:04,929] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:01:05,023] {logging_mixin.py:109} INFO - [2022-05-01 16:01:05,023] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:01:05,072] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.705 seconds
+[2022-05-01 16:01:35,322] {processor.py:163} INFO - Started process (PID=2296) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:01:35,329] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:01:35,338] {logging_mixin.py:109} INFO - [2022-05-01 16:01:35,337] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:01:35,795] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:01:35,822] {logging_mixin.py:109} INFO - [2022-05-01 16:01:35,821] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:01:35,872] {logging_mixin.py:109} INFO - [2022-05-01 16:01:35,871] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:01:35,909] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.613 seconds
+[2022-05-01 16:02:06,302] {processor.py:163} INFO - Started process (PID=2325) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:02:06,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:02:06,313] {logging_mixin.py:109} INFO - [2022-05-01 16:02:06,313] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:02:06,922] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:02:06,947] {logging_mixin.py:109} INFO - [2022-05-01 16:02:06,946] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:02:07,008] {logging_mixin.py:109} INFO - [2022-05-01 16:02:07,008] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:02:07,040] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.743 seconds
+[2022-05-01 16:02:37,353] {processor.py:163} INFO - Started process (PID=2351) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:02:37,367] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:02:37,371] {logging_mixin.py:109} INFO - [2022-05-01 16:02:37,371] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:02:37,862] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:02:37,882] {logging_mixin.py:109} INFO - [2022-05-01 16:02:37,882] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:02:37,910] {logging_mixin.py:109} INFO - [2022-05-01 16:02:37,910] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:02:37,942] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.601 seconds
+[2022-05-01 16:03:08,777] {processor.py:163} INFO - Started process (PID=2377) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:03:08,792] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:03:08,795] {logging_mixin.py:109} INFO - [2022-05-01 16:03:08,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:03:10,838] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:03:11,038] {logging_mixin.py:109} INFO - [2022-05-01 16:03:11,038] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:03:11,293] {logging_mixin.py:109} INFO - [2022-05-01 16:03:11,293] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:03:11,397] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.645 seconds
+[2022-05-01 16:03:42,265] {processor.py:163} INFO - Started process (PID=2407) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:03:42,278] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:03:42,283] {logging_mixin.py:109} INFO - [2022-05-01 16:03:42,283] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:03:43,057] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:03:43,102] {logging_mixin.py:109} INFO - [2022-05-01 16:03:43,101] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:03:43,158] {logging_mixin.py:109} INFO - [2022-05-01 16:03:43,157] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:03:43,185] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.941 seconds
+[2022-05-01 16:04:13,708] {processor.py:163} INFO - Started process (PID=2435) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:04:13,714] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:04:13,717] {logging_mixin.py:109} INFO - [2022-05-01 16:04:13,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:04:14,059] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:04:14,089] {logging_mixin.py:109} INFO - [2022-05-01 16:04:14,089] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:04:14,141] {logging_mixin.py:109} INFO - [2022-05-01 16:04:14,140] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:04:14,168] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.469 seconds
+[2022-05-01 16:04:44,465] {processor.py:163} INFO - Started process (PID=2464) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:04:44,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:04:44,474] {logging_mixin.py:109} INFO - [2022-05-01 16:04:44,473] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:04:44,826] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:04:44,846] {logging_mixin.py:109} INFO - [2022-05-01 16:04:44,846] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:04:44,897] {logging_mixin.py:109} INFO - [2022-05-01 16:04:44,897] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:04:44,928] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.467 seconds
+[2022-05-01 16:05:15,341] {processor.py:163} INFO - Started process (PID=2492) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:05:15,347] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:05:15,354] {logging_mixin.py:109} INFO - [2022-05-01 16:05:15,353] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:05:17,576] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:05:17,645] {logging_mixin.py:109} INFO - [2022-05-01 16:05:17,644] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:05:17,754] {logging_mixin.py:109} INFO - [2022-05-01 16:05:17,754] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:05:17,804] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.552 seconds
+[2022-05-01 16:05:48,454] {processor.py:163} INFO - Started process (PID=2522) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:05:48,573] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:05:48,578] {logging_mixin.py:109} INFO - [2022-05-01 16:05:48,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:05:50,768] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:05:50,829] {logging_mixin.py:109} INFO - [2022-05-01 16:05:50,829] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:05:50,878] {logging_mixin.py:109} INFO - [2022-05-01 16:05:50,876] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:05:50,910] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 2.473 seconds
+[2022-05-01 16:06:21,060] {processor.py:163} INFO - Started process (PID=2545) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:06:21,064] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:06:21,067] {logging_mixin.py:109} INFO - [2022-05-01 16:06:21,066] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:06:21,699] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:06:21,726] {logging_mixin.py:109} INFO - [2022-05-01 16:06:21,725] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:06:21,776] {logging_mixin.py:109} INFO - [2022-05-01 16:06:21,775] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:06:21,816] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.769 seconds
+[2022-05-01 16:06:52,212] {processor.py:163} INFO - Started process (PID=2574) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:06:52,222] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:06:52,224] {logging_mixin.py:109} INFO - [2022-05-01 16:06:52,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:06:53,393] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:06:53,467] {logging_mixin.py:109} INFO - [2022-05-01 16:06:53,462] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:06:53,520] {logging_mixin.py:109} INFO - [2022-05-01 16:06:53,519] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:06:53,569] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.362 seconds
+[2022-05-01 16:07:23,905] {processor.py:163} INFO - Started process (PID=2601) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:07:23,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:07:23,937] {logging_mixin.py:109} INFO - [2022-05-01 16:07:23,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:07:24,486] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:07:24,516] {logging_mixin.py:109} INFO - [2022-05-01 16:07:24,516] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:07:24,555] {logging_mixin.py:109} INFO - [2022-05-01 16:07:24,555] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:07:24,581] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 0.684 seconds
+[2022-05-01 16:07:55,047] {processor.py:163} INFO - Started process (PID=2630) to work on /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:07:55,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataproc_spark_dagv2.py for tasks to queue
+[2022-05-01 16:07:55,065] {logging_mixin.py:109} INFO - [2022-05-01 16:07:55,065] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:07:56,426] {processor.py:654} INFO - DAG(s) dict_keys(['dataproc_example_dag']) retrieved from /opt/airflow/dags/dataproc_spark_dagv2.py
+[2022-05-01 16:07:56,551] {logging_mixin.py:109} INFO - [2022-05-01 16:07:56,551] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-05-01 16:07:56,652] {logging_mixin.py:109} INFO - [2022-05-01 16:07:56,652] {dag.py:2935} INFO - Setting next_dagrun for dataproc_example_dag to 2022-05-01T00:00:00+00:00
+[2022-05-01 16:07:56,708] {processor.py:171} INFO - Processing /opt/airflow/dags/dataproc_spark_dagv2.py took 1.673 seconds

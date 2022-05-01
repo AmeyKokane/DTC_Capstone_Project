@@ -1,0 +1,22 @@
+[2022-05-01 15:40:53,195] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.format_vehicles_to_parquet_task scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:40:53,582] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.format_vehicles_to_parquet_task scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:40:53,613] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:40:53,641] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-05-01 15:40:53,654] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:40:54,246] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): download_local_and_upload_GCS.format_vehicles_to_parquet_task> on 2022-05-01 00:00:00+00:00
+[2022-05-01 15:40:54,747] {standard_task_runner.py:52} INFO - Started process 986 to run task
+[2022-05-01 15:40:54,999] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_gcs_sparkdataproc_bq_dag', 'download_local_and_upload_GCS.format_vehicles_to_parquet_task', 'scheduled__2022-05-01T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/final_dag.py', '--cfg-path', '/tmp/tmpmqabf7fs', '--error-file', '/tmp/tmp_qwvfihy']
+[2022-05-01 15:40:55,050] {standard_task_runner.py:77} INFO - Job 18: Subtask download_local_and_upload_GCS.format_vehicles_to_parquet_task
+[2022-05-01 15:40:55,702] {logging_mixin.py:109} INFO - Running <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.format_vehicles_to_parquet_task scheduled__2022-05-01T00:00:00+00:00 [running]> on host 97b9d78a285f
+[2022-05-01 15:40:56,584] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_gcs_sparkdataproc_bq_dag
+AIRFLOW_CTX_TASK_ID=download_local_and_upload_GCS.format_vehicles_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-01T00:00:00+00:00
+[2022-05-01 15:45:45,505] {python.py:175} INFO - Done. Returned value was: None
+[2022-05-01 15:45:46,011] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_gcs_sparkdataproc_bq_dag, task_id=download_local_and_upload_GCS.format_vehicles_to_parquet_task, execution_date=20220501T000000, start_date=20220501T154053, end_date=20220501T154546
+[2022-05-01 15:45:47,376] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-01 15:45:49,908] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

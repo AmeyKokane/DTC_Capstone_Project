@@ -1,0 +1,26 @@
+[2022-04-30 23:21:57,314] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_bqext_bqpart_dag.bq_create_partitioned_table_task manual__2022-04-30T02:41:16.885061+00:00 [queued]>
+[2022-04-30 23:21:57,348] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dataproc_bqext_bqpart_dag.bq_create_partitioned_table_task manual__2022-04-30T02:41:16.885061+00:00 [queued]>
+[2022-04-30 23:21:57,355] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-30 23:21:57,361] {taskinstance.py:1239} INFO - Starting attempt 7 of 8
+[2022-04-30 23:21:57,366] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-30 23:21:57,421] {taskinstance.py:1259} INFO - Executing <Task(BigQueryInsertJobOperator): bq_create_partitioned_table_task> on 2022-04-30 02:41:16.885061+00:00
+[2022-04-30 23:21:57,442] {standard_task_runner.py:52} INFO - Started process 1687 to run task
+[2022-04-30 23:21:57,484] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dataproc_bqext_bqpart_dag', 'bq_create_partitioned_table_task', 'manual__2022-04-30T02:41:16.885061+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/dataproc_spark_dagv3.py', '--cfg-path', '/tmp/tmpgl6ex7qs', '--error-file', '/tmp/tmpfqo8kqr_']
+[2022-04-30 23:21:57,492] {standard_task_runner.py:77} INFO - Job 32: Subtask bq_create_partitioned_table_task
+[2022-04-30 23:21:57,748] {logging_mixin.py:109} INFO - Running <TaskInstance: dataproc_bqext_bqpart_dag.bq_create_partitioned_table_task manual__2022-04-30T02:41:16.885061+00:00 [running]> on host 5836c044666c
+[2022-04-30 23:21:58,131] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dataproc_bqext_bqpart_dag
+AIRFLOW_CTX_TASK_ID=bq_create_partitioned_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-30T02:41:16.885061+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-04-30T02:41:16.885061+00:00
+[2022-04-30 23:21:58,138] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-04-30 23:21:58,142] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-04-30 23:21:58,180] {bigquery.py:1637} INFO - Inserting job ***_dataproc_bqext_bqpart_dag_bq_create_partitioned_table_task_2022_04_30T02_41_16_885061_00_00_9d7d0f04e9015c5b8d929ba8b16f4793
+[2022-04-30 23:22:14,669] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dataproc_bqext_bqpart_dag, task_id=bq_create_partitioned_table_task, execution_date=20220430T024116, start_date=20220430T232157, end_date=20220430T232214
+[2022-04-30 23:22:14,798] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-04-30 23:22:14,950] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

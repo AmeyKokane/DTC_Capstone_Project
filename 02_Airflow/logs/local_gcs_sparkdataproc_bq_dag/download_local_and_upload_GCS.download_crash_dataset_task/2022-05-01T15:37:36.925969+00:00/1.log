@@ -1,0 +1,26 @@
+[2022-05-01 15:55:57,223] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.download_crash_dataset_task manual__2022-05-01T15:37:36.925969+00:00 [queued]>
+[2022-05-01 15:55:57,343] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.download_crash_dataset_task manual__2022-05-01T15:37:36.925969+00:00 [queued]>
+[2022-05-01 15:55:57,346] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:55:57,349] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-05-01 15:55:57,351] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:55:57,457] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_local_and_upload_GCS.download_crash_dataset_task> on 2022-05-01 15:37:36.925969+00:00
+[2022-05-01 15:55:57,524] {standard_task_runner.py:52} INFO - Started process 1568 to run task
+[2022-05-01 15:55:57,742] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_gcs_sparkdataproc_bq_dag', 'download_local_and_upload_GCS.download_crash_dataset_task', 'manual__2022-05-01T15:37:36.925969+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/final_dag.py', '--cfg-path', '/tmp/tmp2p9mfunb', '--error-file', '/tmp/tmp44x5xevs']
+[2022-05-01 15:55:57,782] {standard_task_runner.py:77} INFO - Job 33: Subtask download_local_and_upload_GCS.download_crash_dataset_task
+[2022-05-01 15:55:58,443] {logging_mixin.py:109} INFO - Running <TaskInstance: local_gcs_sparkdataproc_bq_dag.download_local_and_upload_GCS.download_crash_dataset_task manual__2022-05-01T15:37:36.925969+00:00 [running]> on host 97b9d78a285f
+[2022-05-01 15:55:58,915] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_gcs_sparkdataproc_bq_dag
+AIRFLOW_CTX_TASK_ID=download_local_and_upload_GCS.download_crash_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-01T15:37:36.925969+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-01T15:37:36.925969+00:00
+[2022-05-01 15:55:58,937] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-01 15:55:58,943] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sS https://data.cityofchicago.org/api/views/85ca-t3if/rows.csv?accessType=DOWNLOAD > /opt/***/85ca-t3if.csv']
+[2022-05-01 15:55:59,054] {subprocess.py:85} INFO - Output:
+[2022-05-01 15:58:06,507] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-05-01 15:58:07,457] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_gcs_sparkdataproc_bq_dag, task_id=download_local_and_upload_GCS.download_crash_dataset_task, execution_date=20220501T153736, start_date=20220501T155557, end_date=20220501T155807
+[2022-05-01 15:58:08,097] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-01 15:58:09,366] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

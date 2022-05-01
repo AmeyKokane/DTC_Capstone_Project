@@ -1,0 +1,24 @@
+[2022-05-01 15:53:46,977] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.sparkdataproc_and_bigquery.delete_cluster scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:53:47,009] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_gcs_sparkdataproc_bq_dag.sparkdataproc_and_bigquery.delete_cluster scheduled__2022-05-01T00:00:00+00:00 [queued]>
+[2022-05-01 15:53:47,018] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:53:47,035] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-05-01 15:53:47,045] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-01 15:53:47,093] {taskinstance.py:1259} INFO - Executing <Task(DataprocDeleteClusterOperator): sparkdataproc_and_bigquery.delete_cluster> on 2022-05-01 00:00:00+00:00
+[2022-05-01 15:53:47,115] {standard_task_runner.py:52} INFO - Started process 1461 to run task
+[2022-05-01 15:53:47,144] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_gcs_sparkdataproc_bq_dag', 'sparkdataproc_and_bigquery.delete_cluster', 'scheduled__2022-05-01T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/final_dag.py', '--cfg-path', '/tmp/tmp2b09ajqo', '--error-file', '/tmp/tmphifk_4k9']
+[2022-05-01 15:53:47,148] {standard_task_runner.py:77} INFO - Job 28: Subtask sparkdataproc_and_bigquery.delete_cluster
+[2022-05-01 15:53:47,350] {logging_mixin.py:109} INFO - Running <TaskInstance: local_gcs_sparkdataproc_bq_dag.sparkdataproc_and_bigquery.delete_cluster scheduled__2022-05-01T00:00:00+00:00 [running]> on host 97b9d78a285f
+[2022-05-01 15:53:47,540] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_gcs_sparkdataproc_bq_dag
+AIRFLOW_CTX_TASK_ID=sparkdataproc_and_bigquery.delete_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-01T00:00:00+00:00
+[2022-05-01 15:53:47,551] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-05-01 15:53:47,556] {dataproc.py:918} INFO - Deleting cluster: dtc-capstone-cluster
+[2022-05-01 15:55:20,935] {dataproc.py:930} INFO - Cluster deleted.
+[2022-05-01 15:55:20,982] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_gcs_sparkdataproc_bq_dag, task_id=sparkdataproc_and_bigquery.delete_cluster, execution_date=20220501T000000, start_date=20220501T155346, end_date=20220501T155520
+[2022-05-01 15:55:21,157] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-01 15:55:21,297] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
