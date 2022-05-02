@@ -5,9 +5,8 @@ This repository contains my code for DataTalkClub's DE Zoomcamp Capstone Project
 Kudos to DataTalks Club Team for putting this [DE Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) together!! 
 
 ## Objective:
-Commute in Chicago during office hours is painfully slow. Most of the times traffic slows down due to a crash on a roadway. I have always wondered how many crashes happen in around Chicagoland. City of Chicago's open data portal lets user download datasets for personal analysis. 
-
-Creating a data pipeline to extract data from various chicago traffic crashes related datasets, trasnform those datasets into a single stable dataset that can be loaded into a data warehouse to be used by data scientists/analysts is the goal of this exercise.
+Commute in Chicago during office hours is painfully slow. Most of the times traffic slows down due to a crash on a roadway. I have always wondered how many crashes happen in around Chicagoland. City of Chicago's open data portal lets user download datasets for personal analysis.
+Hence I wanted to create a data pipeline to extract data from various Chicago traffic crashes related datasets, transform those datasets into a single stable dataset that can be loaded into a data warehouse on a certain cadence to be used by data scientists/analysts is the goal of this exercise.
 
 ## Data Sources:
 1. Traffic Crashes - [Crashes](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
